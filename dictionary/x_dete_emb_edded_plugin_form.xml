@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element extends="x_dete_emb_edded_xml" label="Plugin Form" max_length="40" name="x_dete_emb_edded_plugin_form" type="collection">
+    <element extends="x_dete_emb_edded_xml" label="Plugin JForm" max_length="40" name="x_dete_emb_edded_plugin_form" type="collection">
+        <element label="Plugin" max_length="32" name="plugin" reference="v_plugin" reference_qual="id=^EQ" reference_qual_condition="id=^EQ" type="reference"/>
         <element function_definition="glidefunction:concat('plugin://',source_id,'/',path)" function_field="true" label="URI" max_length="255" name="uri" read_only="true" type="string"/>
+        <index name="index">
+            <element name="plugin"/>
+        </index>
     </element>
 </database>

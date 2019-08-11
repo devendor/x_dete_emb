@@ -2,29 +2,32 @@
     <sys_relationship action="INSERT_OR_UPDATE">
         <advanced>false</advanced>
         <apply_to/>
-        <basic_apply_to>x_dete_emb_edded_plugin_jelly</basic_apply_to>
-        <basic_query_from>sys_package</basic_query_from>
+        <basic_apply_to>x_dete_emb_edded_content</basic_apply_to>
+        <basic_query_from>x_dete_emb_edded_content</basic_query_from>
         <insert_callback/>
-        <name>Package</name>
+        <name>JTemplates in Same Package</name>
         <query_from/>
-        <query_with><![CDATA[current.addQuery('source', '=', parent.source_id);]]></query_with>
+        <query_with><![CDATA[current.addQuery('source_id','=',parent.source_id);
+current.addQuery('source_id','!=','NULL');
+current.addQuery('sys_id','!=',parent.sys_id);
+current.addQuery('sys_class_name', '=', 'x_dete_emb_edded_plugin_jtemplate');]]></query_with>
         <reference_field/>
         <related_list/>
         <simple_reference>false</simple_reference>
         <sys_class_name>sys_relationship</sys_class_name>
         <sys_created_by>ray.ferguson</sys_created_by>
-        <sys_created_on>2019-08-05 01:02:31</sys_created_on>
+        <sys_created_on>2019-08-11 16:12:38</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
-        <sys_id>c3399cc2dbc3730098cbde82ca96196a</sys_id>
+        <sys_id>6515a6c0dbd7f3009c1a622dca961934</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Package</sys_name>
+        <sys_name>JTemplates in Same Package</sys_name>
         <sys_package display_value="Embedded Content" source="x_dete_emb">1b951ea1db07330098cbde82ca9619ac</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Embedded Content">1b951ea1db07330098cbde82ca9619ac</sys_scope>
-        <sys_update_name>sys_relationship_c3399cc2dbc3730098cbde82ca96196a</sys_update_name>
+        <sys_update_name>sys_relationship_6515a6c0dbd7f3009c1a622dca961934</sys_update_name>
         <sys_updated_by>ray.ferguson</sys_updated_by>
-        <sys_updated_on>2019-08-05 01:02:31</sys_updated_on>
+        <sys_updated_on>2019-08-11 16:12:38</sys_updated_on>
     </sys_relationship>
-    <sys_translated_text action="delete_multiple" query="documentkey=c3399cc2dbc3730098cbde82ca96196a"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=6515a6c0dbd7f3009c1a622dca961934"/>
 </record_update>
