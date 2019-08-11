@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>ray.ferguson</sys_created_by>
+        <sys_created_on>2019-08-11 16:58:11</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>146fee88dbd7f3009c1a622dca96194e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_dete_emb_edded_content.x_dete_emb.edded_content_admin</sys_name>
+        <sys_package display_value="Embedded Content" source="x_dete_emb">1b951ea1db07330098cbde82ca9619ac</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Embedded Content">1b951ea1db07330098cbde82ca9619ac</sys_scope>
+        <sys_security_acl display_value="x_dete_emb_edded_content">c8293c96db4f730098cbde82ca96192f</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_146fee88dbd7f3009c1a622dca96194e</sys_update_name>
+        <sys_updated_by>ray.ferguson</sys_updated_by>
+        <sys_updated_on>2019-08-11 16:58:11</sys_updated_on>
+        <sys_user_role display_value="x_dete_emb.edded_content_admin" name="x_dete_emb.edded_content_admin">d3c89ea5db07330098cbde82ca9619ee</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>
