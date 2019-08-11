@@ -23,15 +23,15 @@
         <sys_created_by>ray.ferguson</sys_created_by>
         <sys_created_on>2019-08-03 20:40:14</sys_created_on>
         <sys_id>1b951ea1db07330098cbde82ca9619ac</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_updated_by>ray.ferguson</sys_updated_by>
-        <sys_updated_on>2019-08-11 15:43:59</sys_updated_on>
+        <sys_updated_on>2019-08-11 17:07:34</sys_updated_on>
         <template/>
         <trackable>true</trackable>
         <user_role display_value="x_dete_emb.edded_content_user" name="x_dete_emb.edded_content_user">a0a99ea5db07330098cbde82ca9619f2</user_role>
         <vendor/>
         <vendor_prefix/>
-        <version>1.0.0</version>
+        <version>1.0.1</version>
     </sys_app>
     <sys_attachment action="INSERT_OR_UPDATE">
         <average_image_color>#d7ac89</average_image_color>
