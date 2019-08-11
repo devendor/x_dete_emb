@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="x_dete_emb_edded_content" label="Embedded XML" max_length="40" name="x_dete_emb_edded_xml" type="collection">
+        <element label="XML Content" max_length="16777215" name="content" type="xml"/>
+    </element>
+</database>
