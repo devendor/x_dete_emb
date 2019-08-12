@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_ui_section caption="" section_id="4a03a640dbd7f3009c1a622dca961933" sys_domain="global" table="x_dete_emb_edded_plugin_form" version="3" view="">
+    <sys_ui_section caption="" section_id="485af028db1b77009c1a622dca961919" sys_domain="global" table="x_dete_emb_edded_plugin_css" version="3" view="">
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.begin_split</element>
             <position>0</position>
             <sys_created_by>ray.ferguson</sys_created_by>
-            <sys_created_on>2019-08-12 22:09:26</sys_created_on>
-            <sys_id>0e508d2cdb1b77009c1a622dca96196e</sys_id>
+            <sys_created_on>2019-08-12 22:15:23</sys_created_on>
+            <sys_id>0db185acdb1b77009c1a622dca961967</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_dete_emb_edded_plugin_form" sys_domain="global" view="Default view">4a03a640dbd7f3009c1a622dca961933</sys_ui_section>
+            <sys_ui_section caption="NULL" display_value="" name="x_dete_emb_edded_plugin_css" sys_domain="global" view="Default view">485af028db1b77009c1a622dca961919</sys_ui_section>
             <sys_updated_by>ray.ferguson</sys_updated_by>
-            <sys_updated_on>2019-08-12 22:09:26</sys_updated_on>
+            <sys_updated_on>2019-08-12 22:15:23</sys_updated_on>
             <sys_user/>
             <type>.begin_split</type>
         </sys_ui_element>
@@ -18,13 +18,13 @@
             <element>name</element>
             <position>1</position>
             <sys_created_by>ray.ferguson</sys_created_by>
-            <sys_created_on>2019-08-12 22:09:26</sys_created_on>
-            <sys_id>8e508d2cdb1b77009c1a622dca96196e</sys_id>
+            <sys_created_on>2019-08-12 22:15:23</sys_created_on>
+            <sys_id>8db185acdb1b77009c1a622dca961967</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_dete_emb_edded_plugin_form" sys_domain="global" view="Default view">4a03a640dbd7f3009c1a622dca961933</sys_ui_section>
+            <sys_ui_section caption="NULL" display_value="" name="x_dete_emb_edded_plugin_css" sys_domain="global" view="Default view">485af028db1b77009c1a622dca961919</sys_ui_section>
             <sys_updated_by>ray.ferguson</sys_updated_by>
-            <sys_updated_on>2019-08-12 22:09:26</sys_updated_on>
+            <sys_updated_on>2019-08-12 22:15:23</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -32,27 +32,27 @@
             <element>path</element>
             <position>2</position>
             <sys_created_by>ray.ferguson</sys_created_by>
-            <sys_created_on>2019-08-12 22:09:26</sys_created_on>
-            <sys_id>02508d2cdb1b77009c1a622dca96196f</sys_id>
+            <sys_created_on>2019-08-12 22:15:23</sys_created_on>
+            <sys_id>01b185acdb1b77009c1a622dca961968</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_dete_emb_edded_plugin_form" sys_domain="global" view="Default view">4a03a640dbd7f3009c1a622dca961933</sys_ui_section>
+            <sys_ui_section caption="NULL" display_value="" name="x_dete_emb_edded_plugin_css" sys_domain="global" view="Default view">485af028db1b77009c1a622dca961919</sys_ui_section>
             <sys_updated_by>ray.ferguson</sys_updated_by>
-            <sys_updated_on>2019-08-12 22:09:26</sys_updated_on>
+            <sys_updated_on>2019-08-12 22:15:23</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>plugin.scope</element>
+            <element>source_id.scope</element>
             <position>3</position>
             <sys_created_by>ray.ferguson</sys_created_by>
-            <sys_created_on>2019-08-12 22:09:26</sys_created_on>
-            <sys_id>82508d2cdb1b77009c1a622dca96196f</sys_id>
+            <sys_created_on>2019-08-12 22:15:23</sys_created_on>
+            <sys_id>81b185acdb1b77009c1a622dca961968</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_dete_emb_edded_plugin_form" sys_domain="global" view="Default view">4a03a640dbd7f3009c1a622dca961933</sys_ui_section>
+            <sys_ui_section caption="NULL" display_value="" name="x_dete_emb_edded_plugin_css" sys_domain="global" view="Default view">485af028db1b77009c1a622dca961919</sys_ui_section>
             <sys_updated_by>ray.ferguson</sys_updated_by>
-            <sys_updated_on>2019-08-12 22:09:26</sys_updated_on>
+            <sys_updated_on>2019-08-12 22:15:23</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -60,13 +60,13 @@
             <element>.split</element>
             <position>4</position>
             <sys_created_by>ray.ferguson</sys_created_by>
-            <sys_created_on>2019-08-12 22:09:26</sys_created_on>
-            <sys_id>06508d2cdb1b77009c1a622dca96196f</sys_id>
+            <sys_created_on>2019-08-12 22:15:23</sys_created_on>
+            <sys_id>05b185acdb1b77009c1a622dca961968</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_dete_emb_edded_plugin_form" sys_domain="global" view="Default view">4a03a640dbd7f3009c1a622dca961933</sys_ui_section>
+            <sys_ui_section caption="NULL" display_value="" name="x_dete_emb_edded_plugin_css" sys_domain="global" view="Default view">485af028db1b77009c1a622dca961919</sys_ui_section>
             <sys_updated_by>ray.ferguson</sys_updated_by>
-            <sys_updated_on>2019-08-12 22:09:26</sys_updated_on>
+            <sys_updated_on>2019-08-12 22:15:23</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
@@ -74,13 +74,13 @@
             <element>removed</element>
             <position>5</position>
             <sys_created_by>ray.ferguson</sys_created_by>
-            <sys_created_on>2019-08-12 22:09:26</sys_created_on>
-            <sys_id>86508d2cdb1b77009c1a622dca96196f</sys_id>
+            <sys_created_on>2019-08-12 22:15:23</sys_created_on>
+            <sys_id>85b185acdb1b77009c1a622dca961968</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_dete_emb_edded_plugin_form" sys_domain="global" view="Default view">4a03a640dbd7f3009c1a622dca961933</sys_ui_section>
+            <sys_ui_section caption="NULL" display_value="" name="x_dete_emb_edded_plugin_css" sys_domain="global" view="Default view">485af028db1b77009c1a622dca961919</sys_ui_section>
             <sys_updated_by>ray.ferguson</sys_updated_by>
-            <sys_updated_on>2019-08-12 22:09:26</sys_updated_on>
+            <sys_updated_on>2019-08-12 22:15:23</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -88,27 +88,27 @@
             <element>uri</element>
             <position>6</position>
             <sys_created_by>ray.ferguson</sys_created_by>
-            <sys_created_on>2019-08-12 22:09:26</sys_created_on>
-            <sys_id>0a508d2cdb1b77009c1a622dca96196f</sys_id>
+            <sys_created_on>2019-08-12 22:15:23</sys_created_on>
+            <sys_id>09b185acdb1b77009c1a622dca961968</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_dete_emb_edded_plugin_form" sys_domain="global" view="Default view">4a03a640dbd7f3009c1a622dca961933</sys_ui_section>
+            <sys_ui_section caption="NULL" display_value="" name="x_dete_emb_edded_plugin_css" sys_domain="global" view="Default view">485af028db1b77009c1a622dca961919</sys_ui_section>
             <sys_updated_by>ray.ferguson</sys_updated_by>
-            <sys_updated_on>2019-08-12 22:09:26</sys_updated_on>
+            <sys_updated_on>2019-08-12 22:15:23</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>plugin</element>
+            <element>source_id</element>
             <position>7</position>
             <sys_created_by>ray.ferguson</sys_created_by>
-            <sys_created_on>2019-08-12 22:09:26</sys_created_on>
-            <sys_id>8a508d2cdb1b77009c1a622dca96196f</sys_id>
+            <sys_created_on>2019-08-12 22:15:23</sys_created_on>
+            <sys_id>89b185acdb1b77009c1a622dca961968</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_dete_emb_edded_plugin_form" sys_domain="global" view="Default view">4a03a640dbd7f3009c1a622dca961933</sys_ui_section>
+            <sys_ui_section caption="NULL" display_value="" name="x_dete_emb_edded_plugin_css" sys_domain="global" view="Default view">485af028db1b77009c1a622dca961919</sys_ui_section>
             <sys_updated_by>ray.ferguson</sys_updated_by>
-            <sys_updated_on>2019-08-12 22:09:26</sys_updated_on>
+            <sys_updated_on>2019-08-12 22:15:23</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -116,13 +116,13 @@
             <element>.end_split</element>
             <position>8</position>
             <sys_created_by>ray.ferguson</sys_created_by>
-            <sys_created_on>2019-08-12 22:09:26</sys_created_on>
-            <sys_id>0e508d2cdb1b77009c1a622dca96196f</sys_id>
+            <sys_created_on>2019-08-12 22:15:23</sys_created_on>
+            <sys_id>0db185acdb1b77009c1a622dca961968</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_dete_emb_edded_plugin_form" sys_domain="global" view="Default view">4a03a640dbd7f3009c1a622dca961933</sys_ui_section>
+            <sys_ui_section caption="NULL" display_value="" name="x_dete_emb_edded_plugin_css" sys_domain="global" view="Default view">485af028db1b77009c1a622dca961919</sys_ui_section>
             <sys_updated_by>ray.ferguson</sys_updated_by>
-            <sys_updated_on>2019-08-12 22:09:26</sys_updated_on>
+            <sys_updated_on>2019-08-12 22:15:23</sys_updated_on>
             <sys_user/>
             <type>.end_split</type>
         </sys_ui_element>
@@ -130,38 +130,38 @@
             <element>content</element>
             <position>9</position>
             <sys_created_by>ray.ferguson</sys_created_by>
-            <sys_created_on>2019-08-12 22:09:26</sys_created_on>
-            <sys_id>8e508d2cdb1b77009c1a622dca96196f</sys_id>
+            <sys_created_on>2019-08-12 22:15:23</sys_created_on>
+            <sys_id>8db185acdb1b77009c1a622dca961968</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_dete_emb_edded_plugin_form" sys_domain="global" view="Default view">4a03a640dbd7f3009c1a622dca961933</sys_ui_section>
+            <sys_ui_section caption="NULL" display_value="" name="x_dete_emb_edded_plugin_css" sys_domain="global" view="Default view">485af028db1b77009c1a622dca961919</sys_ui_section>
             <sys_updated_by>ray.ferguson</sys_updated_by>
-            <sys_updated_on>2019-08-12 22:09:26</sys_updated_on>
+            <sys_updated_on>2019-08-12 22:15:23</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
             <caption/>
             <header>false</header>
-            <name>x_dete_emb_edded_plugin_form</name>
+            <name>x_dete_emb_edded_plugin_css</name>
             <roles/>
             <sys_class_name>sys_ui_section</sys_class_name>
             <sys_created_by>ray.ferguson</sys_created_by>
-            <sys_created_on>2019-08-11 16:03:39</sys_created_on>
+            <sys_created_on>2019-08-12 21:43:06</sys_created_on>
             <sys_customer_update>false</sys_customer_update>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>4a03a640dbd7f3009c1a622dca961933</sys_id>
+            <sys_id>485af028db1b77009c1a622dca961919</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_name>x_dete_emb_edded_plugin_form</sys_name>
+            <sys_name>x_dete_emb_edded_plugin_css</sys_name>
             <sys_overrides/>
             <sys_package display_value="Embedded Content" source="x_dete_emb">1b951ea1db07330098cbde82ca9619ac</sys_package>
             <sys_policy/>
             <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
             <sys_scope display_value="Embedded Content">1b951ea1db07330098cbde82ca9619ac</sys_scope>
-            <sys_update_name>sys_ui_section_4a03a640dbd7f3009c1a622dca961933</sys_update_name>
+            <sys_update_name>sys_ui_section_485af028db1b77009c1a622dca961919</sys_update_name>
             <sys_updated_by>ray.ferguson</sys_updated_by>
-            <sys_updated_on>2019-08-11 16:03:39</sys_updated_on>
+            <sys_updated_on>2019-08-12 21:43:06</sys_updated_on>
             <sys_user/>
             <title>true</title>
             <view display_value="Default view" name="NULL">Default view</view>

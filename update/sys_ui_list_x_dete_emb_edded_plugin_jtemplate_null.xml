@@ -3,107 +3,122 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>name</element>
-            <list_id display_value="x_dete_emb_edded_plugin_jtemplate" element="NULL" name="x_dete_emb_edded_plugin_jtemplate" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">ef349817db0773009c1a622dca9619bf</list_id>
+            <list_id display_value="x_dete_emb_edded_plugin_jtemplate" element="NULL" name="x_dete_emb_edded_plugin_jtemplate" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">68ecdfccdbdff3009c1a622dca96190f</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
             <sum>false</sum>
             <sys_created_by>ray.ferguson</sys_created_by>
-            <sys_created_on>2019-08-08 21:44:21</sys_created_on>
-            <sys_id>2b349817db0773009c1a622dca9619c0</sys_id>
+            <sys_created_on>2019-08-11 20:16:25</sys_created_on>
+            <sys_id>a0ecdfccdbdff3009c1a622dca961910</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>ray.ferguson</sys_updated_by>
-            <sys_updated_on>2019-08-08 21:44:21</sys_updated_on>
+            <sys_updated_on>2019-08-11 20:16:25</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>checksum</element>
-            <list_id display_value="x_dete_emb_edded_plugin_jtemplate" element="NULL" name="x_dete_emb_edded_plugin_jtemplate" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">ef349817db0773009c1a622dca9619bf</list_id>
+            <list_id display_value="x_dete_emb_edded_plugin_jtemplate" element="NULL" name="x_dete_emb_edded_plugin_jtemplate" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">68ecdfccdbdff3009c1a622dca96190f</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>1</position>
             <sum>false</sum>
             <sys_created_by>ray.ferguson</sys_created_by>
-            <sys_created_on>2019-08-08 21:44:21</sys_created_on>
-            <sys_id>ab349817db0773009c1a622dca9619c0</sys_id>
+            <sys_created_on>2019-08-11 20:16:25</sys_created_on>
+            <sys_id>24ecdfccdbdff3009c1a622dca961910</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>ray.ferguson</sys_updated_by>
-            <sys_updated_on>2019-08-08 21:44:21</sys_updated_on>
+            <sys_updated_on>2019-08-11 20:16:25</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>content</element>
-            <list_id display_value="x_dete_emb_edded_plugin_jtemplate" element="NULL" name="x_dete_emb_edded_plugin_jtemplate" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">ef349817db0773009c1a622dca9619bf</list_id>
+            <list_id display_value="x_dete_emb_edded_plugin_jtemplate" element="NULL" name="x_dete_emb_edded_plugin_jtemplate" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">68ecdfccdbdff3009c1a622dca96190f</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>2</position>
             <sum>false</sum>
             <sys_created_by>ray.ferguson</sys_created_by>
-            <sys_created_on>2019-08-08 21:44:21</sys_created_on>
-            <sys_id>2f349817db0773009c1a622dca9619c0</sys_id>
+            <sys_created_on>2019-08-11 20:16:25</sys_created_on>
+            <sys_id>a4ecdfccdbdff3009c1a622dca961910</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>ray.ferguson</sys_updated_by>
-            <sys_updated_on>2019-08-08 21:44:21</sys_updated_on>
+            <sys_updated_on>2019-08-11 20:16:25</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>path</element>
-            <list_id display_value="x_dete_emb_edded_plugin_jtemplate" element="NULL" name="x_dete_emb_edded_plugin_jtemplate" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">ef349817db0773009c1a622dca9619bf</list_id>
+            <list_id display_value="x_dete_emb_edded_plugin_jtemplate" element="NULL" name="x_dete_emb_edded_plugin_jtemplate" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">68ecdfccdbdff3009c1a622dca96190f</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>3</position>
             <sum>false</sum>
             <sys_created_by>ray.ferguson</sys_created_by>
-            <sys_created_on>2019-08-08 21:44:21</sys_created_on>
-            <sys_id>af349817db0773009c1a622dca9619c0</sys_id>
+            <sys_created_on>2019-08-11 20:16:25</sys_created_on>
+            <sys_id>28ecdfccdbdff3009c1a622dca961910</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>ray.ferguson</sys_updated_by>
-            <sys_updated_on>2019-08-08 21:44:21</sys_updated_on>
+            <sys_updated_on>2019-08-11 20:16:25</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>removed</element>
-            <list_id display_value="x_dete_emb_edded_plugin_jtemplate" element="NULL" name="x_dete_emb_edded_plugin_jtemplate" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">ef349817db0773009c1a622dca9619bf</list_id>
+            <list_id display_value="x_dete_emb_edded_plugin_jtemplate" element="NULL" name="x_dete_emb_edded_plugin_jtemplate" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">68ecdfccdbdff3009c1a622dca96190f</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>4</position>
             <sum>false</sum>
             <sys_created_by>ray.ferguson</sys_created_by>
-            <sys_created_on>2019-08-08 21:44:21</sys_created_on>
-            <sys_id>23349817db0773009c1a622dca9619c1</sys_id>
+            <sys_created_on>2019-08-11 20:16:25</sys_created_on>
+            <sys_id>a8ecdfccdbdff3009c1a622dca961910</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>ray.ferguson</sys_updated_by>
-            <sys_updated_on>2019-08-08 21:44:21</sys_updated_on>
+            <sys_updated_on>2019-08-11 20:16:25</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>source_id</element>
-            <list_id display_value="x_dete_emb_edded_plugin_jtemplate" element="NULL" name="x_dete_emb_edded_plugin_jtemplate" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">ef349817db0773009c1a622dca9619bf</list_id>
+            <list_id display_value="x_dete_emb_edded_plugin_jtemplate" element="NULL" name="x_dete_emb_edded_plugin_jtemplate" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">68ecdfccdbdff3009c1a622dca96190f</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>5</position>
             <sum>false</sum>
             <sys_created_by>ray.ferguson</sys_created_by>
-            <sys_created_on>2019-08-08 21:44:21</sys_created_on>
-            <sys_id>a3349817db0773009c1a622dca9619c1</sys_id>
+            <sys_created_on>2019-08-11 20:16:25</sys_created_on>
+            <sys_id>2cecdfccdbdff3009c1a622dca961910</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>ray.ferguson</sys_updated_by>
-            <sys_updated_on>2019-08-08 21:44:21</sys_updated_on>
+            <sys_updated_on>2019-08-11 20:16:25</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>uri</element>
-            <list_id display_value="x_dete_emb_edded_plugin_jtemplate" element="NULL" name="x_dete_emb_edded_plugin_jtemplate" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">ef349817db0773009c1a622dca9619bf</list_id>
+            <list_id display_value="x_dete_emb_edded_plugin_jtemplate" element="NULL" name="x_dete_emb_edded_plugin_jtemplate" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">68ecdfccdbdff3009c1a622dca96190f</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>6</position>
             <sum>false</sum>
             <sys_created_by>ray.ferguson</sys_created_by>
-            <sys_created_on>2019-08-08 21:44:21</sys_created_on>
-            <sys_id>27349817db0773009c1a622dca9619c1</sys_id>
+            <sys_created_on>2019-08-11 20:16:25</sys_created_on>
+            <sys_id>acecdfccdbdff3009c1a622dca961910</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>ray.ferguson</sys_updated_by>
-            <sys_updated_on>2019-08-08 21:44:21</sys_updated_on>
+            <sys_updated_on>2019-08-11 20:16:25</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>source_id.scope</element>
+            <list_id display_value="x_dete_emb_edded_plugin_jtemplate" element="NULL" name="x_dete_emb_edded_plugin_jtemplate" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">68ecdfccdbdff3009c1a622dca96190f</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>7</position>
+            <sum>false</sum>
+            <sys_created_by>ray.ferguson</sys_created_by>
+            <sys_created_on>2019-08-11 20:16:25</sys_created_on>
+            <sys_id>20ecdfccdbdff3009c1a622dca961911</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ray.ferguson</sys_updated_by>
+            <sys_updated_on>2019-08-11 20:16:25</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
@@ -117,11 +132,11 @@
             <sum>false</sum>
             <sys_class_name>sys_ui_list</sys_class_name>
             <sys_created_by>ray.ferguson</sys_created_by>
-            <sys_created_on>2019-08-08 21:44:21</sys_created_on>
+            <sys_created_on>2019-08-11 20:16:25</sys_created_on>
             <sys_customer_update>false</sys_customer_update>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>ef349817db0773009c1a622dca9619bf</sys_id>
+            <sys_id>68ecdfccdbdff3009c1a622dca96190f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>x_dete_emb_edded_plugin_jtemplate</sys_name>
             <sys_package display_value="Embedded Content" source="x_dete_emb">1b951ea1db07330098cbde82ca9619ac</sys_package>
@@ -130,7 +145,7 @@
             <sys_scope display_value="Embedded Content">1b951ea1db07330098cbde82ca9619ac</sys_scope>
             <sys_update_name>sys_ui_list_x_dete_emb_edded_plugin_jtemplate_null</sys_update_name>
             <sys_updated_by>ray.ferguson</sys_updated_by>
-            <sys_updated_on>2019-08-08 21:44:21</sys_updated_on>
+            <sys_updated_on>2019-08-11 20:16:25</sys_updated_on>
             <sys_user/>
             <view display_value="Default view" name="NULL">Default view</view>
             <view_name/>
