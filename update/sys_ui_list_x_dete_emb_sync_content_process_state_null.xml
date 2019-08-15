@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="x_dete_emb_sync_content_process_state" version="2" view="">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>complete</element>
+            <list_id display_value="x_dete_emb_sync_content_process_state" element="NULL" name="x_dete_emb_sync_content_process_state" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">71a3de01db93f7009c1a622dca961923</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>ray.ferguson</sys_created_by>
+            <sys_created_on>2019-08-14 17:30:24</sys_created_on>
+            <sys_id>b9a3de01db93f7009c1a622dca961923</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ray.ferguson</sys_updated_by>
+            <sys_updated_on>2019-08-14 17:30:24</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>event_name</element>
+            <list_id display_value="x_dete_emb_sync_content_process_state" element="NULL" name="x_dete_emb_sync_content_process_state" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">71a3de01db93f7009c1a622dca961923</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>ray.ferguson</sys_created_by>
+            <sys_created_on>2019-08-14 17:30:24</sys_created_on>
+            <sys_id>3da3de01db93f7009c1a622dca961923</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ray.ferguson</sys_updated_by>
+            <sys_updated_on>2019-08-14 17:30:24</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>parm1</element>
+            <list_id display_value="x_dete_emb_sync_content_process_state" element="NULL" name="x_dete_emb_sync_content_process_state" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">71a3de01db93f7009c1a622dca961923</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>ray.ferguson</sys_created_by>
+            <sys_created_on>2019-08-14 17:30:24</sys_created_on>
+            <sys_id>bda3de01db93f7009c1a622dca961923</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ray.ferguson</sys_updated_by>
+            <sys_updated_on>2019-08-14 17:30:24</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>parm2</element>
+            <list_id display_value="x_dete_emb_sync_content_process_state" element="NULL" name="x_dete_emb_sync_content_process_state" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">71a3de01db93f7009c1a622dca961923</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>ray.ferguson</sys_created_by>
+            <sys_created_on>2019-08-14 17:30:24</sys_created_on>
+            <sys_id>31a3de01db93f7009c1a622dca961924</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ray.ferguson</sys_updated_by>
+            <sys_updated_on>2019-08-14 17:30:24</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>result</element>
+            <list_id display_value="x_dete_emb_sync_content_process_state" element="NULL" name="x_dete_emb_sync_content_process_state" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">71a3de01db93f7009c1a622dca961923</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>ray.ferguson</sys_created_by>
+            <sys_created_on>2019-08-14 17:30:24</sys_created_on>
+            <sys_id>b1a3de01db93f7009c1a622dca961924</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ray.ferguson</sys_updated_by>
+            <sys_updated_on>2019-08-14 17:30:24</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_dete_emb_sync_content_process_state</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>ray.ferguson</sys_created_by>
+            <sys_created_on>2019-08-14 17:30:24</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>71a3de01db93f7009c1a622dca961923</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_dete_emb_sync_content_process_state</sys_name>
+            <sys_package display_value="Embedded Content" source="x_dete_emb">1b951ea1db07330098cbde82ca9619ac</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Embedded Content">1b951ea1db07330098cbde82ca9619ac</sys_scope>
+            <sys_update_name>sys_ui_list_x_dete_emb_sync_content_process_state_null</sys_update_name>
+            <sys_updated_by>ray.ferguson</sys_updated_by>
+            <sys_updated_on>2019-08-14 17:30:24</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

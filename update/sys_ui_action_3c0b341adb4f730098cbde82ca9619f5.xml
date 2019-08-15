@@ -5,7 +5,7 @@
         <client>false</client>
         <client_script_v2/>
         <comments>Triggers refresh of data via event dispatched to the global update code that can access embeded data.</comments>
-        <condition>(gs.hasRole('admin') || gs.hasRole('x_dete_emb.edded_content_admin')) &amp;&amp; gs.action.getGlideURI().getFileFromPath().indexOf("_list") &gt; -1</condition>
+        <condition>(gs.hasRole('admin') || gs.hasRole('x_dete_emb.edded_content_admin')) &amp;&amp; gs.action.getGlideURI().getFileFromPath().indexOf("_list") &gt; -1 &amp;&amp; EventRunning('x_dete_emb.edded_content_ui_action',gs.action.getGlideURI().getFileFromPath()) == false</condition>
         <form_action>false</form_action>
         <form_button>false</form_button>
         <form_button_v2>false</form_button_v2>
@@ -27,15 +27,28 @@
         <onclick/>
         <order>-1000</order>
         <script><![CDATA[(function(action){
+	try {
+		void global.DevendorContentSync ;
+		gs.addErrorMessage("You must install the global portion of the app before we can sync content.");
+		return ;
+	} catch (e){
+		// Security exceptions means the global part exists!
+	}
 	var table = action.getGlideURI().getFileFromPath();
 	var i = table.indexOf("_list");
 	if (i>-1)
 		table = table.substr(0,i);
-	try{
+	if (EventRunning('x_dete_emb.edded_content_ui_action',table)){
+		gs.addInfoMessage("Sync already running.");
+	} else {
+		gs.addInfoMessage("Sync request sent.");
+		var gr = new GlideRecordSecure('x_dete_emb_sync_content_process_state');
+		gr.initialize();
+		gr.setValue('event_name','x_dete_emb.edded_content_ui_action');
+		gr.setValue('parm1',table);
+		gr.setValue('parm2',gs.getUserName());
+		gr.insert();
 		gs.eventQueue('x_dete_emb.edded_content_ui_action',null,table,gs.getUserName());
-		gs.addInfoMessage("Update request sent");
-	} catch (e) {
-	    gs.addErrorMessage("Error sending update request event "+ e.message);
 	}
 })(action);
 ]]></script>
@@ -50,7 +63,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>3c0b341adb4f730098cbde82ca9619f5</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>17</sys_mod_count>
         <sys_name>Sync Content</sys_name>
         <sys_overrides display_value="New">e35ea848c3302200f7d1ca3adfba8f54</sys_overrides>
         <sys_package display_value="Embedded Content" source="x_dete_emb">1b951ea1db07330098cbde82ca9619ac</sys_package>
@@ -59,7 +72,7 @@
         <sys_scope display_value="Embedded Content">1b951ea1db07330098cbde82ca9619ac</sys_scope>
         <sys_update_name>sys_ui_action_3c0b341adb4f730098cbde82ca9619f5</sys_update_name>
         <sys_updated_by>ray.ferguson</sys_updated_by>
-        <sys_updated_on>2019-08-11 20:25:17</sys_updated_on>
+        <sys_updated_on>2019-08-15 17:50:49</sys_updated_on>
         <table>x_dete_emb_edded_content</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>

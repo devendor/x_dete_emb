@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <condition/>
+        <description>Default access control on x_dete_emb_sync_content_process_state</description>
+        <name>x_dete_emb_sync_content_process_state</name>
+        <operation display_value="create">create</operation>
+        <script/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>ray.ferguson</sys_created_by>
+        <sys_created_on>2019-08-14 16:54:08</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>725b82c1db53f7009c1a622dca961998</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_dete_emb_sync_content_process_state</sys_name>
+        <sys_package display_value="Embedded Content" source="x_dete_emb">1b951ea1db07330098cbde82ca9619ac</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Embedded Content">1b951ea1db07330098cbde82ca9619ac</sys_scope>
+        <sys_update_name>sys_security_acl_725b82c1db53f7009c1a622dca961998</sys_update_name>
+        <sys_updated_by>ray.ferguson</sys_updated_by>
+        <sys_updated_on>2019-08-14 16:54:08</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+</record_update>
