@@ -14,7 +14,7 @@
 };]]></client_script>
         <description/>
         <direct>true</direct>
-        <endpoint>x_dete_emb_Application_Installation.do</endpoint>
+        <endpoint>x_dete_emb_about_this_app.do</endpoint>
         <html><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
 <j:jelly xmlns:j="jelly:core" xmlns:g="glide" trim="false">
   <html>
@@ -67,9 +67,65 @@
               <li>Navigate to System Update Sets/Retrieved Update Sets</li>
               <li>Use the Import Update Set From XML link to load the update set.</li>
               <li>Preview and apply the update set through the action buttons on the remote update set record created by the import.</li>
-              <li>Navigate to the various content tables provided by the scoped application and use the Sync Content table action to pull in the hidden content.</li>
-              <li>Optionally: navigate to a plugin record and add the embedded content related list.</li>
+              <li>Optionally: Navigate to a v_plugin record and add the Embedded Content related list.</li>
             </ol>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-me">
+            <h3>Using the application.</h3>
+            <ol>
+              <li>Browse to the Embedded Content Module</li>
+              <li>Expand the "Jellies" or "UI Scripts" Separators.</li>
+              <li>Select any of the content tables.</li>
+              <li>Use the "Sync Content" button to import or update the visible copy of the embedded content.</li>
+            </ol>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-me">
+            <h3>What is Embedded Content?</h3>
+            The embedded content exposed by the app consists of variations on jelly/xml content, client javascript, and css files.
+            <dl>
+              <dt>Platform JForms</dt>
+              <dd>This content exist relative to webroot in ./ui.jforms. It is roughly an embedded equivelent to a UI Page.</dd>
+              <dt>Platform JTemplates</dt>
+              <dd>This content exist relative to webroot in ./ui.jtemplates. It is roughly an embedded equivelent to a UI Macro.</dd>
+              <dt>Platform UI Javascript</dt>
+              <dd>This content exist relative to webroot in ./scripts. This is an unobfuscated copy of client side javascript runs in you browser.
+                 This is typically stripped of comments and bundled or minified into various js_includes...js files on a schedule and represent the
+                 individual files noted by the /* RESOURCE: ... */ tags in the include. Note: setting sys_properties glide.ui.js_includes=false will
+                 modify this behavior to make development a little easier.
+              </dd>
+              <dt>Plugin ... (global)</dt>
+              <dd>
+                Plugins in the global scope show up as files under
+                <i>%webroot%</i>
+                /plugins/
+                <i>%v_plugin.id%</i>
+                /ui.html/
+                <i>%content_type%</i>$[AMP]nbsp;
+                where
+                <i>%content_type%</i>$[AMP]nbsp;
+                is one of scripts, ui.jforms, ui.jforms, or styles relating to the platform content types above with
+              the additional styles subdirectory that contains cascading style sheets.
+              </dd>
+              <dt>Plugin ... (scoped)</dt>
+              <dd>These well hidden files don't show up under the global filesystem anywhere that I can find.  They are presumably present in 
+                scoped environment, but the APIs to access files are not there.  They are accessible via SecurelyAccess if permissions and other
+                security tests allow it.  One test is clearly a substring or regex match against the file path that bans some strings like
+                "classes" and by realative paths from ui.html.
+             </dd>
+              <dt>Indirect Content</dt>
+              <dd>Particularly with javascript, direct access is entirely reliant on SecurelyAccess or luck with cache which falls down when file paths
+               contain banned strings. To work around this, the script include falls back to more slight of hand by using jelly to pull in the rendered
+               version of the script. Then it parses the RESOURCE: tags back into "// include ..." lines, and passes it through beautify_js to clean it
+               up a bit since rendering collapses a lot of white space and removes the comments. The exception is large files. The process is a
+               bit expensive and the huge files are largely publically available libraries anyway.
+             </dd>
+            </dl>
           </div>
         </div>
 
@@ -112,17 +168,33 @@
             "We" are a technology partner and can deliver scoped applications through the servicenow store, but I am 
             also actively working as a consulting servicenow developer to maintain stable income while picking away at projects under the LLC.
             If you like my work, feel free to send me some. I would love to see what we can build together!</P>
+            <P>If you don't love my work, I would love to have that "do better" talk. I'm always learning, and there are a lot of smart programmers
+              in the world with something to teach.
+            </P>
 
-<div class="card text-white bg-info mb-3" style="max-width: 20rem;">
-  <div class="card-header" onclick="window.open('https://www.devendortech.com','_blank', 'width=400')" title="devendortech.com" style="cursor: pointer;">
-  Contact Devendor Tech<img src="353eda29db07330098cbde82ca9619aa.iix" class="rounded float-right" /></div>
-  <div class="card-body">
-    <ul class="list-group list-group-flush">
-    <li class="list-group-item bg-info" style="cursor: pointer;" onclick="window.open('mailto:ray.ferguson@devendortech.com')" title="email">Ray.Ferguson@DevendorTech.com</li>
-    <li class="list-group-item bg-info" style="cursor: pointer;" title="call" onclick="window.open('tel:16085169391')" >Phone: 608.516.9391</li>
-</ul>
-  </div>
-</div>
+            <div class="card text-white bg-info mb-3" style="max-width: 20rem;">
+              <div class="card-header" onclick="window.open('https://www.devendortech.com','_blank', 'width=992')" title="devendortech.com" style="cursor: pointer;">
+                Contact Devendor Tech
+                <img src="353eda29db07330098cbde82ca9619aa.iix" class="rounded float-right" />
+              </div>
+              <div class="card-body">
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item bg-info" style="cursor: pointer;" onclick="window.open('mailto:ray.ferguson@devendortech.com')" title="email">Ray.Ferguson@DevendorTech.com</li>
+                  <li class="list-group-item bg-info" style="cursor: pointer;" title="call" onclick="window.open('tel:+16089608090')" rel="nofollow">Phone: 1 608.960.8090</li>
+                  <li class="list-group-item bg-info" style="cursor: pointer;" onclick="window.open('https://www.linkedin.com/in/ray-ferguson-1419395/', '_blank', 'width=992')" title="social">@linkedin</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-me">
+            <h3>Whats next?</h3>
+            <p>Aside from some secret things to hopefully make a buck and consulting where I find a good team that can use my work, 
+              I intend to follow this app with a super duper code search app with async bits of content, line delimited json streams, and
+              nifty ui features.</p>
+            <p>What is your next project?</p>
           </div>
         </div>
       </div>
@@ -5039,21 +5111,21 @@ bmxvYWQ+Cg==
     </body>
   </html>
 </j:jelly>]]></html>
-        <name>Application_Installation</name>
+        <name>about_this_app</name>
         <processing_script/>
         <sys_class_name>sys_ui_page</sys_class_name>
         <sys_created_by>ray.ferguson</sys_created_by>
         <sys_created_on>2019-08-14 21:24:29</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>06c8cbc1db17f7009c1a622dca9619b4</sys_id>
-        <sys_mod_count>95</sys_mod_count>
-        <sys_name>Application_Installation</sys_name>
+        <sys_mod_count>115</sys_mod_count>
+        <sys_name>about_this_app</sys_name>
         <sys_package display_value="Embedded Content" source="x_dete_emb">1b951ea1db07330098cbde82ca9619ac</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Embedded Content">1b951ea1db07330098cbde82ca9619ac</sys_scope>
         <sys_update_name>sys_ui_page_06c8cbc1db17f7009c1a622dca9619b4</sys_update_name>
         <sys_updated_by>ray.ferguson</sys_updated_by>
-        <sys_updated_on>2019-08-15 17:57:14</sys_updated_on>
+        <sys_updated_on>2019-08-16 17:05:36</sys_updated_on>
     </sys_ui_page>
 </record_update>
