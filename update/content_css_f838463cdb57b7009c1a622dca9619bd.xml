@@ -7,9 +7,17 @@
   font-family: Menlo, "Bitstream Vera Sans Mono", "DejaVu Sans Mono", Monaco, Consolas, monospace;&#13;
   border: 0 !important;&#13;
 }&#13;
-pre.wrap_pretty { white-space: pre-wrap; }&#13;
+&#13;
 .pln {&#13;
   color: #333;&#13;
+}&#13;
+pre.wrap_pretty {&#13;
+  white-space: pre-wrap; &#13;
+}&#13;
+&#13;
+.white_on_white {  &#13;
+  color: white;&#13;
+  background: white;&#13;
 }&#13;
 &#13;
 /* Specify class=linenums on a pre to get line numbering */&#13;
@@ -125,7 +133,7 @@ li.L9 {&#13;
         <sys_created_on>2019-08-13 22:07:27</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>f838463cdb57b7009c1a622dca9619bd</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_name>prettier_content</sys_name>
         <sys_package display_value="Embedded Content" source="x_dete_emb">1b951ea1db07330098cbde82ca9619ac</sys_package>
         <sys_policy/>
@@ -133,7 +141,7 @@ li.L9 {&#13;
         <sys_scope display_value="Embedded Content">1b951ea1db07330098cbde82ca9619ac</sys_scope>
         <sys_update_name>content_css_f838463cdb57b7009c1a622dca9619bd</sys_update_name>
         <sys_updated_by>ray.ferguson</sys_updated_by>
-        <sys_updated_on>2019-08-14 00:02:24</sys_updated_on>
+        <sys_updated_on>2019-08-20 00:06:04</sys_updated_on>
         <type>local</type>
         <url/>
     </content_css>
