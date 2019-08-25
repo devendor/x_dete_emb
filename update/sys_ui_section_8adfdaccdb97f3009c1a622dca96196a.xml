@@ -4,13 +4,13 @@
             <element>.begin_split</element>
             <position>0</position>
             <sys_created_by>ray.ferguson</sys_created_by>
-            <sys_created_on>2019-08-13 16:34:22</sys_created_on>
-            <sys_id>af3d7c78db93b7009c1a622dca9619c8</sys_id>
+            <sys_created_on>2019-08-25 16:53:25</sys_created_on>
+            <sys_id>e7a43ae8dba773409c1a622dca961992</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_dete_emb_edded_xml" sys_domain="global" view="Default view">8adfdaccdb97f3009c1a622dca96196a</sys_ui_section>
             <sys_updated_by>ray.ferguson</sys_updated_by>
-            <sys_updated_on>2019-08-13 16:34:22</sys_updated_on>
+            <sys_updated_on>2019-08-25 16:53:25</sys_updated_on>
             <sys_user/>
             <type>.begin_split</type>
         </sys_ui_element>
@@ -18,13 +18,13 @@
             <element>name</element>
             <position>1</position>
             <sys_created_by>ray.ferguson</sys_created_by>
-            <sys_created_on>2019-08-13 16:34:22</sys_created_on>
-            <sys_id>233d7c78db93b7009c1a622dca9619c9</sys_id>
+            <sys_created_on>2019-08-25 16:53:25</sys_created_on>
+            <sys_id>6ba43ae8dba773409c1a622dca961992</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_dete_emb_edded_xml" sys_domain="global" view="Default view">8adfdaccdb97f3009c1a622dca96196a</sys_ui_section>
             <sys_updated_by>ray.ferguson</sys_updated_by>
-            <sys_updated_on>2019-08-13 16:34:22</sys_updated_on>
+            <sys_updated_on>2019-08-25 16:53:25</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -32,13 +32,13 @@
             <element>path</element>
             <position>2</position>
             <sys_created_by>ray.ferguson</sys_created_by>
-            <sys_created_on>2019-08-13 16:34:22</sys_created_on>
-            <sys_id>a33d7c78db93b7009c1a622dca9619c9</sys_id>
+            <sys_created_on>2019-08-25 16:53:25</sys_created_on>
+            <sys_id>eba43ae8dba773409c1a622dca961992</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_dete_emb_edded_xml" sys_domain="global" view="Default view">8adfdaccdb97f3009c1a622dca96196a</sys_ui_section>
             <sys_updated_by>ray.ferguson</sys_updated_by>
-            <sys_updated_on>2019-08-13 16:34:22</sys_updated_on>
+            <sys_updated_on>2019-08-25 16:53:25</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -46,41 +46,41 @@
             <element>.split</element>
             <position>3</position>
             <sys_created_by>ray.ferguson</sys_created_by>
-            <sys_created_on>2019-08-13 16:34:22</sys_created_on>
-            <sys_id>273d7c78db93b7009c1a622dca9619c9</sys_id>
+            <sys_created_on>2019-08-25 16:53:25</sys_created_on>
+            <sys_id>6fa43ae8dba773409c1a622dca961992</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_dete_emb_edded_xml" sys_domain="global" view="Default view">8adfdaccdb97f3009c1a622dca96196a</sys_ui_section>
             <sys_updated_by>ray.ferguson</sys_updated_by>
-            <sys_updated_on>2019-08-13 16:34:22</sys_updated_on>
+            <sys_updated_on>2019-08-25 16:53:25</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>removed</element>
+            <element>source_id</element>
             <position>4</position>
             <sys_created_by>ray.ferguson</sys_created_by>
-            <sys_created_on>2019-08-13 16:34:22</sys_created_on>
-            <sys_id>a73d7c78db93b7009c1a622dca9619c9</sys_id>
+            <sys_created_on>2019-08-25 16:53:25</sys_created_on>
+            <sys_id>efa43ae8dba773409c1a622dca961992</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_dete_emb_edded_xml" sys_domain="global" view="Default view">8adfdaccdb97f3009c1a622dca96196a</sys_ui_section>
             <sys_updated_by>ray.ferguson</sys_updated_by>
-            <sys_updated_on>2019-08-13 16:34:22</sys_updated_on>
+            <sys_updated_on>2019-08-25 16:53:25</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>source_id</element>
+            <element>size</element>
             <position>5</position>
             <sys_created_by>ray.ferguson</sys_created_by>
-            <sys_created_on>2019-08-13 16:34:22</sys_created_on>
-            <sys_id>2b3d7c78db93b7009c1a622dca9619c9</sys_id>
+            <sys_created_on>2019-08-25 16:53:25</sys_created_on>
+            <sys_id>63a43ae8dba773409c1a622dca961993</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_dete_emb_edded_xml" sys_domain="global" view="Default view">8adfdaccdb97f3009c1a622dca96196a</sys_ui_section>
             <sys_updated_by>ray.ferguson</sys_updated_by>
-            <sys_updated_on>2019-08-13 16:34:22</sys_updated_on>
+            <sys_updated_on>2019-08-25 16:53:25</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -88,13 +88,13 @@
             <element>.end_split</element>
             <position>6</position>
             <sys_created_by>ray.ferguson</sys_created_by>
-            <sys_created_on>2019-08-13 16:34:22</sys_created_on>
-            <sys_id>ab3d7c78db93b7009c1a622dca9619c9</sys_id>
+            <sys_created_on>2019-08-25 16:53:25</sys_created_on>
+            <sys_id>e3a43ae8dba773409c1a622dca961993</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_dete_emb_edded_xml" sys_domain="global" view="Default view">8adfdaccdb97f3009c1a622dca96196a</sys_ui_section>
             <sys_updated_by>ray.ferguson</sys_updated_by>
-            <sys_updated_on>2019-08-13 16:34:22</sys_updated_on>
+            <sys_updated_on>2019-08-25 16:53:25</sys_updated_on>
             <sys_user/>
             <type>.end_split</type>
         </sys_ui_element>
@@ -102,29 +102,15 @@
             <element>x_dete_emb_prettier.xml</element>
             <position>7</position>
             <sys_created_by>ray.ferguson</sys_created_by>
-            <sys_created_on>2019-08-13 16:34:22</sys_created_on>
-            <sys_id>2f3d7c78db93b7009c1a622dca9619c9</sys_id>
+            <sys_created_on>2019-08-25 16:53:25</sys_created_on>
+            <sys_id>67a43ae8dba773409c1a622dca961993</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter display_value="prettier">9256bcb0db93b7009c1a622dca9619a2</sys_ui_formatter>
             <sys_ui_section caption="NULL" display_value="" name="x_dete_emb_edded_xml" sys_domain="global" view="Default view">8adfdaccdb97f3009c1a622dca96196a</sys_ui_section>
             <sys_updated_by>ray.ferguson</sys_updated_by>
-            <sys_updated_on>2019-08-13 16:34:22</sys_updated_on>
+            <sys_updated_on>2019-08-25 16:53:25</sys_updated_on>
             <sys_user/>
             <type>formatter</type>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>size</element>
-            <position>8</position>
-            <sys_created_by>ray.ferguson</sys_created_by>
-            <sys_created_on>2019-08-14 01:50:24</sys_created_on>
-            <sys_id>648c72fcdb1bb7009c1a622dca9619f7</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_dete_emb_edded_xml" sys_domain="global" view="Default view">8adfdaccdb97f3009c1a622dca96196a</sys_ui_section>
-            <sys_updated_by>ray.ferguson</sys_updated_by>
-            <sys_updated_on>2019-08-14 01:50:24</sys_updated_on>
-            <sys_user/>
-            <type/>
         </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
             <caption/>
