@@ -4,7 +4,7 @@
         <element label="Name" max_length="255" name="name" read_only="true" type="string"/>
         <element label="Path" max_length="255" name="path" read_only="true" type="string"/>
         <element label="Plugin" max_length="255" name="source_id" read_only="true" reference="sys_package" reference_key="source" type="reference"/>
-        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element default="javascript:current.getTableName();" dynamic_default_value="b5cb83a85f220100a9ad2572f2b4773c" label="Class" max_length="80" name="sys_class_name" type="sys_class_name" use_dynamic_default="true"/>
         <index name="index">
             <element name="path"/>
         </index>
