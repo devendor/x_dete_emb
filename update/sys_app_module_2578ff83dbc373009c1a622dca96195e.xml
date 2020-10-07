@@ -3,7 +3,6 @@
         <active>true</active>
         <application display_value="Embedded Content">8aa61e65db07330098cbde82ca9619b1</application>
         <assessment/>
-        <content_page/>
         <device_type/>
         <filter/>
         <hint/>
@@ -19,12 +18,9 @@
         <query/>
         <report/>
         <roles/>
-        <survey/>
-        <survey_overwrite>true</survey_overwrite>
         <sys_class_name>sys_app_module</sys_class_name>
         <sys_created_by>ray.ferguson</sys_created_by>
         <sys_created_on>2019-08-08 19:42:59</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>2578ff83dbc373009c1a622dca96195e</sys_id>
@@ -33,7 +29,6 @@
         <sys_overrides/>
         <sys_package display_value="Embedded Content" source="x_dete_emb">1b951ea1db07330098cbde82ca9619ac</sys_package>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Embedded Content">1b951ea1db07330098cbde82ca9619ac</sys_scope>
         <sys_update_name>sys_app_module_2578ff83dbc373009c1a622dca96195e</sys_update_name>
         <sys_updated_by>ray.ferguson</sys_updated_by>

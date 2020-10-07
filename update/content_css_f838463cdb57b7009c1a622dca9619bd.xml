@@ -131,13 +131,11 @@ li.L9 {&#13;
         <sys_class_name>content_css</sys_class_name>
         <sys_created_by>ray.ferguson</sys_created_by>
         <sys_created_on>2019-08-13 22:07:27</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>f838463cdb57b7009c1a622dca9619bd</sys_id>
         <sys_mod_count>12</sys_mod_count>
         <sys_name>prettier_content</sys_name>
         <sys_package display_value="Embedded Content" source="x_dete_emb">1b951ea1db07330098cbde82ca9619ac</sys_package>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Embedded Content">1b951ea1db07330098cbde82ca9619ac</sys_scope>
         <sys_update_name>content_css_f838463cdb57b7009c1a622dca9619bd</sys_update_name>
         <sys_updated_by>ray.ferguson</sys_updated_by>

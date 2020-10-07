@@ -5365,13 +5365,11 @@ YXlfdmFsdWU9IiIvPgo8dmlldy8+Cjwvc3lzX3VwZGF0ZV94bWw+CjwvdW5sb2FkPgo=
         <sys_class_name>sys_ui_page</sys_class_name>
         <sys_created_by>ray.ferguson</sys_created_by>
         <sys_created_on>2019-08-14 21:24:29</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>06c8cbc1db17f7009c1a622dca9619b4</sys_id>
         <sys_mod_count>123</sys_mod_count>
         <sys_name>about_this_app</sys_name>
         <sys_package display_value="Embedded Content" source="x_dete_emb">1b951ea1db07330098cbde82ca9619ac</sys_package>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Embedded Content">1b951ea1db07330098cbde82ca9619ac</sys_scope>
         <sys_update_name>sys_ui_page_06c8cbc1db17f7009c1a622dca9619b4</sys_update_name>
         <sys_updated_by>ray.ferguson</sys_updated_by>

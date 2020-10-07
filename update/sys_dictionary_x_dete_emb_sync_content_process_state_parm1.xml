@@ -53,17 +53,15 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>ray.ferguson</sys_created_by>
         <sys_created_on>2019-08-14 17:09:02</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
-        <sys_id>5bae0e89db53f7009c1a622dca961960</sys_id>
+        <sys_id>dd9d2647db3300104c5d7b823996198d</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Parm1</sys_name>
         <sys_package display_value="Embedded Content" source="x_dete_emb">1b951ea1db07330098cbde82ca9619ac</sys_package>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Embedded Content">1b951ea1db07330098cbde82ca9619ac</sys_scope>
         <sys_update_name>sys_dictionary_x_dete_emb_sync_content_process_state_parm1</sys_update_name>
-        <sys_updated_by>ray.ferguson</sys_updated_by>
-        <sys_updated_on>2019-08-14 17:09:02</sys_updated_on>
+        <sys_updated_by>rferguson</sys_updated_by>
+        <sys_updated_on>2020-03-31 17:14:15</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

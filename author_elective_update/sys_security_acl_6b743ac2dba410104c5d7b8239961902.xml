@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="DELETE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <condition/>
+        <description>Default access control on x_dete_emb_edded_core_css</description>
+        <name>x_dete_emb_edded_core_css</name>
+        <operation display_value="write">write</operation>
+        <script/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>rferguson</sys_created_by>
+        <sys_created_on>2020-05-04 21:57:27</sys_created_on>
+        <sys_id>6b743ac2dba410104c5d7b8239961902</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_dete_emb_edded_core_css</sys_name>
+        <sys_package display_value="Embedded Content" source="x_dete_emb">1b951ea1db07330098cbde82ca9619ac</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Embedded Content">1b951ea1db07330098cbde82ca9619ac</sys_scope>
+        <sys_update_name>sys_security_acl_6b743ac2dba410104c5d7b8239961902</sys_update_name>
+        <sys_updated_by>rferguson</sys_updated_by>
+        <sys_updated_on>2020-05-04 21:57:27</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Embedded Content">1b951ea1db07330098cbde82ca9619ac</application>
+        <file_path/>
+        <instance_id>47b64c49db78f78042b321c4059619f0</instance_id>
+        <instance_name>dev80399</instance_name>
+        <name>sys_security_acl_6b743ac2dba410104c5d7b8239961902</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><condition/><description>Default access control on x_dete_emb_edded_core_css</description><name>x_dete_emb_edded_core_css</name><operation display_value="write">write</operation><script/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>rferguson</sys_created_by><sys_created_on>2020-05-04 21:57:27</sys_created_on><sys_id>6b743ac2dba410104c5d7b8239961902</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_dete_emb_edded_core_css</sys_name><sys_package display_value="Embedded Content" source="x_dete_emb">1b951ea1db07330098cbde82ca9619ac</sys_package><sys_policy/><sys_scope display_value="Embedded Content">1b951ea1db07330098cbde82ca9619ac</sys_scope><sys_update_name>sys_security_acl_6b743ac2dba410104c5d7b8239961902</sys_update_name><sys_updated_by>rferguson</sys_updated_by><sys_updated_on>2020-05-04 21:57:27</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+        <payload_hash>1284188706</payload_hash>
+        <record_name>x_dete_emb_edded_core_css</record_name>
+        <reverted_from/>
+        <source>3aa9f5cadbe010104c5d7b82399619f2</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>rferguson</sys_created_by>
+        <sys_created_on>2020-05-04 21:57:27</sys_created_on>
+        <sys_id>23743ac2dba410104c5d7b8239961905</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>171e1b1a1a80000001</sys_recorded_at>
+        <sys_updated_by>rferguson</sys_updated_by>
+        <sys_updated_on>2020-05-04 21:57:27</sys_updated_on>
+        <type>Access Control</type>
+        <update_guid>6b743ac247a410108627c69d56b5c604</update_guid>
+        <update_guid_history>6b743ac247a410108627c69d56b5c604:1284188706</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>rferguson</sys_created_by>
+        <sys_created_on>2020-05-04 22:54:57</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl">sys_security_acl</sys_db_object>
+        <sys_id>55d107f4ccef4db2a70ee1aa24c09119</sys_id>
+        <sys_metadata>6b743ac2dba410104c5d7b8239961902</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_dete_emb_edded_core_css</sys_name>
+        <sys_package display_value="Embedded Content" source="x_dete_emb">1b951ea1db07330098cbde82ca9619ac</sys_package>
+        <sys_parent display_value="x_dete_emb_edded_core_css">ef743ac2dba410104c5d7b823996190d</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Embedded Content">1b951ea1db07330098cbde82ca9619ac</sys_scope>
+        <sys_scope_delete display_value="">ba6a4d31da90420d9596cafcfe807f99</sys_scope_delete>
+        <sys_update_name>sys_security_acl_6b743ac2dba410104c5d7b8239961902</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_6b743ac2dba410104c5d7b8239961902">23743ac2dba410104c5d7b8239961905</sys_update_version>
+        <sys_updated_by>rferguson</sys_updated_by>
+        <sys_updated_on>2020-05-04 22:54:57</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

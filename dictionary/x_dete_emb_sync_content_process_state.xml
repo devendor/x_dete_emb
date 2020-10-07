@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element attributes="live_feed=true" label="Sync Content Process State" max_length="40" name="x_dete_emb_sync_content_process_state" type="collection">
+    <element attributes="live_feed=true" label="Sync Content Process State" max_length="40" name="x_dete_emb_sync_content_process_state" sizeclass="113" type="collection">
         <element label="Complete" max_length="40" name="complete" type="boolean"/>
         <element label="Event Name" max_length="255" name="event_name" type="string"/>
         <element label="Parm1" max_length="255" name="parm1" type="string"/>

@@ -3,13 +3,11 @@
         <sys_class_name>sys_security_acl_role</sys_class_name>
         <sys_created_by>ray.ferguson</sys_created_by>
         <sys_created_on>2019-08-14 16:54:09</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>365b02c5db53f7009c1a622dca9619a6</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_name>x_dete_emb_sync_content_process_state.x_dete_emb.edded_content_admin</sys_name>
         <sys_package display_value="Embedded Content" source="x_dete_emb">1b951ea1db07330098cbde82ca9619ac</sys_package>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Embedded Content">1b951ea1db07330098cbde82ca9619ac</sys_scope>
         <sys_security_acl display_value="x_dete_emb_sync_content_process_state">725b82c1db53f7009c1a622dca961998</sys_security_acl>
         <sys_update_name>sys_security_acl_role_365b02c5db53f7009c1a622dca9619a6</sys_update_name>

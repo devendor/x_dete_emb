@@ -48,17 +48,15 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>ray.ferguson</sys_created_by>
         <sys_created_on>2019-08-05 21:46:13</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
-        <sys_id>ede77856db4f730098cbde82ca961985</sys_id>
+        <sys_id>a89de247db3300104c5d7b823996197e</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Class</sys_name>
         <sys_package display_value="Embedded Content" source="x_dete_emb">1b951ea1db07330098cbde82ca9619ac</sys_package>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Embedded Content">1b951ea1db07330098cbde82ca9619ac</sys_scope>
         <sys_update_name>sys_dictionary_x_dete_emb_edded_content_sys_class_name</sys_update_name>
-        <sys_updated_by>ray.ferguson</sys_updated_by>
-        <sys_updated_on>2019-08-05 21:46:13</sys_updated_on>
+        <sys_updated_by>rferguson</sys_updated_by>
+        <sys_updated_on>2020-03-31 17:14:11</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

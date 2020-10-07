@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_app">
     <sys_app action="INSERT_OR_UPDATE">
         <active>true</active>
+        <can_edit_in_studio>false</can_edit_in_studio>
         <enforce_license>log</enforce_license>
+        <guided_setup_guid/>
         <js_level>helsinki_es5</js_level>
         <licensable>true</licensable>
         <license_category>none</license_category>
@@ -39,17 +41,18 @@
         <compressed>true</compressed>
         <content_type>image/png</content_type>
         <file_name>logo</file_name>
+        <hash/>
         <image_height>32</image_height>
         <image_width>32</image_width>
         <size_bytes>1530</size_bytes>
         <size_compressed>1553</size_compressed>
-        <state/>
+        <state>available</state>
         <sys_created_by>ray.ferguson</sys_created_by>
         <sys_created_on>2019-08-03 21:17:48</sys_created_on>
         <sys_id>353eda29db07330098cbde82ca9619aa</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_updated_by>ray.ferguson</sys_updated_by>
-        <sys_updated_on>2019-08-03 21:17:48</sys_updated_on>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>guest</sys_updated_by>
+        <sys_updated_on>2020-03-31 17:15:47</sys_updated_on>
         <table_name>ZZ_YYsys_app</table_name>
         <table_sys_id>1b951ea1db07330098cbde82ca9619ac</table_sys_id>
     </sys_attachment>
