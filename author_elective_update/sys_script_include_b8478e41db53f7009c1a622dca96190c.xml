@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="DELETE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_dete_emb.EventRunning</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>EventRunning</name>
+        <script><![CDATA[/* global GlideTableHierarchy */
+/* eslint-disable-next-line no-unused-vars,no-implicit-globals */
+var EventRunning = function(event_name,parm1){
+	var i = parm1.indexOf("_list");
+	var parm = (i>-1) ? parm1.substr(0,i) : parm1 ;
+	var ga = new GlideTableHierarchy(parm);
+	var gr = new GlideRecord('x_dete_emb_sync_content_process_state');
+	gr.addQuery('event_name',event_name);
+	if (ga.hasExtensions())
+		gr.addQuery('parm1','IN',ga.getAllExtensions().join(","));
+	else 
+		gr.addQuery('parm1',parm);
+	gr.addQuery('complete',"false");
+	gr.query();
+	return gr.hasNext();
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>ray.ferguson</sys_created_by>
+        <sys_created_on>2019-08-14 16:41:36</sys_created_on>
+        <sys_id>b8478e41db53f7009c1a622dca96190c</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_name>EventRunning</sys_name>
+        <sys_package display_value="Embedded Content" source="x_dete_emb">1b951ea1db07330098cbde82ca9619ac</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Embedded Content">1b951ea1db07330098cbde82ca9619ac</sys_scope>
+        <sys_update_name>sys_script_include_b8478e41db53f7009c1a622dca96190c</sys_update_name>
+        <sys_updated_by>rferguson</sys_updated_by>
+        <sys_updated_on>2020-10-07 17:33:29</sys_updated_on>
+    </sys_script_include>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Embedded Content">1b951ea1db07330098cbde82ca9619ac</application>
+        <file_path/>
+        <instance_id>295a4e69db41409049eac59705961932</instance_id>
+        <instance_name>dev94559</instance_name>
+        <name>sys_script_include_b8478e41db53f7009c1a622dca96190c</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;x_dete_emb.EventRunning&lt;/api_name&gt;&lt;caller_access/&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;description/&gt;&lt;name&gt;EventRunning&lt;/name&gt;&lt;script&gt;&lt;![CDATA[/* global GlideTableHierarchy */
+/* eslint-disable-next-line no-unused-vars,no-implicit-globals */
+var EventRunning = function(event_name,parm1){
+	var i = parm1.indexOf("_list");
+	var parm = (i&gt;-1) ? parm1.substr(0,i) : parm1 ;
+	var ga = new GlideTableHierarchy(parm);
+	var gr = new GlideRecord('x_dete_emb_sync_content_process_state');
+	gr.addQuery('event_name',event_name);
+	if (ga.hasExtensions())
+		gr.addQuery('parm1','IN',ga.getAllExtensions().join(","));
+	else 
+		gr.addQuery('parm1',parm);
+	gr.addQuery('complete',"false");
+	gr.query();
+	return gr.hasNext();
+};]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;ray.ferguson&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-08-14 16:41:36&lt;/sys_created_on&gt;&lt;sys_id&gt;b8478e41db53f7009c1a622dca96190c&lt;/sys_id&gt;&lt;sys_mod_count&gt;12&lt;/sys_mod_count&gt;&lt;sys_name&gt;EventRunning&lt;/sys_name&gt;&lt;sys_package display_value="Embedded Content" source="x_dete_emb"&gt;1b951ea1db07330098cbde82ca9619ac&lt;/sys_package&gt;&lt;sys_policy&gt;read&lt;/sys_policy&gt;&lt;sys_scope display_value="Embedded Content"&gt;1b951ea1db07330098cbde82ca9619ac&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_b8478e41db53f7009c1a622dca96190c&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;rferguson&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-10-07 17:33:29&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-197916726</payload_hash>
+        <record_name>EventRunning</record_name>
+        <reverted_from/>
+        <source>3aa9f5cadbe010104c5d7b82399619f2</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>rferguson</sys_created_by>
+        <sys_created_on>2020-10-07 17:33:30</sys_created_on>
+        <sys_id>ca101550dbb31010862db298f4961999</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17504200a200000001</sys_recorded_at>
+        <sys_updated_by>rferguson</sys_updated_by>
+        <sys_updated_on>2020-10-07 17:33:30</sys_updated_on>
+        <type>Script Include</type>
+        <update_guid>82101550c8b310109c849f5aeb884f99</update_guid>
+        <update_guid_history>82101550c8b310109c849f5aeb884f99:-197916726,21001ddcf7731010e221f982ea8d1c17:-395194975,3aff8150c3b31010cfdcedc8a8c41276:-1783401527,bddf815055b31010c5207567dc46cb70:-1452579718,a9bf0ddc8f731010b89bbe490bb801b3:-1783401527,f4af0150cfb31010d7cc1e241e1a1969:983460290,5cad6a47db3300107d8deb63921d1d63:-1410312875</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>rferguson</sys_created_by>
+        <sys_created_on>2020-10-08 16:09:38</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_include">sys_script_include</sys_db_object>
+        <sys_id>1ad8df2e8b2a4d4a91f9f01e5293f701</sys_id>
+        <sys_metadata>b8478e41db53f7009c1a622dca96190c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>EventRunning</sys_name>
+        <sys_package display_value="Embedded Content" source="x_dete_emb">1b951ea1db07330098cbde82ca9619ac</sys_package>
+        <sys_parent/>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Embedded Content">1b951ea1db07330098cbde82ca9619ac</sys_scope>
+        <sys_scope_delete display_value="">ba6a4d31da90420d9596cafcfe807f99</sys_scope_delete>
+        <sys_update_name>sys_script_include_b8478e41db53f7009c1a622dca96190c</sys_update_name>
+        <sys_update_version display_value="sys_script_include_b8478e41db53f7009c1a622dca96190c">ca101550dbb31010862db298f4961999</sys_update_version>
+        <sys_updated_by>rferguson</sys_updated_by>
+        <sys_updated_on>2020-10-08 16:09:38</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

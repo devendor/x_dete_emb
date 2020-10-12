@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Emb M2m Embedded Con Embedded Con" max_length="40" name="x_dete_emb_m2m_embedded_con_embedded_con" sizeclass="6334" type="collection">
+    <element label="Emb M2m Embedded Con Embedded Con" max_length="40" name="x_dete_emb_m2m_embedded_con_embedded_con" sizeclass="6248" type="collection">
         <element label="Requires" max_length="32" name="required_by" read_only="true" reference="x_dete_emb_edded_content" type="reference"/>
         <element label="Required By" max_length="32" name="requires" read_only="true" reference="x_dete_emb_edded_content" type="reference"/>
         <index name="index">

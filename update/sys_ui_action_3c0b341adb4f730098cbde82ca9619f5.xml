@@ -3,9 +3,11 @@
         <action_name>sysverb_update</action_name>
         <active>true</active>
         <client>false</client>
-        <client_script_v2/>
+        <client_script_v2><![CDATA[function onClick(g_form) {
+
+}]]></client_script_v2>
         <comments>Triggers refresh of data via event dispatched to the global update code that can access embeded data.</comments>
-        <condition>(gs.hasRole('admin') || gs.hasRole('x_dete_emb.edded_content_admin')) &amp;&amp; gs.action.getGlideURI().getFileFromPath().indexOf("_list") &gt; -1 &amp;&amp; EventRunning('x_dete_emb.edded_content_ui_action',gs.action.getGlideURI().getFileFromPath()) == false</condition>
+        <condition>(gs.hasRole('admin') || gs.hasRole('x_dete_emb.edded_content_admin')) &amp;&amp; gs.action.getGlideURI().getFileFromPath().indexOf("_list") &gt; -1</condition>
         <form_action>false</form_action>
         <form_button>false</form_button>
         <form_button_v2>false</form_button_v2>
@@ -26,46 +28,55 @@
         <name>Sync Content</name>
         <onclick/>
         <order>-1000</order>
-        <script><![CDATA[(function(action){
-	try {
-		var min_version =[1,0,8];
-		var appGr = new GlideRecord('sys_app');
-		if (appGr.get('70d34669dbc3330098cbde82ca96190a')){
-			var r_version = appGr.version.toString().split(".");
-			for (var i=0;i<min_version.length;i++){
-				if (parseInt(r_version[i]) < min_version[i]){
-					throw Error("version failed");
-				}
-			}
-		} else {
-			throw Error("global app not installed.");
-		}
-	} catch (e){
-		gs.addErrorMessage("You must install or update the global portion of the app before we can sync content. <A href='x_dete_emb_about_this_app.do'>About The App.</A>");
-		return ;
-	}
-	var table = action.getGlideURI().getFileFromPath();
-	var i = table.indexOf("_list");
-	if (i>-1)
-		table = table.substr(0,i);
-	if (EventRunning('x_dete_emb.edded_content_ui_action',table)){
-		gs.addInfoMessage("Sync already running.");
-	} else {
-		gs.addInfoMessage("Sync request sent.");
-		var ga = new GlideTableHierarchy(table);
-		var tables = ga.getAllExtensions() ;
-		for (var i = 0; i<tables.length; i++){
-			var gr = new GlideRecordSecure('x_dete_emb_sync_content_process_state');
-			gr.initialize();
-			gr.setValue('event_name','x_dete_emb.edded_content_ui_action');
-			gr.setValue('parm1', tables[i]);
-			gr.setValue('parm2',gs.getUserName());
-			gr.insert();
-			gs.eventQueue('x_dete_emb.edded_content_ui_action',null,tables[i],gs.getUserName());
-		}
-	}
-})(action);
-]]></script>
+        <script><![CDATA[/* globals GlideRecord,GlideTableHierarchy,EventUtil,gs,action */ // eslint-disable-line no-redeclare
+/* eslint no-unused-vars:1,eqeqeq:[1,smart],no-undef:1,no-useless-return:1,curly:[1,multi-or-nest,consistent],no-magic-numbers:[0,1,{ignoreArrayIndexes:true}]*/
+(
+  /**
+   * validate that global component is installed and at a sufficient version & send events to run async content collection.
+   * @param {object.<javaObject>} action - gs.action object.
+   * @returns {void} no return
+   */
+  function(action) {
+    var i, r_version, ga, tables, instance, eventUtil; 
+    var prop_prefix = gs.getCurrentScopeName() + ".";
+    var min_version = gs.getProperty(prop_prefix + "global_component_minimum_version").split(".").map(parseInt);
+    var global_app_id = gs.getProperty(prop_prefix + "global_component_id");
+    var appGr = new GlideRecord('sys_app');
+    var event_name = prop_prefix + "edded_content_ui_action";
+    var luser = gs.getUserName();
+    var sent = 0;
+    var deferred = 0;
+    try {
+        if (appGr.get(global_app_id)) {
+            r_version = appGr.version.toString().split(".").map(parseInt);
+            for (i = 0; i < min_version.length; i++) {
+                if (r_version[i] < min_version[i])
+                    throw Error("version failed");
+                else if (min_version[i] > r_version[i])
+                    break;
+            }
+        } else {
+            throw Error("global app not installed.");
+        }
+    } catch (e) {
+        gs.addErrorMessage("You must install or update the global portion of the app before we can sync content. <A href='x_dete_emb_about_this_app.do'>About The App.</A>");
+        return;
+    }
+    tables = action.getGlideURI().getFileFromPath().split("_list").shift();
+    ga = new GlideTableHierarchy(tables);
+    tables = ga.getAllExtensions();
+    instance = new GlideRecord('sys_scope');
+    instance.get('scope', gs.getCurrentScopeName());
+    eventUtil = new EventUtil();
+    for (i = 0; i < tables.length; i++){
+      if( eventUtil.eventQueueScheduledOnce(event_name, instance, tables[i], luser, null, 'parm1'))
+        sent++;
+      else
+        deferred++;
+    }
+    i = gs.getEscapedMessage("{0} async crawl request events were sent. {1} were skipped / already pending.",[sent.toFixed(0),deferred.toFixed(0)]);
+    gs.addInfoMessage(i);
+})(action);]]></script>
         <show_insert>false</show_insert>
         <show_multiple_update>false</show_multiple_update>
         <show_query>false</show_query>
@@ -76,15 +87,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>3c0b341adb4f730098cbde82ca9619f5</sys_id>
-        <sys_mod_count>24</sys_mod_count>
+        <sys_mod_count>47</sys_mod_count>
         <sys_name>Sync Content</sys_name>
         <sys_overrides display_value="New">e35ea848c3302200f7d1ca3adfba8f54</sys_overrides>
         <sys_package display_value="Embedded Content" source="x_dete_emb">1b951ea1db07330098cbde82ca9619ac</sys_package>
         <sys_policy/>
         <sys_scope display_value="Embedded Content">1b951ea1db07330098cbde82ca9619ac</sys_scope>
         <sys_update_name>sys_ui_action_3c0b341adb4f730098cbde82ca9619f5</sys_update_name>
-        <sys_updated_by>ray.ferguson</sys_updated_by>
-        <sys_updated_on>2019-08-25 17:31:29</sys_updated_on>
+        <sys_updated_by>rferguson</sys_updated_by>
+        <sys_updated_on>2020-10-08 15:50:58</sys_updated_on>
         <table>x_dete_emb_edded_content</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>

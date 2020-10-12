@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_restricted_caller_access">
+    <sys_restricted_caller_access action="INSERT_OR_UPDATE">
+        <operation>read</operation>
+        <source>36d056a1db07330098cbde82ca9619c4</source>
+        <source_scope display_value="Global">global</source_scope>
+        <source_table>sys_script_include</source_table>
+        <source_type>2</source_type>
+        <status>2</status>
+        <sys_class_name>sys_restricted_caller_access</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2020-10-08 01:19:53</sys_created_on>
+        <sys_id>c2dafe50dbb71010862db298f49619bd</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>global</sys_name>
+        <sys_package display_value="Embedded Content" source="x_dete_emb">1b951ea1db07330098cbde82ca9619ac</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Embedded Content">1b951ea1db07330098cbde82ca9619ac</sys_scope>
+        <sys_update_name>sys_restricted_caller_access_c2dafe50dbb71010862db298f49619bd</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2020-10-09 03:20:18</sys_updated_on>
+        <target name="x_dete_emb_edded_plugin_jtemplate" target_table="sys_db_object">9958bf83dbc373009c1a622dca961905</target>
+        <target_scope display_value="Embedded Content">1b951ea1db07330098cbde82ca9619ac</target_scope>
+        <target_table>sys_db_object</target_table>
+        <target_type>1</target_type>
+    </sys_restricted_caller_access>
+</record_update>
