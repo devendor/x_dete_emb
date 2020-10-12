@@ -3,7 +3,7 @@
         <choices>debug,info,warn,error</choices>
         <description>Log levels to log</description>
         <ignore_cache>true</ignore_cache>
-        <is_private>true</is_private>
+        <is_private>false</is_private>
         <name>x_dete_emb.logging.verbosity</name>
         <read_roles/>
         <suffix>logging.verbosity</suffix>
@@ -11,14 +11,14 @@
         <sys_created_by>rferguson</sys_created_by>
         <sys_created_on>2020-10-07 19:33:13</sys_created_on>
         <sys_id>64fae1d8dbb31010862db298f496193e</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>x_dete_emb.logging.verbosity</sys_name>
         <sys_package display_value="Embedded Content" source="x_dete_emb">1b951ea1db07330098cbde82ca9619ac</sys_package>
         <sys_policy/>
         <sys_scope display_value="Embedded Content">1b951ea1db07330098cbde82ca9619ac</sys_scope>
         <sys_update_name>sys_properties_64fae1d8dbb31010862db298f496193e</sys_update_name>
         <sys_updated_by>rferguson</sys_updated_by>
-        <sys_updated_on>2020-10-09 03:16:06</sys_updated_on>
+        <sys_updated_on>2020-10-12 18:29:57</sys_updated_on>
         <type>choicelist</type>
         <value>error</value>
         <write_roles/>
