@@ -64,7 +64,7 @@
         <update_guid_history>90ad6a47da330010c09f83ec99fbf48c:1954519243</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="x_dete_emb_sync_content_process_state.x_dete_emb.edded_content_admin">5656ceacdbbf1010862db298f496194a</sys_audit_delete>
+        <sys_audit_delete display_value="">5656ceacdbbf1010862db298f496194a</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>rferguson</sys_created_by>
         <sys_created_on>2020-10-08 16:09:00</sys_created_on>

@@ -87,7 +87,7 @@
         <update_guid_history>ced01c5b03b70010d963cda413798e66:2108015909</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="DriveLetter">44c53a06dba410104c5d7b823996190e</sys_audit_delete>
+        <sys_audit_delete display_value="">44c53a06dba410104c5d7b823996190e</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>rferguson</sys_created_by>
         <sys_created_on>2020-05-04 22:02:56</sys_created_on>

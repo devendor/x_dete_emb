@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element attributes="live_feed=true" extends="x_dete_emb_edded_content" label="Embedded XML" max_length="40" name="x_dete_emb_edded_xml" sizeclass="2850" type="collection">
+    <element attributes="live_feed=true" extends="x_dete_emb_edded_content" label="Embedded XML" max_length="40" name="x_dete_emb_edded_xml" sizeclass="2845" type="collection">
         <element attributes="html_sanitize=false" label="XML Content" max_length="16777215" name="content" type="xml"/>
-        <element function_definition="glidefunction:length(content)" function_field="true" label="Bytes" max_length="40" name="size" read_only="true" type="integer"/>
+        <element active="false" function_definition="glidefunction:length(content)" function_field="true" label="Bytes" max_length="40" name="size" read_only="true" type="integer"/>
     </element>
 </database>

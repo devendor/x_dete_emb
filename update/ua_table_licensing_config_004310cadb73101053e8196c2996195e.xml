@@ -4,22 +4,22 @@
         <license_condition/>
         <license_model>none</license_model>
         <license_roles/>
-        <name>x_dete_emb_edded_core_jtemplate</name>
+        <name>x_dete_emb_edded_core_js</name>
         <op_delete>true</op_delete>
         <op_insert>true</op_insert>
         <op_update>true</op_update>
         <owner_condition/>
         <sys_class_name>ua_table_licensing_config</sys_class_name>
         <sys_created_by>ray.ferguson</sys_created_by>
-        <sys_created_on>2019-08-08 19:30:18</sys_created_on>
-        <sys_id>019d2647db3300104c5d7b823996195b</sys_id>
+        <sys_created_on>2019-08-05 21:58:44</sys_created_on>
+        <sys_id>004310cadb73101053e8196c2996195e</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>x_dete_emb_edded_core_jtemplate</sys_name>
+        <sys_name>x_dete_emb_edded_core_js</sys_name>
         <sys_package display_value="Embedded Content" source="x_dete_emb">1b951ea1db07330098cbde82ca9619ac</sys_package>
         <sys_policy/>
         <sys_scope display_value="Embedded Content">1b951ea1db07330098cbde82ca9619ac</sys_scope>
-        <sys_update_name>ua_table_licensing_config_019d2647db3300104c5d7b823996195b</sys_update_name>
+        <sys_update_name>ua_table_licensing_config_004310cadb73101053e8196c2996195e</sys_update_name>
         <sys_updated_by>ray.ferguson</sys_updated_by>
-        <sys_updated_on>2019-08-08 19:30:18</sys_updated_on>
+        <sys_updated_on>2019-08-05 21:58:44</sys_updated_on>
     </ua_table_licensing_config>
 </record_update>
