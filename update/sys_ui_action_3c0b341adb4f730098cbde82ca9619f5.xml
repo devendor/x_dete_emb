@@ -28,55 +28,61 @@
         <name>Sync Content</name>
         <onclick/>
         <order>-1000</order>
-        <script><![CDATA[/* globals GlideRecord,GlideTableHierarchy,EventUtil,gs,action */ // eslint-disable-line no-redeclare
+        <script><![CDATA[/* globals GlideRecord,GlideTableHierarchy,EventUtil,gs,action,Logger */ // eslint-disable-line no-redeclare
 /* eslint no-unused-vars:1,eqeqeq:[1,smart],no-undef:1,no-useless-return:1,curly:[1,multi-or-nest,consistent],no-magic-numbers:[0,1,{ignoreArrayIndexes:true}]*/
 (
-  /**
-   * validate that global component is installed and at a sufficient version & send events to run async content collection.
-   * @param {object.<javaObject>} action - gs.action object.
-   * @returns {void} no return
-   */
-  function(action) {
-    var i, r_version, ga, tables, instance, eventUtil; 
-    var prop_prefix = gs.getCurrentScopeName() + ".";
-    var min_version = gs.getProperty(prop_prefix + "global_component_minimum_version").split(".").map(parseInt);
-    var global_app_id = gs.getProperty(prop_prefix + "global_component_id");
-    var appGr = new GlideRecord('sys_app');
-    var event_name = prop_prefix + "edded_content_ui_action";
-    var luser = gs.getUserName();
-    var sent = 0;
-    var deferred = 0;
-    try {
-        if (appGr.get(global_app_id)) {
-            r_version = appGr.version.toString().split(".").map(parseInt);
-            for (i = 0; i < min_version.length; i++) {
-                if (r_version[i] < min_version[i])
-                    throw Error("version failed");
-                else if (min_version[i] > r_version[i])
-                    break;
+    /**
+     * validate that global component is installed and at a sufficient version & send events to run async content collection.
+     * @param {object.<javaObject>} action - gs.action object.
+     * @returns {void} no return
+     */
+    function(action) {
+        var i, r_version, ga, tables, instance, eventUtil;
+        var prop_prefix = gs.getCurrentScopeName() + ".";
+        var min_version = gs.getProperty(prop_prefix + "global_component_minimum_version").split(".").map(parseInt);
+        var global_app_id = gs.getProperty(prop_prefix + "global_component_id");
+        var appGr = new GlideRecord('sys_app');
+        var event_name = prop_prefix + "edded_content_ui_action";
+        var luser = gs.getUserName();
+        var sent = 0;
+        var deferred = 0;
+        try {
+            if (appGr.get(global_app_id)) {
+                r_version = appGr.version.toString().split(".").map(parseInt);
+                for (i = 0; i < min_version.length; i++) {
+                    if (r_version[i] < min_version[i])
+                        throw Error("version failed");
+                    else if (min_version[i] > r_version[i])
+                        break;
+                }
+            } else {
+                throw Error("global app not installed.");
             }
-        } else {
-            throw Error("global app not installed.");
+        } catch (e) {
+            gs.addErrorMessage("You must install or update the global portion of the app before we can sync content. <A href='x_dete_emb_about_this_app.do'>About The App.</A>");
+            return;
         }
-    } catch (e) {
-        gs.addErrorMessage("You must install or update the global portion of the app before we can sync content. <A href='x_dete_emb_about_this_app.do'>About The App.</A>");
-        return;
+        try {
+            tables = action.getGlideURI().getFileFromPath().split("_list").shift();
+            ga = new GlideTableHierarchy(tables);
+            tables = ga.getAllExtensions();
+            instance = new GlideRecord('sys_scope');
+            instance.get('scope', gs.getCurrentScopeName());
+            eventUtil = new EventUtil();
+            for (i = 0; i < tables.length; i++) {
+                if (eventUtil.eventQueueScheduledOnce(event_name, instance, tables[i], luser, null, 'parm1'))
+                    sent++;
+                else
+                    deferred++;
+            }
+            i = gs.getEscapedMessage("{0} async crawl request events were sent. {1} were skipped / already pending.", [sent.toFixed(0), deferred.toFixed(0)]);
+            gs.addInfoMessage(i);
+        } catch (e) {
+            gs.addInfoMessage(String(e));
+            new Logger("sync_content_ui_action").error("Exception {0}:\nStack {1}\n", [e, e.stack]);
+        }
     }
-    tables = action.getGlideURI().getFileFromPath().split("_list").shift();
-    ga = new GlideTableHierarchy(tables);
-    tables = ga.getAllExtensions();
-    instance = new GlideRecord('sys_scope');
-    instance.get('scope', gs.getCurrentScopeName());
-    eventUtil = new EventUtil();
-    for (i = 0; i < tables.length; i++){
-      if( eventUtil.eventQueueScheduledOnce(event_name, instance, tables[i], luser, null, 'parm1'))
-        sent++;
-      else
-        deferred++;
-    }
-    i = gs.getEscapedMessage("{0} async crawl request events were sent. {1} were skipped / already pending.",[sent.toFixed(0),deferred.toFixed(0)]);
-    gs.addInfoMessage(i);
-})(action);]]></script>
+)(action);]]></script>
         <show_insert>false</show_insert>
         <show_multiple_update>false</show_multiple_update>
         <show_query>false</show_query>
@@ -87,15 +93,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>3c0b341adb4f730098cbde82ca9619f5</sys_id>
-        <sys_mod_count>47</sys_mod_count>
+        <sys_mod_count>52</sys_mod_count>
         <sys_name>Sync Content</sys_name>
         <sys_overrides display_value="New">e35ea848c3302200f7d1ca3adfba8f54</sys_overrides>
         <sys_package display_value="Embedded Content" source="x_dete_emb">1b951ea1db07330098cbde82ca9619ac</sys_package>
         <sys_policy/>
         <sys_scope display_value="Embedded Content">1b951ea1db07330098cbde82ca9619ac</sys_scope>
         <sys_update_name>sys_ui_action_3c0b341adb4f730098cbde82ca9619f5</sys_update_name>
-        <sys_updated_by>rferguson</sys_updated_by>
-        <sys_updated_on>2020-10-08 15:50:58</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-29 16:18:27</sys_updated_on>
         <table>x_dete_emb_edded_content</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>
