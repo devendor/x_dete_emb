@@ -79,7 +79,7 @@
             gs.addInfoMessage(i);
         } catch (e) {
             gs.addInfoMessage(String(e));
-            new Logger("sync_content_ui_action").error("Exception {0}:\nStack {1}\n", [e, e.stack]);
+            new Logger("sync_content_ui_action").error("Exception {0}:\nStack {1}\n", e, e.stack);
         }
     }
 )(action);]]></script>
@@ -93,7 +93,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>3c0b341adb4f730098cbde82ca9619f5</sys_id>
-        <sys_mod_count>52</sys_mod_count>
+        <sys_mod_count>53</sys_mod_count>
         <sys_name>Sync Content</sys_name>
         <sys_overrides display_value="New">e35ea848c3302200f7d1ca3adfba8f54</sys_overrides>
         <sys_package display_value="Embedded Content" source="x_dete_emb">1b951ea1db07330098cbde82ca9619ac</sys_package>
@@ -101,7 +101,7 @@
         <sys_scope display_value="Embedded Content">1b951ea1db07330098cbde82ca9619ac</sys_scope>
         <sys_update_name>sys_ui_action_3c0b341adb4f730098cbde82ca9619f5</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-11-29 16:18:27</sys_updated_on>
+        <sys_updated_on>2020-11-29 22:04:03</sys_updated_on>
         <table>x_dete_emb_edded_content</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>
