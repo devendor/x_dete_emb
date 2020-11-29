@@ -1,3 +1,3 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element attributes="live_feed=true" extends="x_dete_emb_edded_xml" label="Platform JTemplate" max_length="40" name="x_dete_emb_edded_core_jtemplate" sizeclass="532" type="collection"/>
+    <element attributes="live_feed=false,edge_encryption_excluded=true,onlineAlter=false" extends="x_dete_emb_edded_xml" label="Platform JTemplate" max_length="40" name="x_dete_emb_edded_core_jtemplate" sizeclass="532" type="collection"/>
 </database>

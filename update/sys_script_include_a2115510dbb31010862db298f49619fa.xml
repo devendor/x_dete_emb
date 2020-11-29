@@ -22,6 +22,7 @@ EventUtil.prototype = {
      */
     initialize: function() {
         this._initialized = true;
+		this.log=new Logger(this.type);
     },
     /**
      * How far into the past should we look when checking for running events?
@@ -59,7 +60,7 @@ EventUtil.prototype = {
         while (gr.hasNext() && gr.next())
             r.push(gr.getValue('table_name'));
         if (gs.isDebugging())
-            gs.debug('{0}.getEventPartitions("{1}", "{2}") // -> {3}', this.type, _from, _to, JSON.stringify(r));
+            this.log.debug('{0}.getEventPartitions("{1}", "{2}") // -> {3}', this.type, _from, _to, JSON.stringify(r));
         return r;
     },
     /**
@@ -82,7 +83,7 @@ EventUtil.prototype = {
         }
         r = (found_rows > 0);
         if (gs.isDebugging())
-            gs.debug('{0}.hasEvent("{1}", "{2}", "{3}") // -> {4}', this.type, encodedQuery, from, to, r);
+            this.log.debug('{0}.hasEvent("{1}", "{2}", "{3}") // -> {4}', this.type, encodedQuery, from, to, r);
         return r;
     },
     /** 
@@ -133,14 +134,14 @@ EventUtil.prototype = {
             instanceGr = (instance instanceof GlideRecord) ? instance : instance.getRefRecord();
             when = new GlideDateTime();
             if (typeof wait === 'number') when.addSeconds(wait);
-            gs.info("adding event '{0}' instance='{1}',parm1='{2}' parm2='{3}' to be processes at or after '{4}'", name, instanceId, p1, p2, String(when));
+            this.log.info("adding event '{0}' instance='{1}',parm1='{2}' parm2='{3}' to be processes at or after '{4}'", name, instanceId, p1, p2, String(when));
             gs.eventQueueScheduled(name, instanceGr, p1, p2, when);
             r = true;
         } else {
             r = false;
         }
         if (gs.isDebugging())
-            gs.debug('{0}.eventQueueScheduledOnce("{1}") // -> {2}', this.type, [name, instanceId, p1, p2, (wait || 0), aggregators.join(",")].join('", "'), r);
+            this.log.debug('{0}.eventQueueScheduledOnce("{1}") // -> {2}', this.type, [name, instanceId, p1, p2, (wait || 0), aggregators.join(",")].join('", "'), r);
         return r;
     },
     type: 'EventUtil'
@@ -149,13 +150,13 @@ EventUtil.prototype = {
         <sys_created_by>rferguson</sys_created_by>
         <sys_created_on>2020-10-07 17:39:40</sys_created_on>
         <sys_id>a2115510dbb31010862db298f49619fa</sys_id>
-        <sys_mod_count>91</sys_mod_count>
+        <sys_mod_count>92</sys_mod_count>
         <sys_name>EventUtil</sys_name>
         <sys_package display_value="Embedded Content" source="x_dete_emb">1b951ea1db07330098cbde82ca9619ac</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="Embedded Content">1b951ea1db07330098cbde82ca9619ac</sys_scope>
         <sys_update_name>sys_script_include_a2115510dbb31010862db298f49619fa</sys_update_name>
-        <sys_updated_by>rferguson</sys_updated_by>
-        <sys_updated_on>2020-10-08 03:42:12</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-28 00:38:33</sys_updated_on>
     </sys_script_include>
 </record_update>

@@ -4,7 +4,7 @@
         <admin_overrides>true</admin_overrides>
         <advanced>true</advanced>
         <condition/>
-        <description>Allow delete for records in x_dete_emb_edded_content, for users with role x_dete_emb.edded_content_admin.</description>
+        <description>Allow delete for records in x_dete_emb_edded_content, for users with roles (x_dete_emb.edded_content_admin, admin).</description>
         <name>x_dete_emb_edded_content</name>
         <operation display_value="delete">delete</operation>
         <script/>

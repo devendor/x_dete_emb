@@ -4,7 +4,7 @@
         <admin_overrides>true</admin_overrides>
         <advanced>false</advanced>
         <condition/>
-        <description/>
+        <description>Allow read for records in x_dete_emb_edded_content, for users with roles (x_dete_emb.edded_content_user, teamdev_user, x_dete_emb.edded_content_admin).</description>
         <name>x_dete_emb_edded_content</name>
         <operation display_value="read">read</operation>
         <script/>

@@ -2,10 +2,10 @@
     <sys_db_object action="INSERT_OR_UPDATE">
         <access>public</access>
         <actions_access>false</actions_access>
-        <alter_access>false</alter_access>
-        <caller_access>1</caller_access>
+        <alter_access>true</alter_access>
+        <caller_access/>
         <client_scripts_access>false</client_scripts_access>
-        <configuration_access>false</configuration_access>
+        <configuration_access>true</configuration_access>
         <create_access>true</create_access>
         <create_access_controls>false</create_access_controls>
         <delete_access>true</delete_access>
@@ -25,14 +25,14 @@
         <sys_created_by>ray.ferguson</sys_created_by>
         <sys_created_on>2019-08-08 19:28:58</sys_created_on>
         <sys_id>0aa4f303dbc373009c1a622dca9619dd</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name>Platform JForm</sys_name>
         <sys_package display_value="Embedded Content" source="x_dete_emb">1b951ea1db07330098cbde82ca9619ac</sys_package>
         <sys_policy/>
         <sys_scope display_value="Embedded Content">1b951ea1db07330098cbde82ca9619ac</sys_scope>
         <sys_update_name>sys_db_object_0aa4f303dbc373009c1a622dca9619dd</sys_update_name>
         <sys_updated_by>rferguson</sys_updated_by>
-        <sys_updated_on>2020-08-14 22:27:33</sys_updated_on>
+        <sys_updated_on>2020-11-20 02:48:55</sys_updated_on>
         <update_access>true</update_access>
         <user_role display_value="x_dete_emb.edded_content_user" name="x_dete_emb.edded_content_user">a0a99ea5db07330098cbde82ca9619f2</user_role>
         <ws_access>true</ws_access>
