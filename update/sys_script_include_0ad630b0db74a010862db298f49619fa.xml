@@ -7,8 +7,9 @@
         <client_callable>false</client_callable>
         <description>Allow global include to log to app log when indexing.</description>
         <name>Logger</name>
-        <script><![CDATA[var Logger = Class.create();
-
+        <script><![CDATA[/* globals Class,gs */
+/* eslint no-undef:1,no-implicit-globals:1,no-magic-numbers:[1,{ignore:[0,1]}] */
+var Logger = Class.create(); // eslint-disable-line no-implicit-globals
 Logger.prototype = {
     initialize: function(source_tag) {
 		var caller_scope = gs.getCallerScopeName();
@@ -18,10 +19,22 @@ Logger.prototype = {
 			this._source = String(source_tag)+": ";
     },
 	_logMessage: function(level,args){
+    var message = this._source+args[0];
+    var replacements ;
 		if (args.length===1) 
-			gs[level](this._source+ args[0]);
-		else
-			gs[level](this._source+gs.getMessage(args[0],Array.prototype.slice.call(args,1)));
+			gs[level](message);
+		else {
+      replacements = Array.prototype.slice.call(args,1).map(
+        function(item){
+          try {
+            return String(item);
+          } catch (e){
+            return "inaccessible";
+          }
+        }
+      );
+			gs[level](message,replacements);
+    }
 	},
 	debug: function(){
 		this._logMessage('debug',arguments);
@@ -42,13 +55,13 @@ Logger.prototype = {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-11-27 22:05:20</sys_created_on>
         <sys_id>0ad630b0db74a010862db298f49619fa</sys_id>
-        <sys_mod_count>18</sys_mod_count>
+        <sys_mod_count>19</sys_mod_count>
         <sys_name>Logger</sys_name>
         <sys_package display_value="Embedded Content" source="x_dete_emb">1b951ea1db07330098cbde82ca9619ac</sys_package>
         <sys_policy/>
         <sys_scope display_value="Embedded Content">1b951ea1db07330098cbde82ca9619ac</sys_scope>
         <sys_update_name>sys_script_include_0ad630b0db74a010862db298f49619fa</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-11-28 00:30:12</sys_updated_on>
+        <sys_updated_by>rferguson</sys_updated_by>
+        <sys_updated_on>2020-11-29 22:26:36</sys_updated_on>
     </sys_script_include>
 </record_update>

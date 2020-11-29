@@ -19,7 +19,7 @@
         <name>syslog_app_scope</name>
         <order>13</order>
         <override_menu_roles>true</override_menu_roles>
-        <query>syslog_app_scope_list.do?sysparm_fixed_query=sys_scope=1b951ea1db07330098cbde82ca9619ac^ORDERBYDESCsys_created_on&amp;sysparm_query=sys_created_on&gt;=javascript:gs.beginningOfToday()^EQ&amp;sysparm_view=x_dete_emb</query>
+        <query>syslog_app_scope_list.do?sysparm_fixed_query=sys_scope=1b951ea1db07330098cbde82ca9619ac&amp;sysparm_query=sys_created_on&gt;=javascript:gs.beginningOfToday()^ORDERBYDESCsys_created_on^EQ&amp;sysparm_view=x_dete_emb</query>
         <report/>
         <roles>admin,x_dete_emb.edded_content_admin</roles>
         <sys_class_name>sys_app_module</sys_class_name>
@@ -28,7 +28,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>0aa8b97cdbf4a010862db298f49619b5</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>15</sys_mod_count>
         <sys_name>Logs</sys_name>
         <sys_overrides/>
         <sys_package display_value="Embedded Content" source="x_dete_emb">1b951ea1db07330098cbde82ca9619ac</sys_package>
@@ -36,7 +36,7 @@
         <sys_scope display_value="Embedded Content">1b951ea1db07330098cbde82ca9619ac</sys_scope>
         <sys_update_name>sys_app_module_0aa8b97cdbf4a010862db298f49619b5</sys_update_name>
         <sys_updated_by>rferguson</sys_updated_by>
-        <sys_updated_on>2020-11-28 18:46:16</sys_updated_on>
+        <sys_updated_on>2020-11-29 23:19:27</sys_updated_on>
         <timeline_page/>
         <title>Logs</title>
         <uncancelable>false</uncancelable>

@@ -7,7 +7,8 @@
         <client_callable>false</client_callable>
         <description>Allows some advanced  event manipulation that works in scopes.</description>
         <name>EventUtil</name>
-        <script><![CDATA[/* eslint curly:[1,multi-or-nest,consistent],no-magic-numbers:[0,1,{ignoreArrayIndexes:true}] */
+        <script><![CDATA[/* globals Class,Logger,gs,GlideDateTime,GlideRecord,GlideAggregate */
+/* eslint no-undef:1,no-implicit-globals:1,curly:[1,multi-or-nest,consistent],no-magic-numbers:[0,1,{ignoreArrayIndexes:true}] */
 var EventUtil = Class.create(); // eslint-disable-line no-implicit-globals
 EventUtil.prototype = {
     /**
@@ -22,7 +23,7 @@ EventUtil.prototype = {
      */
     initialize: function() {
         this._initialized = true;
-		this.log=new Logger(this.type);
+        this.log = new Logger(this.type);
     },
     /**
      * How far into the past should we look when checking for running events?
@@ -47,20 +48,21 @@ EventUtil.prototype = {
      */
     getEventPartitions: function(from, to) {
         var r = [];
-        var gr;
         var _from = (typeof from === 'undefined') ? gs.minutesAgo(this.lookback_minutes) : from;
         var _to = (typeof to === 'undefined') ? String(new GlideDateTime()) : to;
-        gr = new GlideRecord('sys_table_rotation_schedule');
-        gr.addQuery('name.name', 'sysevent');
-        gr.addQuery('valid_from', '<=', _from);
-        gr.addQuery('valid_to', '>', _to);
-        gr.addQuery('offline', 'false');
-        gr.orderByDesc('valid_from');
+        var encquery = gs.getMessage(
+          "name.name=sysevent^valid_from<={0}^valid_to>={0}^NQname.name=sysevent^valid_from>={0}^valid_from<={1}^ORDERBYDESCvalid_from",
+          [_from,_to]
+        ); 
+        var gr = new GlideRecord('sys_table_rotation_schedule');
+        gr.addEncodedQuery(encquery);
         gr.query();
         while (gr.hasNext() && gr.next())
             r.push(gr.getValue('table_name'));
         if (gs.isDebugging())
-            this.log.debug('{0}.getEventPartitions("{1}", "{2}") // -> {3}', this.type, _from, _to, JSON.stringify(r));
+            this.log.debug('{0}.getEventPartitions("{1}", "{2}") // -> {3} via {4}', this.type, _from, _to, JSON.stringify(r),encquery);
+        if (r.length === 0)
+          throw new Error("Unable to find paritition tables for sysevent "+encquery);
         return r;
     },
     /**
@@ -150,13 +152,13 @@ EventUtil.prototype = {
         <sys_created_by>rferguson</sys_created_by>
         <sys_created_on>2020-10-07 17:39:40</sys_created_on>
         <sys_id>a2115510dbb31010862db298f49619fa</sys_id>
-        <sys_mod_count>92</sys_mod_count>
+        <sys_mod_count>96</sys_mod_count>
         <sys_name>EventUtil</sys_name>
         <sys_package display_value="Embedded Content" source="x_dete_emb">1b951ea1db07330098cbde82ca9619ac</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="Embedded Content">1b951ea1db07330098cbde82ca9619ac</sys_scope>
         <sys_update_name>sys_script_include_a2115510dbb31010862db298f49619fa</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-11-28 00:38:33</sys_updated_on>
+        <sys_updated_by>rferguson</sys_updated_by>
+        <sys_updated_on>2020-11-29 22:47:53</sys_updated_on>
     </sys_script_include>
 </record_update>

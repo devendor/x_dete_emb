@@ -28,7 +28,7 @@
         <name>Delete All Records</name>
         <onclick>deleteAllRecordsPlease()</onclick>
         <order>-999</order>
-        <script><![CDATA[/* globals GwtMessage,GlideAjax,g_list */ // eslint-disable-line no-redeclare
+        <script><![CDATA[/* globals GwtMessage,GlideAjax,g_list,prompt,alert */ // eslint-disable-line no-redeclare
 /* eslint no-unused-vars:1,eqeqeq:[1,smart],no-undef:1,no-useless-return:1,curly:[1,multi-or-nest,consistent],no-magic-numbers:[0,1,{ignoreArrayIndexes:true}]*/
 /**
  * Deletes the records
@@ -68,7 +68,7 @@ function deleteAllRecordsPlease() { // eslint-disable-line no-implicit-globals,n
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>26d06c70db775010862db298f4961978</sys_id>
-        <sys_mod_count>32</sys_mod_count>
+        <sys_mod_count>33</sys_mod_count>
         <sys_name>Delete All Records</sys_name>
         <sys_overrides/>
         <sys_package display_value="Embedded Content" source="x_dete_emb">1b951ea1db07330098cbde82ca9619ac</sys_package>
@@ -76,7 +76,7 @@ function deleteAllRecordsPlease() { // eslint-disable-line no-implicit-globals,n
         <sys_scope display_value="Embedded Content">1b951ea1db07330098cbde82ca9619ac</sys_scope>
         <sys_update_name>sys_ui_action_26d06c70db775010862db298f4961978</sys_update_name>
         <sys_updated_by>rferguson</sys_updated_by>
-        <sys_updated_on>2020-10-09 04:29:17</sys_updated_on>
+        <sys_updated_on>2020-11-29 23:03:36</sys_updated_on>
         <table>x_dete_emb_edded_content</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>
