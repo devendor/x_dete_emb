@@ -4,7 +4,6 @@
         <can_delegate>true</can_delegate>
         <description>Allows use of the Embedded Content Scoped Application.</description>
         <elevated_privilege>false</elevated_privilege>
-        <encryption_context/>
         <grantable>true</grantable>
         <includes_roles/>
         <name>x_dete_emb.edded_content_user</name>

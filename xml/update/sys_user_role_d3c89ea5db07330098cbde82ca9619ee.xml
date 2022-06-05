@@ -4,7 +4,6 @@
         <can_delegate>true</can_delegate>
         <description>Can configure the and manage the Embedded Content scoped application.</description>
         <elevated_privilege>false</elevated_privilege>
-        <encryption_context/>
         <grantable>true</grantable>
         <includes_roles/>
         <name>x_dete_emb.edded_content_admin</name>
