@@ -11,28 +11,28 @@
         <delete_access>true</delete_access>
         <extension_model/>
         <is_extendable>false</is_extendable>
-        <label>Platform JTemplate</label>
-        <live_feed_enabled>true</live_feed_enabled>
-        <name>x_dete_emb_edded_core_jtemplate</name>
+        <label>Platform JForm</label>
+        <live_feed_enabled>false</live_feed_enabled>
+        <name>x_dete_emb_edded_core_form</name>
         <number_ref/>
         <provider_class/>
         <read_access>true</read_access>
         <scriptable_table>false</scriptable_table>
-        <super_class display_value="Embedded XML" name="x_dete_emb_edded_xml">725b9703db8373009c1a622dca961985</super_class>
+        <super_class display_value="Embedded XML" name="x_dete_emb_edded_xml">4b34c6532f7701102cf1ad2ef699b6c3</super_class>
         <sys_class_code/>
         <sys_class_name>sys_db_object</sys_class_name>
         <sys_class_path/>
         <sys_created_by>ray.ferguson</sys_created_by>
-        <sys_created_on>2019-08-08 19:30:18</sys_created_on>
-        <sys_id>b8657f03dbc373009c1a622dca961902</sys_id>
-        <sys_mod_count>5</sys_mod_count>
-        <sys_name>Platform JTemplate</sys_name>
+        <sys_created_on>2019-08-08 19:28:58</sys_created_on>
+        <sys_id>4334c6532f7701102cf1ad2ef699b6d3</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>Platform JForm</sys_name>
         <sys_package display_value="Embedded Content" source="x_dete_emb">1b951ea1db07330098cbde82ca9619ac</sys_package>
         <sys_policy/>
         <sys_scope display_value="Embedded Content">1b951ea1db07330098cbde82ca9619ac</sys_scope>
-        <sys_update_name>sys_db_object_b8657f03dbc373009c1a622dca961902</sys_update_name>
+        <sys_update_name>sys_db_object_4334c6532f7701102cf1ad2ef699b6d3</sys_update_name>
         <sys_updated_by>rferguson</sys_updated_by>
-        <sys_updated_on>2020-11-20 02:48:54</sys_updated_on>
+        <sys_updated_on>2020-11-20 02:48:55</sys_updated_on>
         <update_access>true</update_access>
         <user_role display_value="x_dete_emb.edded_content_user" name="x_dete_emb.edded_content_user">a0a99ea5db07330098cbde82ca9619f2</user_role>
         <ws_access>true</ws_access>

@@ -1,5 +1,3 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element extends="x_dete_emb_edded_xml" label="Plugin JForm" max_length="40" name="x_dete_emb_edded_plugin_form" sizeclass="187" type="collection">
-        <element function_definition="glidefunction:concat('plugin://',source_id,'/',path)" function_field="true" label="URI" max_length="255" name="uri" read_only="true" type="string"/>
-    </element>
+    <element extends="x_dete_emb_edded_xml" label="Plugin JForm" max_length="40" name="x_dete_emb_edded_plugin_form" type="collection"/>
 </database>

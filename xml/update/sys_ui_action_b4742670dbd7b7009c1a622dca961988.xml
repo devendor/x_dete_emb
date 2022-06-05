@@ -25,10 +25,11 @@
         <list_link>false</list_link>
         <list_save_with_form_button>false</list_save_with_form_button>
         <list_style/>
+        <messages/>
         <name>Toggle Wrap</name>
         <onclick>x_dete_emb_toggleWrap()</onclick>
         <order>100</order>
-        <script><![CDATA[/* global g_form */
+        <script><![CDATA[/* global g_form  */
 /* eslint no-unused-vars:1,eqeqeq:[1,smart],no-undef:1,no-useless-return:1,curly:[1,multi-or-nest,consistent],no-magic-numbers:[0,1,{ignoreArrayIndexes:true}]*/
 var x_dete_emb_toggleWrap = (function(g_form) { // eslint-disable-line no-unused-vars
     return function() {
@@ -47,7 +48,7 @@ var x_dete_emb_toggleWrap = (function(g_form) { // eslint-disable-line no-unused
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>b4742670dbd7b7009c1a622dca961988</sys_id>
-        <sys_mod_count>28</sys_mod_count>
+        <sys_mod_count>29</sys_mod_count>
         <sys_name>Toggle Wrap</sys_name>
         <sys_overrides/>
         <sys_package display_value="Embedded Content" source="x_dete_emb">1b951ea1db07330098cbde82ca9619ac</sys_package>
@@ -55,7 +56,7 @@ var x_dete_emb_toggleWrap = (function(g_form) { // eslint-disable-line no-unused
         <sys_scope display_value="Embedded Content">1b951ea1db07330098cbde82ca9619ac</sys_scope>
         <sys_update_name>sys_ui_action_b4742670dbd7b7009c1a622dca961988</sys_update_name>
         <sys_updated_by>rferguson</sys_updated_by>
-        <sys_updated_on>2020-11-29 23:09:53</sys_updated_on>
+        <sys_updated_on>2022-06-05 17:46:20</sys_updated_on>
         <table>x_dete_emb_edded_content</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>true</ui16_compatible>
