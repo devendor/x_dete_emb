@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><database>
-    <element extends="x_dete_emb_embedded_css" label="Platform Style Sheet" max_length="40" name="x_dete_emb_edded_core_css" sizeclass="417" type="collection"/>
-</database>
