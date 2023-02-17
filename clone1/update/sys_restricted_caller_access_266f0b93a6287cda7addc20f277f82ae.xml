@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_restricted_caller_access">
+    <sys_restricted_caller_access action="INSERT_OR_UPDATE">
+        <operation>execute</operation>
+        <source>36d056a1db07330098cbde82ca9619c4</source>
+        <source_scope display_value="Global">global</source_scope>
+        <source_table>sys_script_include</source_table>
+        <source_type>2</source_type>
+        <status>2</status>
+        <sys_class_name>sys_restricted_caller_access</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2020-11-27 22:13:57</sys_created_on>
+        <sys_id>266f0b93a6287cda7addc20f277f82ae</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>global</sys_name>
+        <sys_package display_value="Embedded Content" source="x_det_clone1">4d4b5456d83d17b6eeb0a4cceaaebd1e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Embedded Content">4d4b5456d83d17b6eeb0a4cceaaebd1e</sys_scope>
+        <sys_update_name>sys_restricted_caller_access_266f0b93a6287cda7addc20f277f82ae</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2020-11-28 04:29:37</sys_updated_on>
+        <target>f24de264deb722ab623b43c511677bd8</target>
+        <target_scope display_value="Embedded Content">4d4b5456d83d17b6eeb0a4cceaaebd1e</target_scope>
+        <target_table>sys_script_include</target_table>
+        <target_type>2</target_type>
+    </sys_restricted_caller_access>
+</record_update>

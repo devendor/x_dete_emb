@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sn_codesearch_table">
+    <sn_codesearch_table action="INSERT_OR_UPDATE">
+        <additional_filter/>
+        <search_fields>name,content</search_fields>
+        <search_group display_value="sn_devstudio.Studio Search Group">c2f8a6a2d7120200b6bddb0c825203cd</search_group>
+        <sys_class_name>sn_codesearch_table</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-27 20:36:10</sys_created_on>
+        <sys_id>826385dffc6b2f4ec8d0087b90505a1b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_det_clone1_edded_js</sys_name>
+        <sys_package display_value="Embedded Content" source="x_det_clone1">4d4b5456d83d17b6eeb0a4cceaaebd1e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Embedded Content">4d4b5456d83d17b6eeb0a4cceaaebd1e</sys_scope>
+        <sys_update_name>sn_codesearch_table_826385dffc6b2f4ec8d0087b90505a1b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-27 20:36:10</sys_updated_on>
+        <table>x_det_clone1_edded_js</table>
+    </sn_codesearch_table>
+</record_update>

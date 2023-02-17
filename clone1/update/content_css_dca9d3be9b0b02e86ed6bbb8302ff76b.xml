@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="content_css">
+    <content_css action="INSERT_OR_UPDATE">
+        <name>devendor</name>
+        <style>&#13;
+dt {&#13;
+    margin-left: 15px;&#13;
+}&#13;
+dd {&#13;
+   margin-left: 35px;&#13;
+    font-size: 14px;&#13;
+}&#13;
+&#13;
+body {&#13;
+   font-size: 15px;&#13;
+}&#13;
+blockquote {&#13;
+    margin-left: 10px;&#13;
+    font-size: 15px;&#13;
+}&#13;
+&#13;
+p {&#13;
+   margin-left: 10px;&#13;
+   font-size: 15px;&#13;
+}&#13;
+&#13;
+pre {&#13;
+    margin-left: 10px;&#13;
+    font-size: 10px;&#13;
+}</style>
+        <sys_class_name>content_css</sys_class_name>
+        <sys_created_by>ray.ferguson</sys_created_by>
+        <sys_created_on>2019-08-15 14:13:22</sys_created_on>
+        <sys_id>dca9d3be9b0b02e86ed6bbb8302ff76b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>devendor</sys_name>
+        <sys_package display_value="Embedded Content" source="x_det_clone1">4d4b5456d83d17b6eeb0a4cceaaebd1e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Embedded Content">4d4b5456d83d17b6eeb0a4cceaaebd1e</sys_scope>
+        <sys_update_name>content_css_dca9d3be9b0b02e86ed6bbb8302ff76b</sys_update_name>
+        <sys_updated_by>ray.ferguson</sys_updated_by>
+        <sys_updated_on>2019-08-15 14:13:22</sys_updated_on>
+        <type>local</type>
+        <url/>
+    </content_css>
+</record_update>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="name" label="Name" language="en" table="x_det_clone1_edded_content">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>name</element>
+            <help/>
+            <hint/>
+            <label>Name</label>
+            <language>en</language>
+            <name>x_det_clone1_edded_content</name>
+            <plural>Names</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>ray.ferguson</sys_created_by>
+            <sys_created_on>2019-08-05 21:50:37</sys_created_on>
+            <sys_id>424c14b607e7fc6b9466a18c7146b012</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Name</sys_name>
+            <sys_package display_value="Embedded Content" source="x_det_clone1">4d4b5456d83d17b6eeb0a4cceaaebd1e</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Embedded Content">4d4b5456d83d17b6eeb0a4cceaaebd1e</sys_scope>
+            <sys_update_name>sys_documentation_x_det_clone1_edded_content_name_en</sys_update_name>
+            <sys_updated_by>ray.ferguson</sys_updated_by>
+            <sys_updated_on>2019-08-05 21:50:37</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

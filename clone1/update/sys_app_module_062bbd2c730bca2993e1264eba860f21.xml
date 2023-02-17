@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="Embedded Content">a3f1188b852c55a158bcbfc848cb8572</application>
+        <assessment/>
+        <device_type/>
+        <filter table="syslog_app_scope">sys_scope=4d4b5456d83d17b6eeb0a4cceaaebd1e^script_artifact=f24de264deb722ab623b43c511677bd8^sys_created_onONToday@javascript:gs.beginningOfToday()@javascript:gs.endOfToday()^EQ<item display_table="sys_scope" display_value="Embedded Content" endquery="false" field="sys_scope" goto="false" newquery="false" operator="=" or="false" value="4d4b5456d83d17b6eeb0a4cceaaebd1e"/>
+            <item endquery="false" field="script_artifact" goto="false" newquery="false" operator="=" or="false" value="f24de264deb722ab623b43c511677bd8"/>
+            <item endquery="false" field="sys_created_on" goto="false" newquery="false" operator="ON" or="false" value="Today@javascript:gs.beginningOfToday()@javascript:gs.endOfToday()"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>DIRECT</link_type>
+        <map_page/>
+        <mobile_title>Application Log</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>syslog_app_scope</name>
+        <order>13</order>
+        <override_menu_roles>true</override_menu_roles>
+        <query>syslog_app_scope_list.do?sysparm_fixed_query=sys_scope=4d4b5456d83d17b6eeb0a4cceaaebd1e&amp;sysparm_query=sys_created_on&gt;=javascript:gs.beginningOfToday()^ORDERBYDESCsys_created_on^EQ&amp;sysparm_view=x_det_clone1</query>
+        <report/>
+        <roles>admin,x_det_clone1.edded_content_admin</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-28 02:59:31</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>062bbd2c730bca2993e1264eba860f21</sys_id>
+        <sys_mod_count>15</sys_mod_count>
+        <sys_name>Logs</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Embedded Content" source="x_det_clone1">4d4b5456d83d17b6eeb0a4cceaaebd1e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Embedded Content">4d4b5456d83d17b6eeb0a4cceaaebd1e</sys_scope>
+        <sys_update_name>sys_app_module_062bbd2c730bca2993e1264eba860f21</sys_update_name>
+        <sys_updated_by>rferguson</sys_updated_by>
+        <sys_updated_on>2020-11-29 23:19:27</sys_updated_on>
+        <timeline_page/>
+        <title>Logs</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+</record_update>

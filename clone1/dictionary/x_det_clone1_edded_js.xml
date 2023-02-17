@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="live_feed=false,edge_encryption_excluded=true" extends="x_det_clone1_edded_content" label="Embedded JavaScript" max_length="40" name="x_dete_emb_edded_js" type="collection">
+        <element label="Script" max_length="16777215" name="content" read_only="true" type="script_plain"/>
+    </element>
+</database>

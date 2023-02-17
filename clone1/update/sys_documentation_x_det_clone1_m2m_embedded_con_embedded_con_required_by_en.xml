@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="required_by" label="Requires" language="en" table="x_det_clone1_m2m_embedded_con_embedded_con">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>required_by</element>
+            <help/>
+            <hint/>
+            <label>Requires</label>
+            <language>en</language>
+            <name>x_det_clone1_m2m_embedded_con_embedded_con</name>
+            <plural>Requires</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>ray.ferguson</sys_created_by>
+            <sys_created_on>2019-08-22 23:39:45</sys_created_on>
+            <sys_id>7b0c531840d08c7f7a2963f1cdc150ed</sys_id>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_name>Requires</sys_name>
+            <sys_package display_value="Embedded Content" source="x_det_clone1">4d4b5456d83d17b6eeb0a4cceaaebd1e</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Embedded Content">4d4b5456d83d17b6eeb0a4cceaaebd1e</sys_scope>
+            <sys_update_name>sys_documentation_x_det_clone1_m2m_embedded_con_embedded_con_required_by_en</sys_update_name>
+            <sys_updated_by>ray.ferguson</sys_updated_by>
+            <sys_updated_on>2019-08-24 02:23:41</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties">
+    <sys_properties action="INSERT_OR_UPDATE">
+        <choices/>
+        <description>To find as much as possible, the application will look for embedded content referenced as includes in other embedded content. This sets a max limit on the recursion.</description>
+        <ignore_cache>false</ignore_cache>
+        <is_private>false</is_private>
+        <name>x_det_clone1.include_recursion_limit</name>
+        <read_roles/>
+        <suffix>include_recursion_limit</suffix>
+        <sys_class_name>sys_properties</sys_class_name>
+        <sys_created_by>rferguson</sys_created_by>
+        <sys_created_on>2020-10-09 01:53:06</sys_created_on>
+        <sys_id>15bac65692d519fdb39720f5de1ac1ef</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>x_det_clone1.include_recursion_limit</sys_name>
+        <sys_package display_value="Embedded Content" source="x_det_clone1">4d4b5456d83d17b6eeb0a4cceaaebd1e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Embedded Content">4d4b5456d83d17b6eeb0a4cceaaebd1e</sys_scope>
+        <sys_update_name>sys_properties_15bac65692d519fdb39720f5de1ac1ef</sys_update_name>
+        <sys_updated_by>rferguson</sys_updated_by>
+        <sys_updated_on>2020-11-29 23:44:27</sys_updated_on>
+        <type>integer</type>
+        <value>40</value>
+        <write_roles/>
+    </sys_properties>
+    <sys_translated_text action="delete_multiple" query="documentkey=15bac65692d519fdb39720f5de1ac1ef"/>
+</record_update>
