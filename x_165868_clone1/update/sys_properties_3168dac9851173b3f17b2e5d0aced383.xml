@@ -4,7 +4,7 @@
         <description>A portion of this app must run in global. This is the minimum version of the global component that is compatible with the current version of the scoped application.</description>
         <ignore_cache>false</ignore_cache>
         <is_private>false</is_private>
-        <name>x_dete_emb.global_component_minimum_version</name>
+        <name>x_165868_clone1.global_component_minimum_version</name>
         <read_roles/>
         <suffix>global_component_minimum_version</suffix>
         <sys_class_name>sys_properties</sys_class_name>
@@ -12,8 +12,8 @@
         <sys_created_on>2020-10-08 15:00:27</sys_created_on>
         <sys_id>3168dac9851173b3f17b2e5d0aced383</sys_id>
         <sys_mod_count>4</sys_mod_count>
-        <sys_name>x_dete_emb.global_component_minimum_version</sys_name>
-        <sys_package display_value="Embedded Content" source="x_dete_emb">e3c16b68eeafccd1a4caf1ef73c2ed58</sys_package>
+        <sys_name>x_165868_clone1.global_component_minimum_version</sys_name>
+        <sys_package display_value="Embedded Content" source="x_165868_clone1">e3c16b68eeafccd1a4caf1ef73c2ed58</sys_package>
         <sys_policy/>
         <sys_scope display_value="Embedded Content">e3c16b68eeafccd1a4caf1ef73c2ed58</sys_scope>
         <sys_update_name>sys_properties_3168dac9851173b3f17b2e5d0aced383</sys_update_name>

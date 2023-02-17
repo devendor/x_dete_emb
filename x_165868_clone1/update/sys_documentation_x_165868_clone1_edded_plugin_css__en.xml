@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="" label="Plugin Style Sheet" language="en" table="x_165868_clone1_edded_plugin_css">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element/>
+            <help/>
+            <hint/>
+            <label>Plugin Style Sheet</label>
+            <language>en</language>
+            <name>x_165868_clone1_edded_plugin_css</name>
+            <plural>Plugin Style Sheets</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>ray.ferguson</sys_created_by>
+            <sys_created_on>2019-08-12 21:25:53</sys_created_on>
+            <sys_id>d26ef276bbcfb75c4e2ba5f1865e702f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Plugin Style Sheet</sys_name>
+            <sys_package display_value="Embedded Content" source="x_165868_clone1">e3c16b68eeafccd1a4caf1ef73c2ed58</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Embedded Content">e3c16b68eeafccd1a4caf1ef73c2ed58</sys_scope>
+            <sys_update_name>sys_documentation_x_165868_clone1_edded_plugin_css__en</sys_update_name>
+            <sys_updated_by>ray.ferguson</sys_updated_by>
+            <sys_updated_on>2019-08-12 21:25:53</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

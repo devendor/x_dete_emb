@@ -4,7 +4,7 @@
         <license_condition/>
         <license_model>none</license_model>
         <license_roles/>
-        <name>x_dete_emb_edded_core_css</name>
+        <name>x_165868_clone1_edded_core_css</name>
         <op_delete>true</op_delete>
         <op_insert>true</op_insert>
         <op_update>true</op_update>
@@ -14,8 +14,8 @@
         <sys_created_on>2020-05-04 21:57:27</sys_created_on>
         <sys_id>c583520d8c58e623cfce195cb97806c1</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>x_dete_emb_edded_core_css</sys_name>
-        <sys_package display_value="Embedded Content" source="x_dete_emb">e3c16b68eeafccd1a4caf1ef73c2ed58</sys_package>
+        <sys_name>x_165868_clone1_edded_core_css</sys_name>
+        <sys_package display_value="Embedded Content" source="x_165868_clone1">e3c16b68eeafccd1a4caf1ef73c2ed58</sys_package>
         <sys_policy/>
         <sys_scope display_value="Embedded Content">e3c16b68eeafccd1a4caf1ef73c2ed58</sys_scope>
         <sys_update_name>ua_table_licensing_config_c583520d8c58e623cfce195cb97806c1</sys_update_name>

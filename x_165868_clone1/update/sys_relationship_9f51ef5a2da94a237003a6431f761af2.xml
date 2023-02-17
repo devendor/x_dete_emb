@@ -3,7 +3,7 @@
         <advanced>false</advanced>
         <apply_to/>
         <basic_apply_to>v_plugin</basic_apply_to>
-        <basic_query_from>x_dete_emb_edded_content</basic_query_from>
+        <basic_query_from>x_165868_clone1_edded_content</basic_query_from>
         <insert_callback/>
         <name>Embedded Content</name>
         <query_from/>
@@ -22,7 +22,7 @@
         <sys_id>9f51ef5a2da94a237003a6431f761af2</sys_id>
         <sys_mod_count>4</sys_mod_count>
         <sys_name>Embedded Content</sys_name>
-        <sys_package display_value="Embedded Content" source="x_dete_emb">e3c16b68eeafccd1a4caf1ef73c2ed58</sys_package>
+        <sys_package display_value="Embedded Content" source="x_165868_clone1">e3c16b68eeafccd1a4caf1ef73c2ed58</sys_package>
         <sys_policy/>
         <sys_scope display_value="Embedded Content">e3c16b68eeafccd1a4caf1ef73c2ed58</sys_scope>
         <sys_update_name>sys_relationship_9f51ef5a2da94a237003a6431f761af2</sys_update_name>

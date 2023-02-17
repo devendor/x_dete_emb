@@ -2,14 +2,14 @@
     <sys_properties_category_m2m action="INSERT_OR_UPDATE">
         <category display_value="Embedded Content">f366326e49136523cc2e0349804723d9</category>
         <order>100</order>
-        <property display_value="x_dete_emb.include_recursion_limit" name="x_dete_emb.include_recursion_limit">c30b53f94dbfbf3d39c43c885bcd6961</property>
+        <property display_value="x_165868_clone1.include_recursion_limit" name="x_165868_clone1.include_recursion_limit">c30b53f94dbfbf3d39c43c885bcd6961</property>
         <sys_class_name>sys_properties_category_m2m</sys_class_name>
         <sys_created_by>rferguson</sys_created_by>
         <sys_created_on>2020-10-09 02:06:20</sys_created_on>
         <sys_id>fd6924353d990cfef8d91a3f9663e175</sys_id>
         <sys_mod_count>1</sys_mod_count>
-        <sys_name>x_dete_emb.include_recursion_limit.Embedded Content</sys_name>
-        <sys_package display_value="Embedded Content" source="x_dete_emb">e3c16b68eeafccd1a4caf1ef73c2ed58</sys_package>
+        <sys_name>x_165868_clone1.include_recursion_limit.Embedded Content</sys_name>
+        <sys_package display_value="Embedded Content" source="x_165868_clone1">e3c16b68eeafccd1a4caf1ef73c2ed58</sys_package>
         <sys_policy/>
         <sys_scope display_value="Embedded Content">e3c16b68eeafccd1a4caf1ef73c2ed58</sys_scope>
         <sys_update_name>sys_properties_category_m2m_fd6924353d990cfef8d91a3f9663e175</sys_update_name>

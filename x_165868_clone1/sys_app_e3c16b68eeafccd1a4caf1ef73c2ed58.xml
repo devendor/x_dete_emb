@@ -18,10 +18,10 @@
         <private>false</private>
         <restrict_table_access>false</restrict_table_access>
         <runtime_access_tracking>enforcing</runtime_access_tracking>
-        <scope>x_dete_emb</scope>
+        <scope>x_165868_clone1</scope>
         <scoped_administration>false</scoped_administration>
         <short_description>Embedded Content Application for servicenow r&amp;d. version 3.1.0 11/29/2020 ray.ferguson@devendortech.com</short_description>
-        <source>x_dete_emb</source>
+        <source>x_165868_clone1</source>
         <store_correlation_id/>
         <store_url/>
         <sys_class_name>sys_app</sys_class_name>
@@ -35,7 +35,7 @@
         <template/>
         <trackable>true</trackable>
         <uninstall_blocked>false</uninstall_blocked>
-        <user_role display_value="x_dete_emb.edded_content_user" name="x_dete_emb.edded_content_user">79834dbb534f249d9fd6fb4632c0d317</user_role>
+        <user_role display_value="x_165868_clone1.edded_content_user" name="x_165868_clone1.edded_content_user">79834dbb534f249d9fd6fb4632c0d317</user_role>
         <vendor/>
         <vendor_prefix/>
         <version>3.1.0</version>

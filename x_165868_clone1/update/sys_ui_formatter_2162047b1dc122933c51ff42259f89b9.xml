@@ -2,7 +2,7 @@
     <sys_ui_formatter action="INSERT_OR_UPDATE">
         <active>true</active>
         <angular_module/>
-        <formatter>x_dete_emb_prettier.xml</formatter>
+        <formatter>x_165868_clone1_prettier.xml</formatter>
         <name>prettier</name>
         <sys_class_name>sys_ui_formatter</sys_class_name>
         <sys_created_by>ray.ferguson</sys_created_by>
@@ -10,13 +10,13 @@
         <sys_id>2162047b1dc122933c51ff42259f89b9</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>prettier</sys_name>
-        <sys_package display_value="Embedded Content" source="x_dete_emb">e3c16b68eeafccd1a4caf1ef73c2ed58</sys_package>
+        <sys_package display_value="Embedded Content" source="x_165868_clone1">e3c16b68eeafccd1a4caf1ef73c2ed58</sys_package>
         <sys_policy/>
         <sys_scope display_value="Embedded Content">e3c16b68eeafccd1a4caf1ef73c2ed58</sys_scope>
         <sys_update_name>sys_ui_formatter_2162047b1dc122933c51ff42259f89b9</sys_update_name>
         <sys_updated_by>ray.ferguson</sys_updated_by>
         <sys_updated_on>2019-08-13 16:05:51</sys_updated_on>
-        <table>x_dete_emb_edded_content</table>
+        <table>x_165868_clone1_edded_content</table>
         <type>formatter</type>
     </sys_ui_formatter>
 </record_update>

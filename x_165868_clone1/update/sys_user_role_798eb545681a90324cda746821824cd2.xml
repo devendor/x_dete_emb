@@ -7,7 +7,7 @@
         <encryption_context/>
         <grantable>true</grantable>
         <includes_roles/>
-        <name>x_dete_emb.edded_content_admin</name>
+        <name>x_165868_clone1.edded_content_admin</name>
         <requires_subscription>0</requires_subscription>
         <scoped_admin>false</scoped_admin>
         <suffix>edded_content_admin</suffix>
@@ -16,8 +16,8 @@
         <sys_created_on>2019-08-03 20:56:39</sys_created_on>
         <sys_id>798eb545681a90324cda746821824cd2</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>x_dete_emb.edded_content_admin</sys_name>
-        <sys_package display_value="Embedded Content" source="x_dete_emb">e3c16b68eeafccd1a4caf1ef73c2ed58</sys_package>
+        <sys_name>x_165868_clone1.edded_content_admin</sys_name>
+        <sys_package display_value="Embedded Content" source="x_165868_clone1">e3c16b68eeafccd1a4caf1ef73c2ed58</sys_package>
         <sys_policy/>
         <sys_scope display_value="Embedded Content">e3c16b68eeafccd1a4caf1ef73c2ed58</sys_scope>
         <sys_update_name>sys_user_role_798eb545681a90324cda746821824cd2</sys_update_name>

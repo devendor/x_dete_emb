@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_ui_section caption="" section_id="32d35ce616529e50ab086cfd98c8d00f" sys_domain="global" table="x_dete_emb_edded_core_css" version="3" view="">
+    <sys_ui_section caption="" section_id="32d35ce616529e50ab086cfd98c8d00f" sys_domain="global" table="x_165868_clone1_edded_core_css" version="3" view="">
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.begin_split</element>
             <position>0</position>
@@ -8,7 +8,7 @@
             <sys_id>152db02af46e752dcdc99bbbe9ba568b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_dete_emb_edded_core_css" sys_domain="global" view="Default view">32d35ce616529e50ab086cfd98c8d00f</sys_ui_section>
+            <sys_ui_section caption="NULL" display_value="" name="x_165868_clone1_edded_core_css" sys_domain="global" view="Default view">32d35ce616529e50ab086cfd98c8d00f</sys_ui_section>
             <sys_updated_by>rferguson</sys_updated_by>
             <sys_updated_on>2020-05-04 22:58:32</sys_updated_on>
             <sys_user/>
@@ -22,7 +22,7 @@
             <sys_id>6d68fca85586b7a3b4be2baa606dd488</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_dete_emb_edded_core_css" sys_domain="global" view="Default view">32d35ce616529e50ab086cfd98c8d00f</sys_ui_section>
+            <sys_ui_section caption="NULL" display_value="" name="x_165868_clone1_edded_core_css" sys_domain="global" view="Default view">32d35ce616529e50ab086cfd98c8d00f</sys_ui_section>
             <sys_updated_by>rferguson</sys_updated_by>
             <sys_updated_on>2020-05-04 22:58:32</sys_updated_on>
             <sys_user/>
@@ -36,7 +36,7 @@
             <sys_id>546a6f37ed501d9e4348cbd1feb0d371</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_dete_emb_edded_core_css" sys_domain="global" view="Default view">32d35ce616529e50ab086cfd98c8d00f</sys_ui_section>
+            <sys_ui_section caption="NULL" display_value="" name="x_165868_clone1_edded_core_css" sys_domain="global" view="Default view">32d35ce616529e50ab086cfd98c8d00f</sys_ui_section>
             <sys_updated_by>rferguson</sys_updated_by>
             <sys_updated_on>2020-05-04 22:58:32</sys_updated_on>
             <sys_user/>
@@ -50,7 +50,7 @@
             <sys_id>ee15ee92936d760b89b7120b18f21e2b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_dete_emb_edded_core_css" sys_domain="global" view="Default view">32d35ce616529e50ab086cfd98c8d00f</sys_ui_section>
+            <sys_ui_section caption="NULL" display_value="" name="x_165868_clone1_edded_core_css" sys_domain="global" view="Default view">32d35ce616529e50ab086cfd98c8d00f</sys_ui_section>
             <sys_updated_by>rferguson</sys_updated_by>
             <sys_updated_on>2020-05-04 22:58:32</sys_updated_on>
             <sys_user/>
@@ -64,7 +64,7 @@
             <sys_id>3277df0db692402b6b6c11eaeac51d81</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_dete_emb_edded_core_css" sys_domain="global" view="Default view">32d35ce616529e50ab086cfd98c8d00f</sys_ui_section>
+            <sys_ui_section caption="NULL" display_value="" name="x_165868_clone1_edded_core_css" sys_domain="global" view="Default view">32d35ce616529e50ab086cfd98c8d00f</sys_ui_section>
             <sys_updated_by>rferguson</sys_updated_by>
             <sys_updated_on>2020-05-04 22:58:32</sys_updated_on>
             <sys_user/>
@@ -78,7 +78,7 @@
             <sys_id>9e50c8aa0f7dc40881bc0711421d13d5</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_dete_emb_edded_core_css" sys_domain="global" view="Default view">32d35ce616529e50ab086cfd98c8d00f</sys_ui_section>
+            <sys_ui_section caption="NULL" display_value="" name="x_165868_clone1_edded_core_css" sys_domain="global" view="Default view">32d35ce616529e50ab086cfd98c8d00f</sys_ui_section>
             <sys_updated_by>rferguson</sys_updated_by>
             <sys_updated_on>2020-05-04 22:58:32</sys_updated_on>
             <sys_user/>
@@ -92,21 +92,21 @@
             <sys_id>c740dd435c73db393028a9431cd8fb09</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_dete_emb_edded_core_css" sys_domain="global" view="Default view">32d35ce616529e50ab086cfd98c8d00f</sys_ui_section>
+            <sys_ui_section caption="NULL" display_value="" name="x_165868_clone1_edded_core_css" sys_domain="global" view="Default view">32d35ce616529e50ab086cfd98c8d00f</sys_ui_section>
             <sys_updated_by>rferguson</sys_updated_by>
             <sys_updated_on>2020-05-04 22:58:32</sys_updated_on>
             <sys_user/>
             <type>.end_split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>x_dete_emb_prettier.xml</element>
+            <element>x_165868_clone1_prettier.xml</element>
             <position>7</position>
             <sys_created_by>rferguson</sys_created_by>
             <sys_created_on>2020-05-04 22:58:32</sys_created_on>
             <sys_id>dafe3502a38d3980c78a0b86790af4d4</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter display_value="prettier">2162047b1dc122933c51ff42259f89b9</sys_ui_formatter>
-            <sys_ui_section caption="NULL" display_value="" name="x_dete_emb_edded_core_css" sys_domain="global" view="Default view">32d35ce616529e50ab086cfd98c8d00f</sys_ui_section>
+            <sys_ui_section caption="NULL" display_value="" name="x_165868_clone1_edded_core_css" sys_domain="global" view="Default view">32d35ce616529e50ab086cfd98c8d00f</sys_ui_section>
             <sys_updated_by>rferguson</sys_updated_by>
             <sys_updated_on>2020-05-04 22:58:32</sys_updated_on>
             <sys_user/>
@@ -115,7 +115,7 @@
         <sys_ui_section action="INSERT_OR_UPDATE">
             <caption/>
             <header>false</header>
-            <name>x_dete_emb_edded_core_css</name>
+            <name>x_165868_clone1_edded_core_css</name>
             <roles/>
             <sys_class_name>sys_ui_section</sys_class_name>
             <sys_created_by>rferguson</sys_created_by>
@@ -124,9 +124,9 @@
             <sys_domain_path>/</sys_domain_path>
             <sys_id>32d35ce616529e50ab086cfd98c8d00f</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_name>x_dete_emb_edded_core_css</sys_name>
+            <sys_name>x_165868_clone1_edded_core_css</sys_name>
             <sys_overrides/>
-            <sys_package display_value="Embedded Content" source="x_dete_emb">e3c16b68eeafccd1a4caf1ef73c2ed58</sys_package>
+            <sys_package display_value="Embedded Content" source="x_165868_clone1">e3c16b68eeafccd1a4caf1ef73c2ed58</sys_package>
             <sys_policy/>
             <sys_scope display_value="Embedded Content">e3c16b68eeafccd1a4caf1ef73c2ed58</sys_scope>
             <sys_update_name>sys_ui_section_32d35ce616529e50ab086cfd98c8d00f</sys_update_name>

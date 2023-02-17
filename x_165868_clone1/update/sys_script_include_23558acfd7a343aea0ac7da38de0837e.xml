@@ -2,7 +2,7 @@
     <sys_script_include action="INSERT_OR_UPDATE">
         <access>public</access>
         <active>true</active>
-        <api_name>x_dete_emb.Logger</api_name>
+        <api_name>x_165868_clone1.Logger</api_name>
         <caller_access>1</caller_access>
         <client_callable>false</client_callable>
         <description>Allow global include to log to app log when indexing.</description>
@@ -57,7 +57,7 @@ Logger.prototype = {
         <sys_id>23558acfd7a343aea0ac7da38de0837e</sys_id>
         <sys_mod_count>19</sys_mod_count>
         <sys_name>Logger</sys_name>
-        <sys_package display_value="Embedded Content" source="x_dete_emb">e3c16b68eeafccd1a4caf1ef73c2ed58</sys_package>
+        <sys_package display_value="Embedded Content" source="x_165868_clone1">e3c16b68eeafccd1a4caf1ef73c2ed58</sys_package>
         <sys_policy/>
         <sys_scope display_value="Embedded Content">e3c16b68eeafccd1a4caf1ef73c2ed58</sys_scope>
         <sys_update_name>sys_script_include_23558acfd7a343aea0ac7da38de0837e</sys_update_name>

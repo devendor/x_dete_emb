@@ -4,7 +4,7 @@
         <description>Log to file or database</description>
         <ignore_cache>false</ignore_cache>
         <is_private>false</is_private>
-        <name>x_dete_emb.logging.destination</name>
+        <name>x_165868_clone1.logging.destination</name>
         <read_roles/>
         <suffix>logging.destination</suffix>
         <sys_class_name>sys_properties</sys_class_name>
@@ -12,8 +12,8 @@
         <sys_created_on>2020-10-07 19:30:24</sys_created_on>
         <sys_id>cefa5a5cd5aad90a1739d4ec01c448ed</sys_id>
         <sys_mod_count>3</sys_mod_count>
-        <sys_name>x_dete_emb.logging.destination</sys_name>
-        <sys_package display_value="Embedded Content" source="x_dete_emb">e3c16b68eeafccd1a4caf1ef73c2ed58</sys_package>
+        <sys_name>x_165868_clone1.logging.destination</sys_name>
+        <sys_package display_value="Embedded Content" source="x_165868_clone1">e3c16b68eeafccd1a4caf1ef73c2ed58</sys_package>
         <sys_policy/>
         <sys_scope display_value="Embedded Content">e3c16b68eeafccd1a4caf1ef73c2ed58</sys_scope>
         <sys_update_name>sys_properties_cefa5a5cd5aad90a1739d4ec01c448ed</sys_update_name>

@@ -2,7 +2,7 @@
     <sysevent_register action="INSERT_OR_UPDATE">
         <caller_access/>
         <description>Triggers update of embedded content loaded from global script action.</description>
-        <event_name>x_dete_emb.edded_content_ui_action</event_name>
+        <event_name>x_165868_clone1.edded_content_ui_action</event_name>
         <fired_by>UI Actions in the Embeded Content Scoped Application.</fired_by>
         <queue/>
         <suffix>edded_content_ui_action</suffix>
@@ -11,8 +11,8 @@
         <sys_created_on>2019-08-04 19:02:35</sys_created_on>
         <sys_id>ff15184259e0f7e476dde47b035926dc</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>x_dete_emb.edded_content_ui_action</sys_name>
-        <sys_package display_value="Embedded Content" source="x_dete_emb">e3c16b68eeafccd1a4caf1ef73c2ed58</sys_package>
+        <sys_name>x_165868_clone1.edded_content_ui_action</sys_name>
+        <sys_package display_value="Embedded Content" source="x_165868_clone1">e3c16b68eeafccd1a4caf1ef73c2ed58</sys_package>
         <sys_policy/>
         <sys_scope display_value="Embedded Content">e3c16b68eeafccd1a4caf1ef73c2ed58</sys_scope>
         <sys_update_name>sysevent_register_ff15184259e0f7e476dde47b035926dc</sys_update_name>
