@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="Embedded Content">24c0c53d410bcc38ecff5e6a1f40f482</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Plugin Forms</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_dete_emb_edded_plugin_form</name>
+        <order>230</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles/>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>ray.ferguson</sys_created_by>
+        <sys_created_on>2019-08-08 19:40:59</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>7139df1a6242df4d097bf9ba72b45a6f</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Plugin JForms</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Embedded Content" source="x_dete_emb">e3c16b68eeafccd1a4caf1ef73c2ed58</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Embedded Content">e3c16b68eeafccd1a4caf1ef73c2ed58</sys_scope>
+        <sys_update_name>sys_app_module_7139df1a6242df4d097bf9ba72b45a6f</sys_update_name>
+        <sys_updated_by>ray.ferguson</sys_updated_by>
+        <sys_updated_on>2019-08-11 16:43:11</sys_updated_on>
+        <timeline_page/>
+        <title>Plugin JForms</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+</record_update>

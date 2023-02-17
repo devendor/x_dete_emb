@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties">
+    <sys_properties action="INSERT_OR_UPDATE">
+        <choices/>
+        <description>Sys_id of the global application component.</description>
+        <ignore_cache>false</ignore_cache>
+        <is_private>false</is_private>
+        <name>x_165868_clone1.global_component_id</name>
+        <read_roles/>
+        <suffix>global_component_id</suffix>
+        <sys_class_name>sys_properties</sys_class_name>
+        <sys_created_by>rferguson</sys_created_by>
+        <sys_created_on>2020-10-08 15:02:58</sys_created_on>
+        <sys_id>7586e56f9d625f1a3b5bd4e5f85dd138</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>x_165868_clone1.global_component_id</sys_name>
+        <sys_package display_value="Embedded Content" source="x_165868_clone1">7586e56f9d625f1a3b5bd4e5f85dd138</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Embedded Content">7586e56f9d625f1a3b5bd4e5f85dd138</sys_scope>
+        <sys_update_name>sys_properties_7586e56f9d625f1a3b5bd4e5f85dd138</sys_update_name>
+        <sys_updated_by>rferguson</sys_updated_by>
+        <sys_updated_on>2020-11-29 23:44:05</sys_updated_on>
+        <type>string</type>
+        <value>70d34669dbc3330098cbde82ca96190a</value>
+        <write_roles/>
+    </sys_properties>
+    <sys_translated_text action="delete_multiple" query="documentkey=7586e56f9d625f1a3b5bd4e5f85dd138"/>
+</record_update>

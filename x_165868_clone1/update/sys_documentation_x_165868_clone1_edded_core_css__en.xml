@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="" label="Platform Style Sheet" language="en" table="x_165868_clone1_edded_core_css">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element/>
+            <help/>
+            <hint/>
+            <label>Platform Style Sheet</label>
+            <language>en</language>
+            <name>x_165868_clone1_edded_core_css</name>
+            <plural>Platform Style Sheets</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>rferguson</sys_created_by>
+            <sys_created_on>2020-05-04 21:57:27</sys_created_on>
+            <sys_id>7586e56f9d625f1a3b5bd4e5f85dd138</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>Platform Style Sheet</sys_name>
+            <sys_package display_value="Embedded Content" source="x_165868_clone1">7586e56f9d625f1a3b5bd4e5f85dd138</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Embedded Content">7586e56f9d625f1a3b5bd4e5f85dd138</sys_scope>
+            <sys_update_name>sys_documentation_x_165868_clone1_edded_core_css__en</sys_update_name>
+            <sys_updated_by>rferguson</sys_updated_by>
+            <sys_updated_on>2020-05-04 22:42:26</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

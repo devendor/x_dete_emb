@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_action">
+    <sys_ui_action action="INSERT_OR_UPDATE">
+        <action_name>sysverb_update</action_name>
+        <active>true</active>
+        <client>false</client>
+        <client_script_v2><![CDATA[function onClick(g_form) {
+
+}]]></client_script_v2>
+        <comments>Triggers refresh of data via event dispatched to the global update code that can access embeded data.</comments>
+        <condition>(gs.hasRole('admin') || gs.hasRole('x_dete_emb.edded_content_admin')) &amp;&amp; gs.action.getGlideURI().getFileFromPath().indexOf("_list") &gt; -1</condition>
+        <form_action>false</form_action>
+        <form_button>false</form_button>
+        <form_button_v2>false</form_button_v2>
+        <form_context_menu>false</form_context_menu>
+        <form_link>false</form_link>
+        <form_menu_button_v2>false</form_menu_button_v2>
+        <form_style/>
+        <hint>update data to refresh embedded content.</hint>
+        <isolate_script>false</isolate_script>
+        <list_action>true</list_action>
+        <list_banner_button>true</list_banner_button>
+        <list_button>false</list_button>
+        <list_choice>false</list_choice>
+        <list_context_menu>false</list_context_menu>
+        <list_link>false</list_link>
+        <list_save_with_form_button>false</list_save_with_form_button>
+        <list_style/>
+        <messages/>
+        <name>Sync Content</name>
+        <onclick/>
+        <order>-1000</order>
+        <script><![CDATA[/* globals GlideRecord,GlideTableHierarchy,EventUtil,gs,action,Logger */ // eslint-disable-line no-redeclare
+/* eslint no-unused-vars:1,eqeqeq:[1,smart],no-undef:1,no-useless-return:1,curly:[1,multi-or-nest,consistent],no-magic-numbers:[0,1,{ignoreArrayIndexes:true}]*/
+(
+    /**
+     * validate that global component is installed and at a sufficient version & send events to run async content collection.
+     * @param {object.<javaObject>} action - gs.action object.
+     * @returns {void} no return
+     */
+    function(action) {
+        var i, r_version, ga, tables, instance, eventUtil;
+        var prop_prefix = gs.getCurrentScopeName() + ".";
+        var min_version = gs.getProperty(prop_prefix + "global_component_minimum_version").split(".").map(parseInt);
+        var global_app_id = gs.getProperty(prop_prefix + "global_component_id");
+        var appGr = new GlideRecord('sys_app');
+        var event_name = prop_prefix + "edded_content_ui_action";
+        var luser = gs.getUserName();
+        var sent = 0;
+        var deferred = 0;
+        try {
+            if (appGr.get(global_app_id)) {
+                r_version = appGr.version.toString().split(".").map(parseInt);
+                for (i = 0; i < min_version.length; i++) {
+                    if (r_version[i] < min_version[i])
+                        throw Error("version failed");
+                    else if (min_version[i] > r_version[i])
+                        break;
+                }
+            } else {
+                throw Error("global app not installed.");
+            }
+        } catch (e) {
+            gs.addErrorMessage("You must install or update the global portion of the app before we can sync content. <A href='x_dete_emb_about_this_app.do'>About The App.</A>");
+            return;
+        }
+        try {
+            tables = action.getGlideURI().getFileFromPath().split("_list").shift();
+            ga = new GlideTableHierarchy(tables);
+            tables = ga.getAllExtensions();
+            instance = new GlideRecord('sys_scope');
+            instance.get('scope', gs.getCurrentScopeName());
+            eventUtil = new EventUtil();
+            for (i = 0; i < tables.length; i++) {
+                if (eventUtil.eventQueueScheduledOnce(event_name, instance, tables[i], luser, null, 'parm1'))
+                    sent++;
+                else
+                    deferred++;
+            }
+            i = gs.getEscapedMessage("{0} async crawl request events were sent. {1} were skipped / already pending.", [sent.toFixed(0), deferred.toFixed(0)]);
+            gs.addInfoMessage(i);
+        } catch (e) {
+            new Logger("sync_content_ui_action").error("Exception {0}:\nStack {1}\n", e, e.stack);
+        }
+    }
+)(action);]]></script>
+        <show_insert>false</show_insert>
+        <show_multiple_update>false</show_multiple_update>
+        <show_query>false</show_query>
+        <show_update>true</show_update>
+        <sys_class_name>sys_ui_action</sys_class_name>
+        <sys_created_by>ray.ferguson</sys_created_by>
+        <sys_created_on>2019-08-05 22:02:35</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>49c20ce0a15d2d65df2f5fe0e67a7266</sys_id>
+        <sys_mod_count>55</sys_mod_count>
+        <sys_name>Sync Content</sys_name>
+        <sys_overrides display_value="New">e35ea848c3302200f7d1ca3adfba8f54</sys_overrides>
+        <sys_package display_value="Embedded Content" source="x_dete_emb">e3c16b68eeafccd1a4caf1ef73c2ed58</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Embedded Content">e3c16b68eeafccd1a4caf1ef73c2ed58</sys_scope>
+        <sys_update_name>sys_ui_action_49c20ce0a15d2d65df2f5fe0e67a7266</sys_update_name>
+        <sys_updated_by>rferguson</sys_updated_by>
+        <sys_updated_on>2020-11-29 23:11:45</sys_updated_on>
+        <table>x_dete_emb_edded_content</table>
+        <ui11_compatible>true</ui11_compatible>
+        <ui16_compatible>false</ui16_compatible>
+    </sys_ui_action>
+</record_update>

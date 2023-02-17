@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties_category">
+    <sys_properties_category action="INSERT_OR_UPDATE">
+        <name>Embedded Content</name>
+        <sys_class_name>sys_properties_category</sys_class_name>
+        <sys_created_by>rferguson</sys_created_by>
+        <sys_created_on>2020-10-09 02:05:36</sys_created_on>
+        <sys_id>f366326e49136523cc2e0349804723d9</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>Embedded Content</sys_name>
+        <sys_package display_value="Embedded Content" source="x_dete_emb">e3c16b68eeafccd1a4caf1ef73c2ed58</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Embedded Content">e3c16b68eeafccd1a4caf1ef73c2ed58</sys_scope>
+        <sys_update_name>sys_properties_category_f366326e49136523cc2e0349804723d9</sys_update_name>
+        <sys_updated_by>rferguson</sys_updated_by>
+        <sys_updated_on>2020-11-28 18:25:28</sys_updated_on>
+        <title><![CDATA[<p>If you are digging deep on jellys and UI javascript, you will also find these settings helpful.</p>
+<ul style="list-style-position: inside;"><li><a title="glide.ui.js_includes" href="sys_properties.do?sysparm_query&#61;name&#61;glide.ui.js_includes^type&#61;boolean" target="_blank" rel="noopener noreferrer nofollow">glide.ui.js_includes</a> When set to false, the UI will deliver unbundled javascript to your browser which is very helpful when debugging.</li><li><a title="glide.ui.template.trace" href="sys_properties.do?sysparm_query&#61;name&#61;glide.ui.template.trace^type&#61;boolean" target="_blank" rel="noopener noreferrer nofollow">glide.ui.template.trace</a> When set to true, you can trace template expansion including all of those embedded jforms and jtemplates we expose. You may have to <a title="clear cache" href="cache.do" target="_blank" rel="noopener noreferrer nofollow">clear cache</a> before you can see the full trace, and the property isn&#39;t defined for you out of the box so you have to add it the first time.</li></ul>]]></title>
+    </sys_properties_category>
+    <sys_translated_text action="delete_multiple" query="documentkey=f366326e49136523cc2e0349804723d9"/>
+</record_update>

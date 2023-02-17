@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="7586e56f9d625f1a3b5bd4e5f85dd138" sys_domain="global" table="x_165868_clone1_edded_content" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>source_id</element>
+            <position>0</position>
+            <sys_created_by>ray.ferguson</sys_created_by>
+            <sys_created_on>2019-08-25 16:47:59</sys_created_on>
+            <sys_id>7586e56f9d625f1a3b5bd4e5f85dd138</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_165868_clone1_edded_content" sys_domain="global" view="Default view">7586e56f9d625f1a3b5bd4e5f85dd138</sys_ui_section>
+            <sys_updated_by>ray.ferguson</sys_updated_by>
+            <sys_updated_on>2019-08-25 16:47:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>checksum</element>
+            <position>1</position>
+            <sys_created_by>ray.ferguson</sys_created_by>
+            <sys_created_on>2019-08-25 16:48:00</sys_created_on>
+            <sys_id>7586e56f9d625f1a3b5bd4e5f85dd138</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_165868_clone1_edded_content" sys_domain="global" view="Default view">7586e56f9d625f1a3b5bd4e5f85dd138</sys_ui_section>
+            <sys_updated_by>ray.ferguson</sys_updated_by>
+            <sys_updated_on>2019-08-25 16:48:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>path</element>
+            <position>2</position>
+            <sys_created_by>ray.ferguson</sys_created_by>
+            <sys_created_on>2019-08-25 16:48:00</sys_created_on>
+            <sys_id>7586e56f9d625f1a3b5bd4e5f85dd138</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_165868_clone1_edded_content" sys_domain="global" view="Default view">7586e56f9d625f1a3b5bd4e5f85dd138</sys_ui_section>
+            <sys_updated_by>ray.ferguson</sys_updated_by>
+            <sys_updated_on>2019-08-25 16:48:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>name</element>
+            <position>3</position>
+            <sys_created_by>ray.ferguson</sys_created_by>
+            <sys_created_on>2019-08-25 16:48:00</sys_created_on>
+            <sys_id>7586e56f9d625f1a3b5bd4e5f85dd138</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_165868_clone1_edded_content" sys_domain="global" view="Default view">7586e56f9d625f1a3b5bd4e5f85dd138</sys_ui_section>
+            <sys_updated_by>ray.ferguson</sys_updated_by>
+            <sys_updated_on>2019-08-25 16:48:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>size</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-11-27 17:09:12</sys_created_on>
+            <sys_id>7586e56f9d625f1a3b5bd4e5f85dd138</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_165868_clone1_edded_content" sys_domain="global" view="Default view">7586e56f9d625f1a3b5bd4e5f85dd138</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-11-27 17:09:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>uri</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-11-27 18:04:17</sys_created_on>
+            <sys_id>7586e56f9d625f1a3b5bd4e5f85dd138</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_165868_clone1_edded_content" sys_domain="global" view="Default view">7586e56f9d625f1a3b5bd4e5f85dd138</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-11-27 18:04:17</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_165868_clone1_edded_content</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>ray.ferguson</sys_created_by>
+            <sys_created_on>2019-08-24 03:19:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7586e56f9d625f1a3b5bd4e5f85dd138</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_165868_clone1_edded_content</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Embedded Content" source="x_165868_clone1">7586e56f9d625f1a3b5bd4e5f85dd138</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Embedded Content">7586e56f9d625f1a3b5bd4e5f85dd138</sys_scope>
+            <sys_update_name>sys_ui_section_7586e56f9d625f1a3b5bd4e5f85dd138</sys_update_name>
+            <sys_updated_by>ray.ferguson</sys_updated_by>
+            <sys_updated_on>2019-08-24 03:19:14</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

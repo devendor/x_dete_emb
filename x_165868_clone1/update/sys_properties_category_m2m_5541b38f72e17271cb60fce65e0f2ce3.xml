@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties_category_m2m">
+    <sys_properties_category_m2m action="INSERT_OR_UPDATE">
+        <category display_value="Embedded Content">f366326e49136523cc2e0349804723d9</category>
+        <order>200</order>
+        <property display_value="x_dete_emb.logging.destination" name="x_dete_emb.logging.destination">cefa5a5cd5aad90a1739d4ec01c448ed</property>
+        <sys_class_name>sys_properties_category_m2m</sys_class_name>
+        <sys_created_by>rferguson</sys_created_by>
+        <sys_created_on>2020-10-09 02:06:20</sys_created_on>
+        <sys_id>5541b38f72e17271cb60fce65e0f2ce3</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>x_dete_emb.logging.destination.Embedded Content</sys_name>
+        <sys_package display_value="Embedded Content" source="x_dete_emb">e3c16b68eeafccd1a4caf1ef73c2ed58</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Embedded Content">e3c16b68eeafccd1a4caf1ef73c2ed58</sys_scope>
+        <sys_update_name>sys_properties_category_m2m_5541b38f72e17271cb60fce65e0f2ce3</sys_update_name>
+        <sys_updated_by>rferguson</sys_updated_by>
+        <sys_updated_on>2020-11-28 17:34:21</sys_updated_on>
+    </sys_properties_category_m2m>
+</record_update>

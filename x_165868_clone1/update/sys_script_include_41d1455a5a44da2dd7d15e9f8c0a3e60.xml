@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_dete_emb.EventUtil</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description>Allows some advanced  event manipulation that works in scopes.</description>
+        <name>EventUtil</name>
+        <script><![CDATA[/* globals Class,Logger,gs,GlideDateTime,GlideRecord,GlideAggregate */
+/* eslint no-undef:1,no-implicit-globals:1,curly:[1,multi-or-nest,consistent],no-magic-numbers:[0,1,{ignoreArrayIndexes:true}] */
+var EventUtil = Class.create(); // eslint-disable-line no-implicit-globals
+EventUtil.prototype = {
+    /**
+     * @classdesc <p>Scoped utility class for scheduling events and querying sysevent parititions directly and efficiently.</p>
+     * 
+     * <p>Direct query via sysevent is not permitted from Scoped, and a bad practice from global,
+     * because a poorly written query against a rotated table can force a horribly inneficient query accross this very hot table.</p>
+     * <p>EventUtil works around this by querying realavent parititions directly with GlideAggregate and index efficient queries.</p>
+     * <p>This most usefull method here is eventQueueScheduledOnce below which can be used to prevent event stacking.</p>
+     * @constructs
+     * @static
+     */
+    initialize: function() {
+        this._initialized = true;
+        this.log = new Logger(this.type);
+    },
+    /**
+     * How far into the past should we look when checking for running events?
+     * You may need to adjust upward when for very slow running events.
+     * @member {number}
+     */
+    lookback_minutes: 30,
+    /**
+     * the current sysevent000.. table partition for events being created right now. 
+     * @member {string}
+     * @readonly
+     */
+    get currentEventPartition() {
+        return this.getEventPartitions().shift();
+    },
+    /**
+     * Retrieve an array of sysevent table partitions covering events created between two points in time.
+     * @param {object.<GlideDateTime>|string} [from=gs.minutesAgo(this.lookback_minutes)] - GlideDateTime object set to point in time
+     * @param {object.<GlideDateTime>|string} [to=new GlideDateTime()] - GlideDateTime object set to point in time
+     * @returns {Array} - sysevent table partitions for events between from and to 
+     * @throws {ScopedAccessNotGranted} - read access to sys_table_rotation_schedule not granted
+     */
+    getEventPartitions: function(from, to) {
+        var r = [];
+        var _from = (typeof from === 'undefined') ? gs.minutesAgo(this.lookback_minutes) : from;
+        var _to = (typeof to === 'undefined') ? String(new GlideDateTime()) : to;
+        var encquery = gs.getMessage(
+          "name.name=sysevent^valid_from<={0}^valid_to>={0}^NQname.name=sysevent^valid_from>={0}^valid_from<={1}^ORDERBYDESCvalid_from",
+          [_from,_to]
+        ); 
+        var gr = new GlideRecord('sys_table_rotation_schedule');
+        gr.addEncodedQuery(encquery);
+        gr.query();
+        while (gr.hasNext() && gr.next())
+            r.push(gr.getValue('table_name'));
+        if (gs.isDebugging())
+            this.log.debug('{0}.getEventPartitions("{1}", "{2}") // -> {3} via {4}', this.type, _from, _to, JSON.stringify(r),encquery);
+        if (r.length === 0)
+          throw new Error("Unable to find paritition tables for sysevent "+encquery);
+        return r;
+    },
+    /**
+     * Returns true if any sysevents matching encodedQuery are found in realavent partition tables.
+     * @param {string} encodedQuery - encoded query string to search sysevent tables.
+     * @param {object.<GlideDateTime>|string} [from] - passed to getEventPartitions
+     * @param {object.<GlideDateTime>|string} [to] - passed to getEventPartitions
+     * @returns {boolean} - true if event matching query was found in event table partitions for timespan.
+     */
+    hasEvent: function(encodedQuery, from, to) {
+        var partitions = this.getEventPartitions(from, to);
+        var found_rows = 0;
+        var ga, r;
+        while (found_rows === 0 && partitions.length > 0) {
+            ga = new GlideAggregate(partitions.shift());
+            ga.addEncodedQuery(encodedQuery);
+            ga.addAggregate('COUNT');
+            ga.query();
+            if (ga.hasNext() && ga.next()) found_rows = Number(ga.getAggregate('COUNT'));
+        }
+        r = (found_rows > 0);
+        if (gs.isDebugging())
+            this.log.debug('{0}.hasEvent("{1}", "{2}", "{3}") // -> {4}', this.type, encodedQuery, from, to, r);
+        return r;
+    },
+    /** 
+     * <p>Like gs.eventQueueScheduled, but only schedules the event if the "same" event is not already scheduled.</p>
+     * 
+     * <p>Matching for an already scheduled "same" event always includes the sysevent.name match and can include secondary
+     * fields as set by aggregate_by which defaults to instance resulting in scheduled event per unique name,instance.
+     * aggregate_by="none" or "" just disables secondary field and aggregates by name only. This can also be a csv list.</p>
+     * @param {string} name event_name
+     * @param {object.<GlideRecord|GlideElement>} instance GlideRecord or GlideElement that can be resolved by getRefRecord
+     * @param {string} [parm1=""] field of event.
+     * @param {string} [parm2=""] field of event.
+     * @param {Integer} [wait=0] seconds to wait before processing the event.
+     * @param {string} [aggregate_by="instance"] Defaults to instance. csv list of field names from sysevent table instance,parm1,parm2 
+     * @returns {boolean} True if new event was created, false if event creation was skipped due to pending events.
+     * @example
+     * var when = new GlideDateTime(current.getValue('sys_updated_on'));
+     * when.addSeconds(-120); // two minutes ago
+     * var filter = 'sys_updated_on>=' + when.getValue();
+     * var runAfter = 840 ; // almost 15 minutes from now
+     * var eu = new EventUtil();
+     * eu.eventQueueScheduledOnce('x_dete_emb.edded_content_something', current, filter, "", runAfter, "none"); //-> true
+     * eu.eventQueueScheduledOnce('x_dete_emb.edded_content_something', current, filter, "", runAfter, "none"); //-> false
+     * eu.eventQueueScheduledOnce('x_dete_emb.edded_content_something', current, filter, "", runAfter, "parm1"); //-> false
+     * eu.eventQueueScheduledOnce('x_dete_emb.edded_content_something', current, filter+"^EQ", "", runAfter, "parm1"); //-> true
+     * eu.eventQueueScheduledOnce('x_dete_emb.edded_content_something', current, filter, "1", runAfter, "parm1,parm2"); //-> true
+     * eu.eventQueueScheduledOnce('x_dete_emb.edded_content_something', current, filter, "1", runAfter, "parm1,parm2"); //-> false
+     * eu.eventQueueScheduledOnce('x_dete_emb.edded_content_something', current, filter, "2", runAfter, "parm1,parm2"); //-> true
+     * // If there is already an event waiting to run, nothing is done, otherwise, the event is scheduled to run 840 seconds from now.
+     */
+    eventQueueScheduledOnce: function(name, instance, parm1, parm2, wait, aggregate_by) {
+        var encodedQuery, when, instanceGr, r;
+        var check_from = gs.minutesAgo(this.lookback_minutes);
+        var instanceId = (typeof instance === "object" && instance instanceof GlideRecord) ? instance.getValue("sys_id") : String(instance);
+        var p1 = (typeof parm1 === 'undefined') ? "" : String(parm1);
+        var p2 = (typeof parm2 === 'undefined') ? "" : String(parm2);
+        var aggregators = (typeof aggregate_by === 'undefined') ? ['instance'] : String(aggregate_by).split(",");
+        var eventGr = new GlideRecord(this.currentEventPartition);
+        eventGr.addQuery('sys_created_on', '>=', check_from);
+        eventGr.addQuery('name', name);
+        if (aggregators.indexOf('instance') > -1) eventGr.addQuery('instance', instanceId);
+        if (aggregators.indexOf('parm1') > -1) eventGr.addQuery('parm1', p1);
+        if (aggregators.indexOf('parm2') > -1) eventGr.addQuery('parm1', p2);
+        eventGr.addQuery('state', '!=', 'processed');
+        eventGr.addQuery('state', '!=', 'error');
+        encodedQuery = eventGr.getEncodedQuery();
+        if (this.hasEvent(encodedQuery) === false) {
+            instanceGr = (instance instanceof GlideRecord) ? instance : instance.getRefRecord();
+            when = new GlideDateTime();
+            if (typeof wait === 'number') when.addSeconds(wait);
+            this.log.info("adding event '{0}' instance='{1}',parm1='{2}' parm2='{3}' to be processes at or after '{4}'", name, instanceId, p1, p2, String(when));
+            gs.eventQueueScheduled(name, instanceGr, p1, p2, when);
+            r = true;
+        } else {
+            r = false;
+        }
+        if (gs.isDebugging())
+            this.log.debug('{0}.eventQueueScheduledOnce("{1}") // -> {2}', this.type, [name, instanceId, p1, p2, (wait || 0), aggregators.join(",")].join('", "'), r);
+        return r;
+    },
+    type: 'EventUtil'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>rferguson</sys_created_by>
+        <sys_created_on>2020-10-07 17:39:40</sys_created_on>
+        <sys_id>41d1455a5a44da2dd7d15e9f8c0a3e60</sys_id>
+        <sys_mod_count>96</sys_mod_count>
+        <sys_name>EventUtil</sys_name>
+        <sys_package display_value="Embedded Content" source="x_dete_emb">e3c16b68eeafccd1a4caf1ef73c2ed58</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Embedded Content">e3c16b68eeafccd1a4caf1ef73c2ed58</sys_scope>
+        <sys_update_name>sys_script_include_41d1455a5a44da2dd7d15e9f8c0a3e60</sys_update_name>
+        <sys_updated_by>rferguson</sys_updated_by>
+        <sys_updated_on>2020-11-29 22:47:53</sys_updated_on>
+    </sys_script_include>
+</record_update>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>10</order>
+        <role display_value="x_dete_emb.edded_content_admin" name="x_dete_emb.edded_content_admin">798eb545681a90324cda746821824cd2</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>ray.ferguson</sys_created_by>
+        <sys_created_on>2019-08-03 20:56:39</sys_created_on>
+        <sys_id>8bf457b074f4a202faba9c9e669ad2fb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>798eb545681a90324cda746821824cd2</sys_name>
+        <sys_package display_value="Embedded Content" source="x_dete_emb">e3c16b68eeafccd1a4caf1ef73c2ed58</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Embedded Content">e3c16b68eeafccd1a4caf1ef73c2ed58</sys_scope>
+        <sys_update_name>sys_embedded_help_role_8bf457b074f4a202faba9c9e669ad2fb</sys_update_name>
+        <sys_updated_by>ray.ferguson</sys_updated_by>
+        <sys_updated_on>2019-08-03 20:56:39</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>

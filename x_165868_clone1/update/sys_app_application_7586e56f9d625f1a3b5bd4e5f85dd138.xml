@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application">
+    <sys_app_application action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category>
+        <description>Various forms, macros, and javascript embedded in ServiceNow backend.  This is a copy of the read only code that is ordinarily hidden. This is for reference only changes here have no effect.  Users are responsible for complying with all licenses applicable as distributed by ServiceNow, it's partners, and affiliates. </description>
+        <device_type>browser</device_type>
+        <hint>Embedded Content FIles</hint>
+        <name/>
+        <order>100</order>
+        <roles>admin,delegated_developer,content_admin,source_control,x_165868_clone1.embedded_content_user,x_165868_clone1.edded_content_user</roles>
+        <sys_class_name>sys_app_application</sys_class_name>
+        <sys_created_by>ray.ferguson</sys_created_by>
+        <sys_created_on>2019-08-03 20:53:33</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>7586e56f9d625f1a3b5bd4e5f85dd138</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Embedded Content</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Embedded Content" source="x_165868_clone1">7586e56f9d625f1a3b5bd4e5f85dd138</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Embedded Content">7586e56f9d625f1a3b5bd4e5f85dd138</sys_scope>
+        <sys_update_name>sys_app_application_7586e56f9d625f1a3b5bd4e5f85dd138</sys_update_name>
+        <sys_updated_by>ray.ferguson</sys_updated_by>
+        <sys_updated_on>2019-08-03 21:16:53</sys_updated_on>
+        <title>Embedded Content</title>
+        <view_name/>
+    </sys_app_application>
+</record_update>

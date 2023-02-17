@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="sysevent" version="2" view="x_dete_emb">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_created_on</element>
+            <list_id display_value="sysevent" element="NULL" name="sysevent" parent="NULL" relationship="NULL" sys_domain="global" view="ce42bbd2c08319373fb4fd73e7fe5538">57b95fe10a93d8adda369727c3060be5</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-11-28 04:23:46</sys_created_on>
+            <sys_id>eaaa9fff41cdf07b5c51049242cb3391</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-11-28 04:23:46</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>parm1</element>
+            <list_id display_value="sysevent" element="NULL" name="sysevent" parent="NULL" relationship="NULL" sys_domain="global" view="ce42bbd2c08319373fb4fd73e7fe5538">57b95fe10a93d8adda369727c3060be5</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-11-28 04:23:46</sys_created_on>
+            <sys_id>f262bcee5a11f8f7aaabc7db3564d2c1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-11-28 04:23:46</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>parm2</element>
+            <list_id display_value="sysevent" element="NULL" name="sysevent" parent="NULL" relationship="NULL" sys_domain="global" view="ce42bbd2c08319373fb4fd73e7fe5538">57b95fe10a93d8adda369727c3060be5</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-11-28 04:23:46</sys_created_on>
+            <sys_id>6e3b9fac1e4c17c8b56cdb8bf9541b62</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-11-28 04:23:46</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>process_on</element>
+            <list_id display_value="sysevent" element="NULL" name="sysevent" parent="NULL" relationship="NULL" sys_domain="global" view="ce42bbd2c08319373fb4fd73e7fe5538">57b95fe10a93d8adda369727c3060be5</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-11-28 04:23:46</sys_created_on>
+            <sys_id>763984bae5bbcb3bfa16b173a9b7961b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-11-28 04:23:46</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>state</element>
+            <list_id display_value="sysevent" element="NULL" name="sysevent" parent="NULL" relationship="NULL" sys_domain="global" view="ce42bbd2c08319373fb4fd73e7fe5538">57b95fe10a93d8adda369727c3060be5</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-11-28 04:23:46</sys_created_on>
+            <sys_id>0e1517546deb9bbd8a534591b6529329</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-11-28 04:23:46</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>processed</element>
+            <list_id display_value="sysevent" element="NULL" name="sysevent" parent="NULL" relationship="NULL" sys_domain="global" view="ce42bbd2c08319373fb4fd73e7fe5538">57b95fe10a93d8adda369727c3060be5</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-11-28 04:23:46</sys_created_on>
+            <sys_id>a36d5ba5f0ca1e79f8e08e43427b927a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-11-28 04:23:46</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>processing_duration</element>
+            <list_id display_value="sysevent" element="NULL" name="sysevent" parent="NULL" relationship="NULL" sys_domain="global" view="ce42bbd2c08319373fb4fd73e7fe5538">57b95fe10a93d8adda369727c3060be5</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>6</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-11-28 04:23:46</sys_created_on>
+            <sys_id>c9a594cc73eef8128807e1d003a0c59e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-11-28 04:23:46</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>sysevent</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-11-28 04:23:46</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>57b95fe10a93d8adda369727c3060be5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>sysevent</sys_name>
+            <sys_package display_value="Embedded Content" source="x_dete_emb">e3c16b68eeafccd1a4caf1ef73c2ed58</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Embedded Content">e3c16b68eeafccd1a4caf1ef73c2ed58</sys_scope>
+            <sys_update_name>sys_ui_list_sysevent_x_dete_emb</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-11-28 04:23:46</sys_updated_on>
+            <sys_user/>
+            <view display_value="X_dete_emb" name="x_dete_emb">ce42bbd2c08319373fb4fd73e7fe5538</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

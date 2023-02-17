@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><database>
-    <element attributes="live_feed=false,edge_encryption_excluded=true,onlineAlter=false" extends="x_dete_clone1_edded_js" label="Plugin UI Script" max_length="40" name="x_dete_emb_edded_plugin_js" type="collection"/>
-</database>

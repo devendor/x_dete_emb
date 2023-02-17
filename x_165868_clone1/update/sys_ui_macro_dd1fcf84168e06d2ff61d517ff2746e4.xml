@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_macro">
+    <sys_ui_macro action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category>general</category>
+        <description/>
+        <media_type/>
+        <name>prettier</name>
+        <scoped_name>x_dete_emb_prettier</scoped_name>
+        <sys_class_name>sys_ui_macro</sys_class_name>
+        <sys_created_by>ray.ferguson</sys_created_by>
+        <sys_created_on>2019-08-13 15:37:05</sys_created_on>
+        <sys_id>dd1fcf84168e06d2ff61d517ff2746e4</sys_id>
+        <sys_mod_count>89</sys_mod_count>
+        <sys_name>prettier</sys_name>
+        <sys_package display_value="Embedded Content" source="x_dete_emb">e3c16b68eeafccd1a4caf1ef73c2ed58</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Embedded Content">e3c16b68eeafccd1a4caf1ef73c2ed58</sys_scope>
+        <sys_update_name>sys_ui_macro_dd1fcf84168e06d2ff61d517ff2746e4</sys_update_name>
+        <sys_updated_by>ray.ferguson</sys_updated_by>
+        <sys_updated_on>2019-08-20 00:17:43</sys_updated_on>
+        <xml><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+	<tr>
+	<html lang="en">
+		<head>
+			<meta charset="utf-8" />
+			<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+			<meta name="viewport" content="width=device-width, initial-scale=1" />
+  	
+
+			<script src="https://cdn.jsdelivr.net/gh/google/code-prettify@master/loader/run_prettify.js?lang=$[jvar_langclass]" />
+			<link href="https://cdn.jsdelivr.net/gh/google/code-prettify@master/loader/prettify.css" rel="stylesheet" type="text/css" />
+			<link href="c0c6d8944aa472e3c5514e3a639fac2f.cssdbx?v=${gs.getProperty('glide.builddate')}" rel="stylesheet" type="text/css" />
+		</head>
+		<body>
+			<g2:evaluate var="jvar_langclass">
+				var internal_type = String(current.getElement("content").getED().getInternalType());
+				var langclass = (internal_type.substr(0,6)=="script") ? "js" : internal_type;
+				"lang-"+langclass
+			</g2:evaluate>
+			<div id="x_dete_emb_prettier_content">
+				<pre id="x_dete_emb_pre_content"  class="ng-non-bindable prettyprint linenums $[jvar_langclass] white_on_white" >$[HTML:current.content.toString()]</pre>
+			</div>
+		</body>
+
+	</html>
+	</tr>
+</j:jelly>]]></xml>
+    </sys_ui_macro>
+</record_update>
