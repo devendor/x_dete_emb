@@ -34,7 +34,7 @@
         <sys_updated_by>rferguson</sys_updated_by>
         <sys_updated_on>2020-11-20 02:48:54</sys_updated_on>
         <update_access>true</update_access>
-        <user_role display_value="x_det_clone1.edded_content_user" name="x_dete_emb.edded_content_user">9af27883e328662b4e6e95001de6ab41</user_role>
+        <user_role display_value="x_det_clone1.edded_content_user" name="x_det_clone1.edded_content_user">9af27883e328662b4e6e95001de6ab41</user_role>
         <ws_access>true</ws_access>
     </sys_db_object>
 </record_update>

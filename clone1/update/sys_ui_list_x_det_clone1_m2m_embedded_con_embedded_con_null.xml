@@ -3,7 +3,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>requires</element>
-            <list_id display_value="x_det_clone1_m2m_embedded_con_embedded_con" element="NULL" name="x_dete_emb_m2m_embedded_con_embedded_con" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">c8018965ae1baccf43ce28193c4f7957</list_id>
+            <list_id display_value="x_det_clone1_m2m_embedded_con_embedded_con" element="NULL" name="x_det_clone1_m2m_embedded_con_embedded_con" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">c8018965ae1baccf43ce28193c4f7957</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
@@ -18,7 +18,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>requires.path</element>
-            <list_id display_value="x_det_clone1_m2m_embedded_con_embedded_con" element="NULL" name="x_dete_emb_m2m_embedded_con_embedded_con" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">c8018965ae1baccf43ce28193c4f7957</list_id>
+            <list_id display_value="x_det_clone1_m2m_embedded_con_embedded_con" element="NULL" name="x_det_clone1_m2m_embedded_con_embedded_con" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">c8018965ae1baccf43ce28193c4f7957</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>1</position>
@@ -33,7 +33,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>requires.sys_class_name</element>
-            <list_id display_value="x_det_clone1_m2m_embedded_con_embedded_con" element="NULL" name="x_dete_emb_m2m_embedded_con_embedded_con" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">c8018965ae1baccf43ce28193c4f7957</list_id>
+            <list_id display_value="x_det_clone1_m2m_embedded_con_embedded_con" element="NULL" name="x_det_clone1_m2m_embedded_con_embedded_con" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">c8018965ae1baccf43ce28193c4f7957</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>2</position>

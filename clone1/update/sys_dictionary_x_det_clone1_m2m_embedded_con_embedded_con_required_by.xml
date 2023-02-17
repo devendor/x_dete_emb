@@ -35,7 +35,7 @@
         <primary>false</primary>
         <read_only>true</read_only>
         <read_roles/>
-        <reference display_value="" name="x_det_clone1_edded_content">x_dete_emb_edded_content</reference>
+        <reference display_value="" name="x_det_clone1_edded_content">x_det_clone1_edded_content</reference>
         <reference_cascade_rule/>
         <reference_floats>false</reference_floats>
         <reference_key/>

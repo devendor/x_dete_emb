@@ -7,7 +7,7 @@
         <hint>Embedded Content FIles</hint>
         <name/>
         <order>100</order>
-        <roles>admin,delegated_developer,content_admin,source_control,x_det_clone1.embedded_content_user,x_dete_emb.edded_content_user</roles>
+        <roles>admin,delegated_developer,content_admin,source_control,x_det_clone1.embedded_content_user,x_det_clone1.edded_content_user</roles>
         <sys_class_name>sys_app_application</sys_class_name>
         <sys_created_by>ray.ferguson</sys_created_by>
         <sys_created_on>2019-08-03 20:53:33</sys_created_on>

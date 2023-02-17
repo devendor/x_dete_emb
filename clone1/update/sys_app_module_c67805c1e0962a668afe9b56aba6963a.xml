@@ -15,7 +15,7 @@
         <name/>
         <order>14</order>
         <override_menu_roles>false</override_menu_roles>
-        <query>sysevent_list.do?sysparm_fixed_query=sys_created_on&gt;=javascript:gs.minutesAgo(240)^name=	x_det_clone1.edded_content_ui_action&amp;sysparm_query=ORDERBYDESCsys_created_on^EQ&amp;sysparm_view=x_dete_emb</query>
+        <query>sysevent_list.do?sysparm_fixed_query=sys_created_on&gt;=javascript:gs.minutesAgo(240)^name=	x_det_clone1.edded_content_ui_action&amp;sysparm_query=ORDERBYDESCsys_created_on^EQ&amp;sysparm_view=x_det_clone1</query>
         <report/>
         <roles/>
         <sys_class_name>sys_app_module</sys_class_name>

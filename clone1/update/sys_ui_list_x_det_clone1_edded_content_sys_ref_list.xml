@@ -3,7 +3,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>name</element>
-            <list_id display_value="x_det_clone1_edded_content" element="NULL" name="x_dete_emb_edded_content" parent="NULL" relationship="NULL" sys_domain="global" view="bb472373db3200104c5d7b82399619cd">a6ebceb4ec9e84821573e55af332f254</list_id>
+            <list_id display_value="x_det_clone1_edded_content" element="NULL" name="x_det_clone1_edded_content" parent="NULL" relationship="NULL" sys_domain="global" view="bb472373db3200104c5d7b82399619cd">a6ebceb4ec9e84821573e55af332f254</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
@@ -18,7 +18,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>path</element>
-            <list_id display_value="x_det_clone1_edded_content" element="NULL" name="x_dete_emb_edded_content" parent="NULL" relationship="NULL" sys_domain="global" view="bb472373db3200104c5d7b82399619cd">a6ebceb4ec9e84821573e55af332f254</list_id>
+            <list_id display_value="x_det_clone1_edded_content" element="NULL" name="x_det_clone1_edded_content" parent="NULL" relationship="NULL" sys_domain="global" view="bb472373db3200104c5d7b82399619cd">a6ebceb4ec9e84821573e55af332f254</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>1</position>
@@ -33,7 +33,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>size</element>
-            <list_id display_value="x_det_clone1_edded_content" element="NULL" name="x_dete_emb_edded_content" parent="NULL" relationship="NULL" sys_domain="global" view="bb472373db3200104c5d7b82399619cd">a6ebceb4ec9e84821573e55af332f254</list_id>
+            <list_id display_value="x_det_clone1_edded_content" element="NULL" name="x_det_clone1_edded_content" parent="NULL" relationship="NULL" sys_domain="global" view="bb472373db3200104c5d7b82399619cd">a6ebceb4ec9e84821573e55af332f254</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>2</position>

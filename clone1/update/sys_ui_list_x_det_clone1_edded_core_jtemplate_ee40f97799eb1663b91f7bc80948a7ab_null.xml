@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_ui_list parent="x_det_clone1_edded_core_jtemplate" relationship="ee40f97799eb1663b91f7bc80948a7ab" sys_domain="global" table="x_dete_emb_m2m_embedded_con_embedded_con" version="2" view="">
+    <sys_ui_list parent="x_det_clone1_edded_core_jtemplate" relationship="ee40f97799eb1663b91f7bc80948a7ab" sys_domain="global" table="x_det_clone1_m2m_embedded_con_embedded_con" version="2" view="">
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>required_by</element>
-            <list_id display_value="x_det_clone1_m2m_embedded_con_embedded_con" element="NULL" name="x_dete_emb_m2m_embedded_con_embedded_con" parent="x_dete_emb_edded_core_jtemplate" relationship="ee40f97799eb1663b91f7bc80948a7ab" sys_domain="global" view="Default view">0bd85abac9cbd450e0c5553a9a86b099</list_id>
+            <list_id display_value="x_det_clone1_m2m_embedded_con_embedded_con" element="NULL" name="x_det_clone1_m2m_embedded_con_embedded_con" parent="x_det_clone1_edded_core_jtemplate" relationship="ee40f97799eb1663b91f7bc80948a7ab" sys_domain="global" view="Default view">0bd85abac9cbd450e0c5553a9a86b099</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
@@ -18,7 +18,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>required_by.path</element>
-            <list_id display_value="x_det_clone1_m2m_embedded_con_embedded_con" element="NULL" name="x_dete_emb_m2m_embedded_con_embedded_con" parent="x_dete_emb_edded_core_jtemplate" relationship="ee40f97799eb1663b91f7bc80948a7ab" sys_domain="global" view="Default view">0bd85abac9cbd450e0c5553a9a86b099</list_id>
+            <list_id display_value="x_det_clone1_m2m_embedded_con_embedded_con" element="NULL" name="x_det_clone1_m2m_embedded_con_embedded_con" parent="x_det_clone1_edded_core_jtemplate" relationship="ee40f97799eb1663b91f7bc80948a7ab" sys_domain="global" view="Default view">0bd85abac9cbd450e0c5553a9a86b099</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>1</position>
@@ -33,7 +33,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>required_by.sys_class_name</element>
-            <list_id display_value="x_det_clone1_m2m_embedded_con_embedded_con" element="NULL" name="x_dete_emb_m2m_embedded_con_embedded_con" parent="x_dete_emb_edded_core_jtemplate" relationship="ee40f97799eb1663b91f7bc80948a7ab" sys_domain="global" view="Default view">0bd85abac9cbd450e0c5553a9a86b099</list_id>
+            <list_id display_value="x_det_clone1_m2m_embedded_con_embedded_con" element="NULL" name="x_det_clone1_m2m_embedded_con_embedded_con" parent="x_det_clone1_edded_core_jtemplate" relationship="ee40f97799eb1663b91f7bc80948a7ab" sys_domain="global" view="Default view">0bd85abac9cbd450e0c5553a9a86b099</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>2</position>

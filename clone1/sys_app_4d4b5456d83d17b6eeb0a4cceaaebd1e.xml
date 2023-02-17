@@ -35,7 +35,7 @@
         <template/>
         <trackable>true</trackable>
         <uninstall_blocked>false</uninstall_blocked>
-        <user_role display_value="x_det_clone1.edded_content_user" name="x_dete_emb.edded_content_user">9af27883e328662b4e6e95001de6ab41</user_role>
+        <user_role display_value="x_det_clone1.edded_content_user" name="x_det_clone1.edded_content_user">9af27883e328662b4e6e95001de6ab41</user_role>
         <vendor/>
         <vendor_prefix/>
         <version>3.1.0</version>

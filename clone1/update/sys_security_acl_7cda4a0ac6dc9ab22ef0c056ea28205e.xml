@@ -4,7 +4,7 @@
         <admin_overrides>false</admin_overrides>
         <advanced>true</advanced>
         <condition/>
-        <description>Allow create for records in x_det_clone1_edded_content, for users with roles (x_dete_emb.edded_content_admin, admin), and if the ACL script returns true.</description>
+        <description>Allow create for records in x_det_clone1_edded_content, for users with roles (x_det_clone1.edded_content_admin, admin), and if the ACL script returns true.</description>
         <name>x_det_clone1_edded_content</name>
         <operation display_value="create">create</operation>
         <script><![CDATA[answer = (!gs.isInteractive());]]></script>

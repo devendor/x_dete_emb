@@ -2,7 +2,7 @@
     <sys_properties_category_m2m action="INSERT_OR_UPDATE">
         <category display_value="Embedded Content">26a8f0a0ec0065b5e4c145ef06d17a5c</category>
         <order>400</order>
-        <property display_value="x_det_clone1.max_beautify_size" name="x_dete_emb.max_beautify_size">8e5f5c577e0348c503480816c61a78eb</property>
+        <property display_value="x_det_clone1.max_beautify_size" name="x_det_clone1.max_beautify_size">8e5f5c577e0348c503480816c61a78eb</property>
         <sys_class_name>sys_properties_category_m2m</sys_class_name>
         <sys_created_by>rferguson</sys_created_by>
         <sys_created_on>2020-10-09 02:06:20</sys_created_on>
