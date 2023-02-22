@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>ray.ferguson</sys_created_by>
+        <sys_created_on>2019-08-16 17:35:02</sys_created_on>
+        <sys_id>cec7e8e61759e966fc837494b26b2cdb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_dete_clone2_about_this_app.x_dete_clone2.edded_content_user</sys_name>
+        <sys_package display_value="Embedded Content" source="x_dete_clone2">594ac454d36c16662a2fe6d918591edc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Embedded Content">594ac454d36c16662a2fe6d918591edc</sys_scope>
+        <sys_security_acl display_value="x_dete_clone2_about_this_app">66f31242fe8269bda701f6ef2e9e9bad</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_cec7e8e61759e966fc837494b26b2cdb</sys_update_name>
+        <sys_updated_by>ray.ferguson</sys_updated_by>
+        <sys_updated_on>2019-08-16 17:35:02</sys_updated_on>
+        <sys_user_role display_value="x_dete_clone2.edded_content_user" name="x_dete_clone2.edded_content_user">0b86fe008106a2eceb78daf4ccffd22c</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>

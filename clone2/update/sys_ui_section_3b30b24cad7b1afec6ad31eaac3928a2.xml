@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="3b30b24cad7b1afec6ad31eaac3928a2" sys_domain="global" table="x_dete_clone2_edded_xml" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>0</position>
+            <sys_created_by>ray.ferguson</sys_created_by>
+            <sys_created_on>2019-08-25 16:53:25</sys_created_on>
+            <sys_id>9666289fb4188f7729a04c9f68135bd6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_dete_clone2_edded_xml" sys_domain="global" view="Default view">3b30b24cad7b1afec6ad31eaac3928a2</sys_ui_section>
+            <sys_updated_by>ray.ferguson</sys_updated_by>
+            <sys_updated_on>2019-08-25 16:53:25</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>name</element>
+            <position>1</position>
+            <sys_created_by>ray.ferguson</sys_created_by>
+            <sys_created_on>2019-08-25 16:53:25</sys_created_on>
+            <sys_id>3d1c040a48cb16bc6f0dc3afd3a75af3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_dete_clone2_edded_xml" sys_domain="global" view="Default view">3b30b24cad7b1afec6ad31eaac3928a2</sys_ui_section>
+            <sys_updated_by>ray.ferguson</sys_updated_by>
+            <sys_updated_on>2019-08-25 16:53:25</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>path</element>
+            <position>2</position>
+            <sys_created_by>ray.ferguson</sys_created_by>
+            <sys_created_on>2019-08-25 16:53:25</sys_created_on>
+            <sys_id>4f2999216faabde999b61073bd932fe3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_dete_clone2_edded_xml" sys_domain="global" view="Default view">3b30b24cad7b1afec6ad31eaac3928a2</sys_ui_section>
+            <sys_updated_by>ray.ferguson</sys_updated_by>
+            <sys_updated_on>2019-08-25 16:53:25</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>3</position>
+            <sys_created_by>ray.ferguson</sys_created_by>
+            <sys_created_on>2019-08-25 16:53:25</sys_created_on>
+            <sys_id>98fd667dc2f7465cf548b53881a8ef71</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_dete_clone2_edded_xml" sys_domain="global" view="Default view">3b30b24cad7b1afec6ad31eaac3928a2</sys_ui_section>
+            <sys_updated_by>ray.ferguson</sys_updated_by>
+            <sys_updated_on>2019-08-25 16:53:25</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>source_id</element>
+            <position>4</position>
+            <sys_created_by>ray.ferguson</sys_created_by>
+            <sys_created_on>2019-08-25 16:53:25</sys_created_on>
+            <sys_id>c67ad930af56d1c547305caa2e9b9db9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_dete_clone2_edded_xml" sys_domain="global" view="Default view">3b30b24cad7b1afec6ad31eaac3928a2</sys_ui_section>
+            <sys_updated_by>ray.ferguson</sys_updated_by>
+            <sys_updated_on>2019-08-25 16:53:25</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>size</element>
+            <position>5</position>
+            <sys_created_by>ray.ferguson</sys_created_by>
+            <sys_created_on>2019-08-25 16:53:25</sys_created_on>
+            <sys_id>adca19452673a228f8ff979f13cb70a5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_dete_clone2_edded_xml" sys_domain="global" view="Default view">3b30b24cad7b1afec6ad31eaac3928a2</sys_ui_section>
+            <sys_updated_by>ray.ferguson</sys_updated_by>
+            <sys_updated_on>2019-08-25 16:53:25</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>6</position>
+            <sys_created_by>ray.ferguson</sys_created_by>
+            <sys_created_on>2019-08-25 16:53:25</sys_created_on>
+            <sys_id>8a611f6271b68716fae9284be7441342</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_dete_clone2_edded_xml" sys_domain="global" view="Default view">3b30b24cad7b1afec6ad31eaac3928a2</sys_ui_section>
+            <sys_updated_by>ray.ferguson</sys_updated_by>
+            <sys_updated_on>2019-08-25 16:53:25</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>x_dete_clone2_prettier.xml</element>
+            <position>7</position>
+            <sys_created_by>ray.ferguson</sys_created_by>
+            <sys_created_on>2019-08-25 16:53:25</sys_created_on>
+            <sys_id>0db7b10e3276071c3eb886cf665b9ea1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter display_value="prettier">277a21498123eee942e9a3a2920141aa</sys_ui_formatter>
+            <sys_ui_section caption="NULL" display_value="" name="x_dete_clone2_edded_xml" sys_domain="global" view="Default view">3b30b24cad7b1afec6ad31eaac3928a2</sys_ui_section>
+            <sys_updated_by>ray.ferguson</sys_updated_by>
+            <sys_updated_on>2019-08-25 16:53:25</sys_updated_on>
+            <sys_user/>
+            <type>formatter</type>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_dete_clone2_edded_xml</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>ray.ferguson</sys_created_by>
+            <sys_created_on>2019-08-11 15:49:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3b30b24cad7b1afec6ad31eaac3928a2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_dete_clone2_edded_xml</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Embedded Content" source="x_dete_clone2">594ac454d36c16662a2fe6d918591edc</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Embedded Content">594ac454d36c16662a2fe6d918591edc</sys_scope>
+            <sys_update_name>sys_ui_section_3b30b24cad7b1afec6ad31eaac3928a2</sys_update_name>
+            <sys_updated_by>ray.ferguson</sys_updated_by>
+            <sys_updated_on>2019-08-11 15:49:44</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

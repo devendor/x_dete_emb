@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="Embedded Content">9475004717d8dea6e5928fab3b9401b3</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Platform CSSs</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_dete_clone2_embedded_css</name>
+        <order>425</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles/>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>rferguson</sys_created_by>
+        <sys_created_on>2020-05-04 23:14:16</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>4fcecf2ce503284f62705431b09132aa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>All Embedded Style Sheets</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Embedded Content" source="x_dete_clone2">594ac454d36c16662a2fe6d918591edc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Embedded Content">594ac454d36c16662a2fe6d918591edc</sys_scope>
+        <sys_update_name>sys_app_module_4fcecf2ce503284f62705431b09132aa</sys_update_name>
+        <sys_updated_by>rferguson</sys_updated_by>
+        <sys_updated_on>2020-05-04 23:14:16</sys_updated_on>
+        <timeline_page/>
+        <title>All Embedded Style Sheets</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+</record_update>

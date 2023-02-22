@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="" label="Embedded Content" language="en" table="x_dete_clone2_edded_content">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element/>
+            <help/>
+            <hint/>
+            <label>Embedded Content</label>
+            <language>en</language>
+            <name>x_dete_clone2_edded_content</name>
+            <plural>Embedded Contents</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>ray.ferguson</sys_created_by>
+            <sys_created_on>2019-08-05 21:46:13</sys_created_on>
+            <sys_id>f2cf12bcea1c69e050e7cb9709ba0266</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Embedded Content</sys_name>
+            <sys_package display_value="Embedded Content" source="x_dete_clone2">594ac454d36c16662a2fe6d918591edc</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Embedded Content">594ac454d36c16662a2fe6d918591edc</sys_scope>
+            <sys_update_name>sys_documentation_x_dete_clone2_edded_content__en</sys_update_name>
+            <sys_updated_by>ray.ferguson</sys_updated_by>
+            <sys_updated_on>2019-08-05 21:46:13</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

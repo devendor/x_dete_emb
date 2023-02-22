@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ua_table_licensing_config">
+    <ua_table_licensing_config action="INSERT_OR_UPDATE">
+        <is_fulfillment>false</is_fulfillment>
+        <license_condition/>
+        <license_model>none</license_model>
+        <license_roles/>
+        <name>x_dete_clone2_edded_core_form</name>
+        <op_delete>true</op_delete>
+        <op_insert>true</op_insert>
+        <op_update>true</op_update>
+        <owner_condition/>
+        <sys_class_name>ua_table_licensing_config</sys_class_name>
+        <sys_created_by>ray.ferguson</sys_created_by>
+        <sys_created_on>2019-08-08 19:28:59</sys_created_on>
+        <sys_id>fe92685372f93c02e03848f84000d871</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_dete_clone2_edded_core_form</sys_name>
+        <sys_package display_value="Embedded Content" source="x_dete_clone2">594ac454d36c16662a2fe6d918591edc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Embedded Content">594ac454d36c16662a2fe6d918591edc</sys_scope>
+        <sys_update_name>ua_table_licensing_config_fe92685372f93c02e03848f84000d871</sys_update_name>
+        <sys_updated_by>ray.ferguson</sys_updated_by>
+        <sys_updated_on>2019-08-08 19:28:59</sys_updated_on>
+    </ua_table_licensing_config>
+</record_update>

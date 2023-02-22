@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_action">
+    <sys_ui_action action="INSERT_OR_UPDATE">
+        <action_name>sysverb_wrap</action_name>
+        <active>true</active>
+        <client>true</client>
+        <client_script_v2><![CDATA[function onClick(g_form) {
+
+}]]></client_script_v2>
+        <comments>Toggles word wrap for scripts.</comments>
+        <condition>true</condition>
+        <form_action>true</form_action>
+        <form_button>true</form_button>
+        <form_button_v2>false</form_button_v2>
+        <form_context_menu>false</form_context_menu>
+        <form_link>false</form_link>
+        <form_menu_button_v2>false</form_menu_button_v2>
+        <form_style>unstyled</form_style>
+        <hint/>
+        <isolate_script>false</isolate_script>
+        <list_action>false</list_action>
+        <list_banner_button>false</list_banner_button>
+        <list_button>false</list_button>
+        <list_choice>false</list_choice>
+        <list_context_menu>false</list_context_menu>
+        <list_link>false</list_link>
+        <list_save_with_form_button>false</list_save_with_form_button>
+        <list_style/>
+        <messages/>
+        <name>Toggle Wrap</name>
+        <onclick>x_dete_clone2_toggleWrap()</onclick>
+        <order>100</order>
+        <script><![CDATA[/* global g_form  */
+/* eslint no-unused-vars:1,eqeqeq:[1,smart],no-undef:1,no-useless-return:1,curly:[1,multi-or-nest,consistent],no-magic-numbers:[0,1,{ignoreArrayIndexes:true}]*/
+var x_dete_clone2_toggleWrap = (function(g_form) { // eslint-disable-line no-unused-vars
+    return function() {
+        var e = g_form.getFormElement().getElementsBySelector("#x_dete_clone2_pre_content").first();
+        if (e.classList.contains("wrap_pretty")) e.classList.remove("wrap_pretty");
+        else e.classList.add("wrap_pretty");
+    };
+})(g_form);]]></script>
+        <show_insert>false</show_insert>
+        <show_multiple_update>false</show_multiple_update>
+        <show_query>false</show_query>
+        <show_update>true</show_update>
+        <sys_class_name>sys_ui_action</sys_class_name>
+        <sys_created_by>ray.ferguson</sys_created_by>
+        <sys_created_on>2019-08-14 00:31:43</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>48489983d84dbcb5c1907f6aa0ec14d9</sys_id>
+        <sys_mod_count>29</sys_mod_count>
+        <sys_name>Toggle Wrap</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Embedded Content" source="x_dete_clone2">594ac454d36c16662a2fe6d918591edc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Embedded Content">594ac454d36c16662a2fe6d918591edc</sys_scope>
+        <sys_update_name>sys_ui_action_48489983d84dbcb5c1907f6aa0ec14d9</sys_update_name>
+        <sys_updated_by>rferguson</sys_updated_by>
+        <sys_updated_on>2022-06-05 17:46:20</sys_updated_on>
+        <table>x_dete_clone2_edded_content</table>
+        <ui11_compatible>true</ui11_compatible>
+        <ui16_compatible>true</ui16_compatible>
+    </sys_ui_action>
+</record_update>

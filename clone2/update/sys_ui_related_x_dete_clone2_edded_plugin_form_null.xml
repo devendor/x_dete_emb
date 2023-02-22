@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_related sys_domain="global" table="x_dete_clone2_edded_plugin_form" version="2" view="">
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Plugin JForm - Default view" name="x_dete_clone2_edded_plugin_form" related_list="NULL" sys_domain="global" view="Default view">a481b8ae3b38e2afda5002a78b14079e</list_id>
+            <order_by/>
+            <position>0</position>
+            <related_list>REL:c4c164b20292df3e030cef024d481429</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>ray.ferguson</sys_created_by>
+            <sys_created_on>2019-08-24 03:54:56</sys_created_on>
+            <sys_id>24544fa16c95a900dec3be0f8d435a0a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ray.ferguson</sys_updated_by>
+            <sys_updated_on>2019-08-24 03:54:56</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Plugin JForm - Default view" name="x_dete_clone2_edded_plugin_form" related_list="NULL" sys_domain="global" view="Default view">a481b8ae3b38e2afda5002a78b14079e</list_id>
+            <order_by/>
+            <position>1</position>
+            <related_list>REL:6e7ea6aa947c9c55a1c27b159c2154de</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>ray.ferguson</sys_created_by>
+            <sys_created_on>2019-08-24 03:54:56</sys_created_on>
+            <sys_id>e58016c9b90904bf0ab906e38e0d7cb3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ray.ferguson</sys_updated_by>
+            <sys_updated_on>2019-08-24 03:54:56</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Plugin JForm - Default view" name="x_dete_clone2_edded_plugin_form" related_list="NULL" sys_domain="global" view="Default view">a481b8ae3b38e2afda5002a78b14079e</list_id>
+            <order_by/>
+            <position>2</position>
+            <related_list>REL:336645b576544925472ee25efd1b084c</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>ray.ferguson</sys_created_by>
+            <sys_created_on>2019-08-24 03:54:56</sys_created_on>
+            <sys_id>97db225e51a8dd2101fe3c0fc3d8e600</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ray.ferguson</sys_updated_by>
+            <sys_updated_on>2019-08-24 03:54:56</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Plugin JForm - Default view" name="x_dete_clone2_edded_plugin_form" related_list="NULL" sys_domain="global" view="Default view">a481b8ae3b38e2afda5002a78b14079e</list_id>
+            <order_by/>
+            <position>3</position>
+            <related_list>REL:412cd6e823b4bfd03aed7fc4964b0ac3</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>ray.ferguson</sys_created_by>
+            <sys_created_on>2019-08-24 03:54:56</sys_created_on>
+            <sys_id>8770f9f1b397e5a32c3bcdeb4e58c672</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ray.ferguson</sys_updated_by>
+            <sys_updated_on>2019-08-24 03:54:56</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Plugin JForm - Default view" name="x_dete_clone2_edded_plugin_form" related_list="NULL" sys_domain="global" view="Default view">a481b8ae3b38e2afda5002a78b14079e</list_id>
+            <order_by/>
+            <position>4</position>
+            <related_list>x_dete_clone2_m2m_embedded_con_embedded_con.required_by</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>ray.ferguson</sys_created_by>
+            <sys_created_on>2019-08-24 03:54:56</sys_created_on>
+            <sys_id>7f33732d1d029b9631dcfb45f4cba9a7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ray.ferguson</sys_updated_by>
+            <sys_updated_on>2019-08-24 03:54:56</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Plugin JForm - Default view" name="x_dete_clone2_edded_plugin_form" related_list="NULL" sys_domain="global" view="Default view">a481b8ae3b38e2afda5002a78b14079e</list_id>
+            <order_by/>
+            <position>5</position>
+            <related_list>REL:16da3668d0603c5481f8a45ef2ce28e8</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>ray.ferguson</sys_created_by>
+            <sys_created_on>2019-08-24 03:54:56</sys_created_on>
+            <sys_id>ca29b32b38ef0702857c903dd8fd364b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ray.ferguson</sys_updated_by>
+            <sys_updated_on>2019-08-24 03:54:56</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list action="INSERT_OR_UPDATE">
+            <calculated_name>Plugin JForm - Default view</calculated_name>
+            <filter/>
+            <name>x_dete_clone2_edded_plugin_form</name>
+            <order_by/>
+            <position/>
+            <related_list/>
+            <sys_class_name>sys_ui_related_list</sys_class_name>
+            <sys_created_by>ray.ferguson</sys_created_by>
+            <sys_created_on>2019-08-24 03:54:56</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a481b8ae3b38e2afda5002a78b14079e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Plugin JForm - Default view</sys_name>
+            <sys_package display_value="Embedded Content" source="x_dete_clone2">594ac454d36c16662a2fe6d918591edc</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Embedded Content">594ac454d36c16662a2fe6d918591edc</sys_scope>
+            <sys_update_name>sys_ui_related_x_dete_clone2_edded_plugin_form_null</sys_update_name>
+            <sys_updated_by>ray.ferguson</sys_updated_by>
+            <sys_updated_on>2019-08-24 03:54:56</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_related_list>
+    </sys_ui_related>
+</record_update>

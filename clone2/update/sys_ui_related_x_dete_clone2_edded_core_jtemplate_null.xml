@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_related sys_domain="global" table="x_dete_clone2_edded_core_jtemplate" version="2" view="">
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Platform JTemplate - Default view" name="x_dete_clone2_edded_core_jtemplate" related_list="NULL" sys_domain="global" view="Default view">d102d015084a043385676afd9d41d4ce</list_id>
+            <order_by/>
+            <position>0</position>
+            <related_list>x_dete_clone2_m2m_embedded_con_embedded_con.required_by</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-11-28 04:55:39</sys_created_on>
+            <sys_id>2956fef5226b72174a3af50efed2997b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-11-28 04:55:39</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Platform JTemplate - Default view" name="x_dete_clone2_edded_core_jtemplate" related_list="NULL" sys_domain="global" view="Default view">d102d015084a043385676afd9d41d4ce</list_id>
+            <order_by/>
+            <position>1</position>
+            <related_list>REL:16da3668d0603c5481f8a45ef2ce28e8</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-11-28 04:55:39</sys_created_on>
+            <sys_id>a88a2375ec2043946ecf1455acee840e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-11-28 04:55:39</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list action="INSERT_OR_UPDATE">
+            <calculated_name>Platform JTemplate - Default view</calculated_name>
+            <filter/>
+            <name>x_dete_clone2_edded_core_jtemplate</name>
+            <order_by/>
+            <position/>
+            <related_list/>
+            <sys_class_name>sys_ui_related_list</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-11-28 04:55:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d102d015084a043385676afd9d41d4ce</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Platform JTemplate - Default view</sys_name>
+            <sys_package display_value="Embedded Content" source="x_dete_clone2">594ac454d36c16662a2fe6d918591edc</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Embedded Content">594ac454d36c16662a2fe6d918591edc</sys_scope>
+            <sys_update_name>sys_ui_related_x_dete_clone2_edded_core_jtemplate_null</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-11-28 04:55:39</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_related_list>
+    </sys_ui_related>
+</record_update>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties_category_m2m">
+    <sys_properties_category_m2m action="INSERT_OR_UPDATE">
+        <category display_value="Embedded Content">1777d50d47c09728d092618849ff9ab8</category>
+        <order>600</order>
+        <property display_value="x_dete_clone2.global_component_minimum_version" name="x_dete_clone2.global_component_minimum_version">b207352ef5a716ca3bd008adba8479fa</property>
+        <sys_class_name>sys_properties_category_m2m</sys_class_name>
+        <sys_created_by>rferguson</sys_created_by>
+        <sys_created_on>2020-10-09 02:06:20</sys_created_on>
+        <sys_id>3d9cead0078349cd4dd0ea3e30193ce2</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>x_dete_clone2.global_component_minimum_version.Embedded Content</sys_name>
+        <sys_package display_value="Embedded Content" source="x_dete_clone2">594ac454d36c16662a2fe6d918591edc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Embedded Content">594ac454d36c16662a2fe6d918591edc</sys_scope>
+        <sys_update_name>sys_properties_category_m2m_3d9cead0078349cd4dd0ea3e30193ce2</sys_update_name>
+        <sys_updated_by>rferguson</sys_updated_by>
+        <sys_updated_on>2020-11-28 17:34:21</sys_updated_on>
+    </sys_properties_category_m2m>
+</record_update>

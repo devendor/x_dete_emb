@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="c659401e827b7d30140c3e62564b29c0" sys_domain="global" table="x_dete_clone2_m2m_embedded_con_embedded_con" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>0</position>
+            <sys_created_by>ray.ferguson</sys_created_by>
+            <sys_created_on>2019-08-23 19:11:43</sys_created_on>
+            <sys_id>824583cf0c33fcc618bb687dee1cc419</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_dete_clone2_m2m_embedded_con_embedded_con" sys_domain="global" view="Default view">c659401e827b7d30140c3e62564b29c0</sys_ui_section>
+            <sys_updated_by>ray.ferguson</sys_updated_by>
+            <sys_updated_on>2019-08-23 19:11:43</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>required_by</element>
+            <position>1</position>
+            <sys_created_by>ray.ferguson</sys_created_by>
+            <sys_created_on>2019-08-23 19:11:43</sys_created_on>
+            <sys_id>838b85cf1a2cfb52d46379004f7b0889</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_dete_clone2_m2m_embedded_con_embedded_con" sys_domain="global" view="Default view">c659401e827b7d30140c3e62564b29c0</sys_ui_section>
+            <sys_updated_by>ray.ferguson</sys_updated_by>
+            <sys_updated_on>2019-08-23 19:11:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>2</position>
+            <sys_created_by>ray.ferguson</sys_created_by>
+            <sys_created_on>2019-08-23 19:11:43</sys_created_on>
+            <sys_id>ed8d2cbc2eba256b8f558ccf3580ea00</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_dete_clone2_m2m_embedded_con_embedded_con" sys_domain="global" view="Default view">c659401e827b7d30140c3e62564b29c0</sys_ui_section>
+            <sys_updated_by>ray.ferguson</sys_updated_by>
+            <sys_updated_on>2019-08-23 19:11:43</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>requires</element>
+            <position>3</position>
+            <sys_created_by>ray.ferguson</sys_created_by>
+            <sys_created_on>2019-08-23 19:11:43</sys_created_on>
+            <sys_id>e7ffb80a542993ee4947165e684aae3f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_dete_clone2_m2m_embedded_con_embedded_con" sys_domain="global" view="Default view">c659401e827b7d30140c3e62564b29c0</sys_ui_section>
+            <sys_updated_by>ray.ferguson</sys_updated_by>
+            <sys_updated_on>2019-08-23 19:11:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>4</position>
+            <sys_created_by>ray.ferguson</sys_created_by>
+            <sys_created_on>2019-08-23 19:11:43</sys_created_on>
+            <sys_id>405f016d8ad30ca2fb82acd97e65adbf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_dete_clone2_m2m_embedded_con_embedded_con" sys_domain="global" view="Default view">c659401e827b7d30140c3e62564b29c0</sys_ui_section>
+            <sys_updated_by>ray.ferguson</sys_updated_by>
+            <sys_updated_on>2019-08-23 19:11:43</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_dete_clone2_m2m_embedded_con_embedded_con</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>ray.ferguson</sys_created_by>
+            <sys_created_on>2019-08-23 19:11:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c659401e827b7d30140c3e62564b29c0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_dete_clone2_m2m_embedded_con_embedded_con</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Embedded Content" source="x_dete_clone2">594ac454d36c16662a2fe6d918591edc</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Embedded Content">594ac454d36c16662a2fe6d918591edc</sys_scope>
+            <sys_update_name>sys_ui_section_c659401e827b7d30140c3e62564b29c0</sys_update_name>
+            <sys_updated_by>ray.ferguson</sys_updated_by>
+            <sys_updated_on>2019-08-23 19:11:43</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

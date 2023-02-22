@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties">
+    <sys_properties action="INSERT_OR_UPDATE">
+        <choices>db,file</choices>
+        <description>Log to file or database</description>
+        <ignore_cache>false</ignore_cache>
+        <is_private>false</is_private>
+        <name>x_dete_clone2.logging.destination</name>
+        <read_roles/>
+        <suffix>logging.destination</suffix>
+        <sys_class_name>sys_properties</sys_class_name>
+        <sys_created_by>rferguson</sys_created_by>
+        <sys_created_on>2020-10-07 19:30:24</sys_created_on>
+        <sys_id>bd1ae6331a01a76859288a696dca3cbb</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>x_dete_clone2.logging.destination</sys_name>
+        <sys_package display_value="Embedded Content" source="x_dete_clone2">594ac454d36c16662a2fe6d918591edc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Embedded Content">594ac454d36c16662a2fe6d918591edc</sys_scope>
+        <sys_update_name>sys_properties_bd1ae6331a01a76859288a696dca3cbb</sys_update_name>
+        <sys_updated_by>rferguson</sys_updated_by>
+        <sys_updated_on>2020-11-29 23:44:37</sys_updated_on>
+        <type>choicelist</type>
+        <value>db</value>
+        <write_roles/>
+    </sys_properties>
+    <sys_translated_text action="delete_multiple" query="documentkey=bd1ae6331a01a76859288a696dca3cbb"/>
+</record_update>

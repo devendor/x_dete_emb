@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Emb M2m Embedded Con Embedded Con" max_length="40" name="x_dete_clone2_m2m_embedded_con_embedded_con" type="collection">
+        <element label="Requires" max_length="32" name="required_by" read_only="true" reference="x_dete_clone2_edded_content" type="reference"/>
+        <element label="Required By" max_length="32" name="requires" read_only="true" reference="x_dete_clone2_edded_content" type="reference"/>
+        <index name="index">
+            <element name="required_by"/>
+        </index>
+        <index name="index2">
+            <element name="requires"/>
+        </index>
+    </element>
+</database>

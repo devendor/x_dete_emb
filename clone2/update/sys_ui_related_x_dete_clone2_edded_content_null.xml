@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_related sys_domain="global" table="x_dete_clone2_edded_content" version="2" view="">
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Embedded Content - Default view" name="x_dete_clone2_edded_content" related_list="NULL" sys_domain="global" view="Default view">cd387570b4b957eca73c2b0b66402164</list_id>
+            <order_by/>
+            <position>0</position>
+            <related_list>REL:16da3668d0603c5481f8a45ef2ce28e8</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>ray.ferguson</sys_created_by>
+            <sys_created_on>2019-08-24 03:19:42</sys_created_on>
+            <sys_id>60ae51b2d5944437f091d78914fd82bd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ray.ferguson</sys_updated_by>
+            <sys_updated_on>2019-08-24 03:19:42</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Embedded Content - Default view" name="x_dete_clone2_edded_content" related_list="NULL" sys_domain="global" view="Default view">cd387570b4b957eca73c2b0b66402164</list_id>
+            <order_by/>
+            <position>1</position>
+            <related_list>x_dete_clone2_m2m_embedded_con_embedded_con.required_by</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>ray.ferguson</sys_created_by>
+            <sys_created_on>2019-08-24 03:19:42</sys_created_on>
+            <sys_id>fd85a01c5c80b53dd054703714759b44</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ray.ferguson</sys_updated_by>
+            <sys_updated_on>2019-08-24 03:19:42</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list action="INSERT_OR_UPDATE">
+            <calculated_name>Embedded Content - Default view</calculated_name>
+            <filter/>
+            <name>x_dete_clone2_edded_content</name>
+            <order_by/>
+            <position/>
+            <related_list/>
+            <sys_class_name>sys_ui_related_list</sys_class_name>
+            <sys_created_by>ray.ferguson</sys_created_by>
+            <sys_created_on>2019-08-24 03:19:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>cd387570b4b957eca73c2b0b66402164</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Embedded Content - Default view</sys_name>
+            <sys_package display_value="Embedded Content" source="x_dete_clone2">594ac454d36c16662a2fe6d918591edc</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Embedded Content">594ac454d36c16662a2fe6d918591edc</sys_scope>
+            <sys_update_name>sys_ui_related_x_dete_clone2_edded_content_null</sys_update_name>
+            <sys_updated_by>ray.ferguson</sys_updated_by>
+            <sys_updated_on>2019-08-24 03:19:42</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_related_list>
+    </sys_ui_related>
+</record_update>
