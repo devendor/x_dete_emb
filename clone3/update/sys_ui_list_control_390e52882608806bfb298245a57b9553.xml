@@ -15,7 +15,7 @@
         <list_edit_insert_row>false</list_edit_insert_row>
         <list_edit_ref_qual_tag/>
         <list_edit_type>disabled</list_edit_type>
-        <name>x_dete_emb_edded_plugin_form</name>
+        <name>x_dete_clone3_edded_plugin_form</name>
         <new_condition/>
         <new_roles/>
         <omit_columns_if_empty>false</omit_columns_if_empty>
@@ -36,9 +36,9 @@
         <sys_domain_path>/</sys_domain_path>
         <sys_id>390e52882608806bfb298245a57b9553</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>x_dete_emb_edded_plugin_form</sys_name>
+        <sys_name>x_dete_clone3_edded_plugin_form</sys_name>
         <sys_overrides display_value="">global</sys_overrides>
-        <sys_package display_value="Embedded Content" source="x_dete_emb">b112a96e2eec70243f98dda0960411dc</sys_package>
+        <sys_package display_value="Embedded Content" source="x_dete_clone3">b112a96e2eec70243f98dda0960411dc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Embedded Content">b112a96e2eec70243f98dda0960411dc</sys_scope>
         <sys_update_name>sys_ui_list_control_390e52882608806bfb298245a57b9553</sys_update_name>

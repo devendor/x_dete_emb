@@ -19,9 +19,9 @@
         <name>syslog_app_scope</name>
         <order>13</order>
         <override_menu_roles>true</override_menu_roles>
-        <query>syslog_app_scope_list.do?sysparm_fixed_query=sys_scope=b112a96e2eec70243f98dda0960411dc&amp;sysparm_query=sys_created_on&gt;=javascript:gs.beginningOfToday()^ORDERBYDESCsys_created_on^EQ&amp;sysparm_view=x_dete_emb</query>
+        <query>syslog_app_scope_list.do?sysparm_fixed_query=sys_scope=b112a96e2eec70243f98dda0960411dc&amp;sysparm_query=sys_created_on&gt;=javascript:gs.beginningOfToday()^ORDERBYDESCsys_created_on^EQ&amp;sysparm_view=x_dete_clone3</query>
         <report/>
-        <roles>admin,x_dete_emb.edded_content_admin</roles>
+        <roles>admin,x_dete_clone3.edded_content_admin</roles>
         <sys_class_name>sys_app_module</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-11-28 02:59:31</sys_created_on>
@@ -31,7 +31,7 @@
         <sys_mod_count>15</sys_mod_count>
         <sys_name>Logs</sys_name>
         <sys_overrides/>
-        <sys_package display_value="Embedded Content" source="x_dete_emb">b112a96e2eec70243f98dda0960411dc</sys_package>
+        <sys_package display_value="Embedded Content" source="x_dete_clone3">b112a96e2eec70243f98dda0960411dc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Embedded Content">b112a96e2eec70243f98dda0960411dc</sys_scope>
         <sys_update_name>sys_app_module_640455933302162409c55bccc251e512</sys_update_name>

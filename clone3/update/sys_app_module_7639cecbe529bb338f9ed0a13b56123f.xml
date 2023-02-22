@@ -12,7 +12,7 @@
         <map_page/>
         <mobile_title>Platform CSSs</mobile_title>
         <mobile_view_name>Mobile</mobile_view_name>
-        <name>x_dete_emb_embedded_css</name>
+        <name>x_dete_clone3_embedded_css</name>
         <order>425</order>
         <override_menu_roles>false</override_menu_roles>
         <query/>
@@ -27,7 +27,7 @@
         <sys_mod_count>0</sys_mod_count>
         <sys_name>All Embedded Style Sheets</sys_name>
         <sys_overrides/>
-        <sys_package display_value="Embedded Content" source="x_dete_emb">b112a96e2eec70243f98dda0960411dc</sys_package>
+        <sys_package display_value="Embedded Content" source="x_dete_clone3">b112a96e2eec70243f98dda0960411dc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Embedded Content">b112a96e2eec70243f98dda0960411dc</sys_scope>
         <sys_update_name>sys_app_module_7639cecbe529bb338f9ed0a13b56123f</sys_update_name>

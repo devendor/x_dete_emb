@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="content" label="Script" language="en" table="x_dete_clone3_edded_js">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>content</element>
+            <help/>
+            <hint/>
+            <label>Script</label>
+            <language>en</language>
+            <name>x_dete_clone3_edded_js</name>
+            <plural>Scripts</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>ray.ferguson</sys_created_by>
+            <sys_created_on>2019-08-05 21:57:08</sys_created_on>
+            <sys_id>e1c1d11edc27c96c33a890d01afeb6e4</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>Script</sys_name>
+            <sys_package display_value="Embedded Content" source="x_dete_clone3">b112a96e2eec70243f98dda0960411dc</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Embedded Content">b112a96e2eec70243f98dda0960411dc</sys_scope>
+            <sys_update_name>sys_documentation_x_dete_clone3_edded_js_content_en</sys_update_name>
+            <sys_updated_by>ray.ferguson</sys_updated_by>
+            <sys_updated_on>2019-08-11 15:57:38</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

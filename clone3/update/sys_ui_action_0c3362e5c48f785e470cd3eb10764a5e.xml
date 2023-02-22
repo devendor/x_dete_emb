@@ -7,7 +7,7 @@
 
 }]]></client_script_v2>
         <comments>Remove all records from the table</comments>
-        <condition>(gs.hasRole('admin') || gs.hasRole('x_dete_emb.edded_content_admin')) &amp;&amp; gs.action.getGlideURI().getFileFromPath().indexOf("_list") &gt; -1</condition>
+        <condition>(gs.hasRole('admin') || gs.hasRole('x_dete_clone3.edded_content_admin')) &amp;&amp; gs.action.getGlideURI().getFileFromPath().indexOf("_list") &gt; -1</condition>
         <form_action>false</form_action>
         <form_button>false</form_button>
         <form_button_v2>false</form_button_v2>
@@ -72,13 +72,13 @@ function deleteAllRecordsPlease() { // eslint-disable-line no-implicit-globals,n
         <sys_mod_count>33</sys_mod_count>
         <sys_name>Delete All Records</sys_name>
         <sys_overrides/>
-        <sys_package display_value="Embedded Content" source="x_dete_emb">b112a96e2eec70243f98dda0960411dc</sys_package>
+        <sys_package display_value="Embedded Content" source="x_dete_clone3">b112a96e2eec70243f98dda0960411dc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Embedded Content">b112a96e2eec70243f98dda0960411dc</sys_scope>
         <sys_update_name>sys_ui_action_0c3362e5c48f785e470cd3eb10764a5e</sys_update_name>
         <sys_updated_by>rferguson</sys_updated_by>
         <sys_updated_on>2020-11-29 23:03:36</sys_updated_on>
-        <table>x_dete_emb_edded_content</table>
+        <table>x_dete_clone3_edded_content</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>
     </sys_ui_action>

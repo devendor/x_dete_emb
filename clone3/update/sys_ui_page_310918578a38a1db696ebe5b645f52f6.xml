@@ -4,7 +4,7 @@
         <client_script/>
         <description/>
         <direct>true</direct>
-        <endpoint>x_dete_emb_about_this_app.do</endpoint>
+        <endpoint>x_dete_clone3_about_this_app.do</endpoint>
         <html><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
 <j:jelly xmlns:j="jelly:core" xmlns:g="glide" trim="false">
   <html>
@@ -131,11 +131,11 @@
             <h3>Application Roles</h3>
             <P>The application contains two roles</P>
             <dl>
-              <dt> x_dete_emb.edded_content_admin</dt>
+              <dt> x_dete_clone3.edded_content_admin</dt>
               <dd>
               Allows updating and creating the cached records through the expose Sync Content button on list views for embedded content.
             </dd>
-              <dt>x_dete_emb.edded_content_admin</dt>
+              <dt>x_dete_clone3.edded_content_admin</dt>
               <dd>Provides basic read access to the content.</dd>
             </dl>
           </div>
@@ -179,7 +179,7 @@
         <sys_id>310918578a38a1db696ebe5b645f52f6</sys_id>
         <sys_mod_count>135</sys_mod_count>
         <sys_name>about_this_app</sys_name>
-        <sys_package display_value="Embedded Content" source="x_dete_emb">b112a96e2eec70243f98dda0960411dc</sys_package>
+        <sys_package display_value="Embedded Content" source="x_dete_clone3">b112a96e2eec70243f98dda0960411dc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Embedded Content">b112a96e2eec70243f98dda0960411dc</sys_scope>
         <sys_update_name>sys_ui_page_310918578a38a1db696ebe5b645f52f6</sys_update_name>

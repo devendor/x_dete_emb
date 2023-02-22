@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_related sys_domain="global" table="x_dete_clone3_edded_plugin_css" version="2" view="">
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Plugin Style Sheet - Default view" name="x_dete_clone3_edded_plugin_css" related_list="NULL" sys_domain="global" view="Default view">48f0edca157616d38648ae9aa0901cdb</list_id>
+            <order_by/>
+            <position>0</position>
+            <related_list>REL:aec5d2b1054be71749ccc86a24beb10f</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>ray.ferguson</sys_created_by>
+            <sys_created_on>2019-08-24 01:02:55</sys_created_on>
+            <sys_id>50ca4f7fe0913cb5355af978d8298fe7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ray.ferguson</sys_updated_by>
+            <sys_updated_on>2019-08-24 01:02:55</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Plugin Style Sheet - Default view" name="x_dete_clone3_edded_plugin_css" related_list="NULL" sys_domain="global" view="Default view">48f0edca157616d38648ae9aa0901cdb</list_id>
+            <order_by/>
+            <position>1</position>
+            <related_list>REL:7020fc0daa41434a9b7d1a0735ba9c15</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>ray.ferguson</sys_created_by>
+            <sys_created_on>2019-08-24 01:02:55</sys_created_on>
+            <sys_id>8d6a2cbc5b0d04da3391331c139d7084</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ray.ferguson</sys_updated_by>
+            <sys_updated_on>2019-08-24 01:02:55</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Plugin Style Sheet - Default view" name="x_dete_clone3_edded_plugin_css" related_list="NULL" sys_domain="global" view="Default view">48f0edca157616d38648ae9aa0901cdb</list_id>
+            <order_by/>
+            <position>2</position>
+            <related_list>REL:d73ae36a52c738f7640b3c966dce4bb0</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>ray.ferguson</sys_created_by>
+            <sys_created_on>2019-08-24 01:02:55</sys_created_on>
+            <sys_id>66e5a386069303fd778e3ba06b226283</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ray.ferguson</sys_updated_by>
+            <sys_updated_on>2019-08-24 01:02:55</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Plugin Style Sheet - Default view" name="x_dete_clone3_edded_plugin_css" related_list="NULL" sys_domain="global" view="Default view">48f0edca157616d38648ae9aa0901cdb</list_id>
+            <order_by/>
+            <position>3</position>
+            <related_list>REL:cceaa7ad58132274ef650780df5c61f3</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>ray.ferguson</sys_created_by>
+            <sys_created_on>2019-08-24 01:02:55</sys_created_on>
+            <sys_id>b71d831f938f42932d1fd2319486fea5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ray.ferguson</sys_updated_by>
+            <sys_updated_on>2019-08-24 01:02:55</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Plugin Style Sheet - Default view" name="x_dete_clone3_edded_plugin_css" related_list="NULL" sys_domain="global" view="Default view">48f0edca157616d38648ae9aa0901cdb</list_id>
+            <order_by/>
+            <position>4</position>
+            <related_list>x_dete_clone3_m2m_embedded_con_embedded_con.required_by</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>ray.ferguson</sys_created_by>
+            <sys_created_on>2019-08-24 01:02:55</sys_created_on>
+            <sys_id>8b920a058ce7a74337889e2538cbccf1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ray.ferguson</sys_updated_by>
+            <sys_updated_on>2019-08-24 01:02:55</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Plugin Style Sheet - Default view" name="x_dete_clone3_edded_plugin_css" related_list="NULL" sys_domain="global" view="Default view">48f0edca157616d38648ae9aa0901cdb</list_id>
+            <order_by/>
+            <position>5</position>
+            <related_list>REL:dff48229fa1220f191b507ef90a983b4</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>ray.ferguson</sys_created_by>
+            <sys_created_on>2019-08-24 01:02:55</sys_created_on>
+            <sys_id>ed026a6e3605087295e3568566e4a9ab</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ray.ferguson</sys_updated_by>
+            <sys_updated_on>2019-08-24 01:02:55</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list action="INSERT_OR_UPDATE">
+            <calculated_name>Plugin Style Sheet - Default view</calculated_name>
+            <filter/>
+            <name>x_dete_clone3_edded_plugin_css</name>
+            <order_by/>
+            <position/>
+            <related_list/>
+            <sys_class_name>sys_ui_related_list</sys_class_name>
+            <sys_created_by>ray.ferguson</sys_created_by>
+            <sys_created_on>2019-08-24 01:02:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>48f0edca157616d38648ae9aa0901cdb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Plugin Style Sheet - Default view</sys_name>
+            <sys_package display_value="Embedded Content" source="x_dete_clone3">b112a96e2eec70243f98dda0960411dc</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Embedded Content">b112a96e2eec70243f98dda0960411dc</sys_scope>
+            <sys_update_name>sys_ui_related_x_dete_clone3_edded_plugin_css_null</sys_update_name>
+            <sys_updated_by>ray.ferguson</sys_updated_by>
+            <sys_updated_on>2019-08-24 01:02:55</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_related_list>
+    </sys_ui_related>
+</record_update>

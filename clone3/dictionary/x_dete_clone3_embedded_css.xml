@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="x_dete_clone3_edded_content" label="Embedded Style Sheets" max_length="40" name="x_dete_clone3_embedded_css" type="collection">
+        <element label="CSS" max_length="16777215" name="content" type="css"/>
+    </element>
+</database>

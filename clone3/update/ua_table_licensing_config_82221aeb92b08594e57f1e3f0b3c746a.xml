@@ -4,7 +4,7 @@
         <license_condition/>
         <license_model>none</license_model>
         <license_roles/>
-        <name>x_dete_emb_embedded_css</name>
+        <name>x_dete_clone3_embedded_css</name>
         <op_delete>true</op_delete>
         <op_insert>true</op_insert>
         <op_update>true</op_update>
@@ -14,8 +14,8 @@
         <sys_created_on>2019-08-12 21:19:50</sys_created_on>
         <sys_id>82221aeb92b08594e57f1e3f0b3c746a</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>x_dete_emb_embedded_css</sys_name>
-        <sys_package display_value="Embedded Content" source="x_dete_emb">b112a96e2eec70243f98dda0960411dc</sys_package>
+        <sys_name>x_dete_clone3_embedded_css</sys_name>
+        <sys_package display_value="Embedded Content" source="x_dete_clone3">b112a96e2eec70243f98dda0960411dc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Embedded Content">b112a96e2eec70243f98dda0960411dc</sys_scope>
         <sys_update_name>ua_table_licensing_config_82221aeb92b08594e57f1e3f0b3c746a</sys_update_name>

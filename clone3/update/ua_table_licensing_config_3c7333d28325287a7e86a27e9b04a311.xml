@@ -4,7 +4,7 @@
         <license_condition/>
         <license_model>none</license_model>
         <license_roles/>
-        <name>x_dete_emb_edded_plugin_js</name>
+        <name>x_dete_clone3_edded_plugin_js</name>
         <op_delete>true</op_delete>
         <op_insert>true</op_insert>
         <op_update>true</op_update>
@@ -14,8 +14,8 @@
         <sys_created_on>2019-08-08 19:45:12</sys_created_on>
         <sys_id>3c7333d28325287a7e86a27e9b04a311</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>x_dete_emb_edded_plugin_js</sys_name>
-        <sys_package display_value="Embedded Content" source="x_dete_emb">b112a96e2eec70243f98dda0960411dc</sys_package>
+        <sys_name>x_dete_clone3_edded_plugin_js</sys_name>
+        <sys_package display_value="Embedded Content" source="x_dete_clone3">b112a96e2eec70243f98dda0960411dc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Embedded Content">b112a96e2eec70243f98dda0960411dc</sys_scope>
         <sys_update_name>ua_table_licensing_config_3c7333d28325287a7e86a27e9b04a311</sys_update_name>

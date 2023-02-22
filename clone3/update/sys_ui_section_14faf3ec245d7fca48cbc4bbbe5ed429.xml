@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_ui_section caption="" section_id="14faf3ec245d7fca48cbc4bbbe5ed429" sys_domain="global" table="x_dete_emb_edded_plugin_form" version="3" view="">
+    <sys_ui_section caption="" section_id="14faf3ec245d7fca48cbc4bbbe5ed429" sys_domain="global" table="x_dete_clone3_edded_plugin_form" version="3" view="">
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>name</element>
             <position>0</position>
@@ -8,7 +8,7 @@
             <sys_id>b827a87766feb7f7135237c955bcb615</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_dete_emb_edded_plugin_form" sys_domain="global" view="Default view">14faf3ec245d7fca48cbc4bbbe5ed429</sys_ui_section>
+            <sys_ui_section caption="NULL" display_value="" name="x_dete_clone3_edded_plugin_form" sys_domain="global" view="Default view">14faf3ec245d7fca48cbc4bbbe5ed429</sys_ui_section>
             <sys_updated_by>rferguson</sys_updated_by>
             <sys_updated_on>2020-11-26 18:29:10</sys_updated_on>
             <sys_user/>
@@ -22,7 +22,7 @@
             <sys_id>fb06b8b3a3f532df574439cfd5780222</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_dete_emb_edded_plugin_form" sys_domain="global" view="Default view">14faf3ec245d7fca48cbc4bbbe5ed429</sys_ui_section>
+            <sys_ui_section caption="NULL" display_value="" name="x_dete_clone3_edded_plugin_form" sys_domain="global" view="Default view">14faf3ec245d7fca48cbc4bbbe5ed429</sys_ui_section>
             <sys_updated_by>rferguson</sys_updated_by>
             <sys_updated_on>2020-11-26 18:29:10</sys_updated_on>
             <sys_user/>
@@ -36,7 +36,7 @@
             <sys_id>39605318aa0ed112a3aa78c901b9ca8c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_dete_emb_edded_plugin_form" sys_domain="global" view="Default view">14faf3ec245d7fca48cbc4bbbe5ed429</sys_ui_section>
+            <sys_ui_section caption="NULL" display_value="" name="x_dete_clone3_edded_plugin_form" sys_domain="global" view="Default view">14faf3ec245d7fca48cbc4bbbe5ed429</sys_ui_section>
             <sys_updated_by>rferguson</sys_updated_by>
             <sys_updated_on>2020-11-26 18:29:10</sys_updated_on>
             <sys_user/>
@@ -50,7 +50,7 @@
             <sys_id>45c29f41765c9b8cf10b63f6b3f13709</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_dete_emb_edded_plugin_form" sys_domain="global" view="Default view">14faf3ec245d7fca48cbc4bbbe5ed429</sys_ui_section>
+            <sys_ui_section caption="NULL" display_value="" name="x_dete_clone3_edded_plugin_form" sys_domain="global" view="Default view">14faf3ec245d7fca48cbc4bbbe5ed429</sys_ui_section>
             <sys_updated_by>rferguson</sys_updated_by>
             <sys_updated_on>2020-11-26 18:29:10</sys_updated_on>
             <sys_user/>
@@ -64,7 +64,7 @@
             <sys_id>5c36547b0010aa2d593d7b949c266c91</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_dete_emb_edded_plugin_form" sys_domain="global" view="Default view">14faf3ec245d7fca48cbc4bbbe5ed429</sys_ui_section>
+            <sys_ui_section caption="NULL" display_value="" name="x_dete_clone3_edded_plugin_form" sys_domain="global" view="Default view">14faf3ec245d7fca48cbc4bbbe5ed429</sys_ui_section>
             <sys_updated_by>rferguson</sys_updated_by>
             <sys_updated_on>2020-11-26 18:29:10</sys_updated_on>
             <sys_user/>
@@ -78,21 +78,21 @@
             <sys_id>49ab43932a48ab1bf897293c7e698c18</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_dete_emb_edded_plugin_form" sys_domain="global" view="Default view">14faf3ec245d7fca48cbc4bbbe5ed429</sys_ui_section>
+            <sys_ui_section caption="NULL" display_value="" name="x_dete_clone3_edded_plugin_form" sys_domain="global" view="Default view">14faf3ec245d7fca48cbc4bbbe5ed429</sys_ui_section>
             <sys_updated_by>rferguson</sys_updated_by>
             <sys_updated_on>2020-11-26 18:29:10</sys_updated_on>
             <sys_user/>
             <type>.end_split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>x_dete_emb_prettier.xml</element>
+            <element>x_dete_clone3_prettier.xml</element>
             <position>6</position>
             <sys_created_by>rferguson</sys_created_by>
             <sys_created_on>2020-11-26 18:29:10</sys_created_on>
             <sys_id>5c90b3835af29eacabfac2423353bd91</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter display_value="prettier">21d0f3531976ae6c1caaf65c315c7a71</sys_ui_formatter>
-            <sys_ui_section caption="NULL" display_value="" name="x_dete_emb_edded_plugin_form" sys_domain="global" view="Default view">14faf3ec245d7fca48cbc4bbbe5ed429</sys_ui_section>
+            <sys_ui_section caption="NULL" display_value="" name="x_dete_clone3_edded_plugin_form" sys_domain="global" view="Default view">14faf3ec245d7fca48cbc4bbbe5ed429</sys_ui_section>
             <sys_updated_by>rferguson</sys_updated_by>
             <sys_updated_on>2020-11-26 18:29:10</sys_updated_on>
             <sys_user/>
@@ -101,7 +101,7 @@
         <sys_ui_section action="INSERT_OR_UPDATE">
             <caption/>
             <header>false</header>
-            <name>x_dete_emb_edded_plugin_form</name>
+            <name>x_dete_clone3_edded_plugin_form</name>
             <roles/>
             <sys_class_name>sys_ui_section</sys_class_name>
             <sys_created_by>ray.ferguson</sys_created_by>
@@ -110,9 +110,9 @@
             <sys_domain_path>/</sys_domain_path>
             <sys_id>14faf3ec245d7fca48cbc4bbbe5ed429</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_name>x_dete_emb_edded_plugin_form</sys_name>
+            <sys_name>x_dete_clone3_edded_plugin_form</sys_name>
             <sys_overrides/>
-            <sys_package display_value="Embedded Content" source="x_dete_emb">b112a96e2eec70243f98dda0960411dc</sys_package>
+            <sys_package display_value="Embedded Content" source="x_dete_clone3">b112a96e2eec70243f98dda0960411dc</sys_package>
             <sys_policy/>
             <sys_scope display_value="Embedded Content">b112a96e2eec70243f98dda0960411dc</sys_scope>
             <sys_update_name>sys_ui_section_14faf3ec245d7fca48cbc4bbbe5ed429</sys_update_name>

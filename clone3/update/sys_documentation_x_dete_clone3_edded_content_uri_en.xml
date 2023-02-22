@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="uri" label="URI" language="en" table="x_dete_clone3_edded_content">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>uri</element>
+            <help/>
+            <hint/>
+            <label>URI</label>
+            <language>en</language>
+            <name>x_dete_clone3_edded_content</name>
+            <plural>URIs</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-11-27 18:04:17</sys_created_on>
+            <sys_id>e34c601c585328ff668646ce41724096</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>URI</sys_name>
+            <sys_package display_value="Embedded Content" source="x_dete_clone3">b112a96e2eec70243f98dda0960411dc</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Embedded Content">b112a96e2eec70243f98dda0960411dc</sys_scope>
+            <sys_update_name>sys_documentation_x_dete_clone3_edded_content_uri_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-11-27 18:04:17</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

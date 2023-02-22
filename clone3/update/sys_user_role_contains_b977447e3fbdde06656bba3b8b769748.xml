@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role_contains">
     <sys_user_role_contains action="INSERT_OR_UPDATE">
-        <contains display_value="x_dete_emb.edded_content_user" name="x_dete_emb.edded_content_user">48efb03022428800c7069e80ac545443</contains>
-        <role display_value="x_dete_emb.edded_content_admin" name="x_dete_emb.edded_content_admin">5a8e3874116c10da428841f55d2710ed</role>
+        <contains display_value="x_dete_clone3.edded_content_user" name="x_dete_clone3.edded_content_user">48efb03022428800c7069e80ac545443</contains>
+        <role display_value="x_dete_clone3.edded_content_admin" name="x_dete_clone3.edded_content_admin">5a8e3874116c10da428841f55d2710ed</role>
         <sys_class_name>sys_user_role_contains</sys_class_name>
         <sys_created_by>ray.ferguson</sys_created_by>
         <sys_created_on>2019-08-03 21:01:13</sys_created_on>
         <sys_id>b977447e3fbdde06656bba3b8b769748</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>x_dete_emb.edded_content_user.x_dete_emb.edded_content_admin</sys_name>
-        <sys_package display_value="Embedded Content" source="x_dete_emb">b112a96e2eec70243f98dda0960411dc</sys_package>
+        <sys_name>x_dete_clone3.edded_content_user.x_dete_clone3.edded_content_admin</sys_name>
+        <sys_package display_value="Embedded Content" source="x_dete_clone3">b112a96e2eec70243f98dda0960411dc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Embedded Content">b112a96e2eec70243f98dda0960411dc</sys_scope>
         <sys_update_name>sys_user_role_contains_b977447e3fbdde06656bba3b8b769748</sys_update_name>

@@ -27,13 +27,13 @@
         <list_style/>
         <messages/>
         <name>Toggle Wrap</name>
-        <onclick>x_dete_emb_toggleWrap()</onclick>
+        <onclick>x_dete_clone3_toggleWrap()</onclick>
         <order>100</order>
         <script><![CDATA[/* global g_form  */
 /* eslint no-unused-vars:1,eqeqeq:[1,smart],no-undef:1,no-useless-return:1,curly:[1,multi-or-nest,consistent],no-magic-numbers:[0,1,{ignoreArrayIndexes:true}]*/
-var x_dete_emb_toggleWrap = (function(g_form) { // eslint-disable-line no-unused-vars
+var x_dete_clone3_toggleWrap = (function(g_form) { // eslint-disable-line no-unused-vars
     return function() {
-        var e = g_form.getFormElement().getElementsBySelector("#x_dete_emb_pre_content").first();
+        var e = g_form.getFormElement().getElementsBySelector("#x_dete_clone3_pre_content").first();
         if (e.classList.contains("wrap_pretty")) e.classList.remove("wrap_pretty");
         else e.classList.add("wrap_pretty");
     };
@@ -51,13 +51,13 @@ var x_dete_emb_toggleWrap = (function(g_form) { // eslint-disable-line no-unused
         <sys_mod_count>29</sys_mod_count>
         <sys_name>Toggle Wrap</sys_name>
         <sys_overrides/>
-        <sys_package display_value="Embedded Content" source="x_dete_emb">b112a96e2eec70243f98dda0960411dc</sys_package>
+        <sys_package display_value="Embedded Content" source="x_dete_clone3">b112a96e2eec70243f98dda0960411dc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Embedded Content">b112a96e2eec70243f98dda0960411dc</sys_scope>
         <sys_update_name>sys_ui_action_c8257df4be9dce015698abc5627eb940</sys_update_name>
         <sys_updated_by>rferguson</sys_updated_by>
         <sys_updated_on>2022-06-05 17:46:20</sys_updated_on>
-        <table>x_dete_emb_edded_content</table>
+        <table>x_dete_clone3_edded_content</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>true</ui16_compatible>
     </sys_ui_action>
