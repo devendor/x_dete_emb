@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_related sys_domain="global" table="x_dete_emb_edded_plugin_jtemplate" version="2" view="">
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Plugin JTemplate - Default view" name="x_dete_emb_edded_plugin_jtemplate" related_list="NULL" sys_domain="global" view="Default view">5440b8aa0677bed7c5ef3491b89199a4</list_id>
+            <order_by/>
+            <position>0</position>
+            <related_list>REL:aec5d2b1054be71749ccc86a24beb10f</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-11-28 04:52:52</sys_created_on>
+            <sys_id>02bb18d8229db9ecb1521e6d8da40218</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-11-28 04:52:52</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Plugin JTemplate - Default view" name="x_dete_emb_edded_plugin_jtemplate" related_list="NULL" sys_domain="global" view="Default view">5440b8aa0677bed7c5ef3491b89199a4</list_id>
+            <order_by/>
+            <position>1</position>
+            <related_list>REL:7020fc0daa41434a9b7d1a0735ba9c15</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-11-28 04:52:52</sys_created_on>
+            <sys_id>62a3349ea7e32607652a6444a0dedbad</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-11-28 04:52:52</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Plugin JTemplate - Default view" name="x_dete_emb_edded_plugin_jtemplate" related_list="NULL" sys_domain="global" view="Default view">5440b8aa0677bed7c5ef3491b89199a4</list_id>
+            <order_by/>
+            <position>2</position>
+            <related_list>REL:d73ae36a52c738f7640b3c966dce4bb0</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-11-28 04:52:52</sys_created_on>
+            <sys_id>398939a9c6d5452f598be2c71b69e40d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-11-28 04:52:52</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Plugin JTemplate - Default view" name="x_dete_emb_edded_plugin_jtemplate" related_list="NULL" sys_domain="global" view="Default view">5440b8aa0677bed7c5ef3491b89199a4</list_id>
+            <order_by/>
+            <position>3</position>
+            <related_list>REL:cceaa7ad58132274ef650780df5c61f3</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-11-28 04:52:52</sys_created_on>
+            <sys_id>041c332c549a957aa882a9e82ffe6c52</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-11-28 04:52:52</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Plugin JTemplate - Default view" name="x_dete_emb_edded_plugin_jtemplate" related_list="NULL" sys_domain="global" view="Default view">5440b8aa0677bed7c5ef3491b89199a4</list_id>
+            <order_by/>
+            <position>4</position>
+            <related_list>x_dete_emb_m2m_embedded_con_embedded_con.required_by</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-11-28 04:52:52</sys_created_on>
+            <sys_id>7c9d752ea676f9dd134ab75032341021</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-11-28 04:52:52</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Plugin JTemplate - Default view" name="x_dete_emb_edded_plugin_jtemplate" related_list="NULL" sys_domain="global" view="Default view">5440b8aa0677bed7c5ef3491b89199a4</list_id>
+            <order_by/>
+            <position>5</position>
+            <related_list>REL:dff48229fa1220f191b507ef90a983b4</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-11-28 04:52:52</sys_created_on>
+            <sys_id>f4e09c587663e1302fc3dff76eb5e21a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-11-28 04:52:52</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list action="INSERT_OR_UPDATE">
+            <calculated_name>Plugin JTemplate - Default view</calculated_name>
+            <filter/>
+            <name>x_dete_emb_edded_plugin_jtemplate</name>
+            <order_by/>
+            <position/>
+            <related_list/>
+            <sys_class_name>sys_ui_related_list</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-11-28 04:52:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5440b8aa0677bed7c5ef3491b89199a4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Plugin JTemplate - Default view</sys_name>
+            <sys_package display_value="Embedded Content" source="x_dete_emb">b112a96e2eec70243f98dda0960411dc</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Embedded Content">b112a96e2eec70243f98dda0960411dc</sys_scope>
+            <sys_update_name>sys_ui_related_x_dete_emb_edded_plugin_jtemplate_null</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-11-28 04:52:52</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_related_list>
+    </sys_ui_related>
+</record_update>

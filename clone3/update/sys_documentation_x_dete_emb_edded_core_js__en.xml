@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="" label="Platform UI Script" language="en" table="x_dete_emb_edded_core_js">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element/>
+            <help/>
+            <hint/>
+            <label>Platform UI Script</label>
+            <language>en</language>
+            <name>x_dete_emb_edded_core_js</name>
+            <plural>Platform UI Scripts</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>ray.ferguson</sys_created_by>
+            <sys_created_on>2019-08-05 21:58:44</sys_created_on>
+            <sys_id>fdfe681d60678b3eff51acffbca1fd95</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_name>Platform UI Script</sys_name>
+            <sys_package display_value="Embedded Content" source="x_dete_emb">b112a96e2eec70243f98dda0960411dc</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Embedded Content">b112a96e2eec70243f98dda0960411dc</sys_scope>
+            <sys_update_name>sys_documentation_x_dete_emb_edded_core_js__en</sys_update_name>
+            <sys_updated_by>ray.ferguson</sys_updated_by>
+            <sys_updated_on>2019-08-11 14:56:42</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

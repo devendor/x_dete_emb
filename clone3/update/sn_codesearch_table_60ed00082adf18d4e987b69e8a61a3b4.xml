@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sn_codesearch_table">
+    <sn_codesearch_table action="INSERT_OR_UPDATE">
+        <additional_filter/>
+        <search_fields>name,content</search_fields>
+        <search_group display_value="sn_codesearch.Default Search Group">9a44f352d7120200b6bddb0c82520376</search_group>
+        <sys_class_name>sn_codesearch_table</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-27 20:34:49</sys_created_on>
+        <sys_id>60ed00082adf18d4e987b69e8a61a3b4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_dete_emb_edded_xml</sys_name>
+        <sys_package display_value="Embedded Content" source="x_dete_emb">b112a96e2eec70243f98dda0960411dc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Embedded Content">b112a96e2eec70243f98dda0960411dc</sys_scope>
+        <sys_update_name>sn_codesearch_table_60ed00082adf18d4e987b69e8a61a3b4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-27 20:34:49</sys_updated_on>
+        <table>x_dete_emb_edded_xml</table>
+    </sn_codesearch_table>
+</record_update>

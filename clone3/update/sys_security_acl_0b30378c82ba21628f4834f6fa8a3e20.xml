@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <condition/>
+        <description>Allow read for records in x_dete_emb_edded_content, for users with roles (x_dete_emb.edded_content_user, teamdev_user, x_dete_emb.edded_content_admin).</description>
+        <name>x_dete_emb_edded_content</name>
+        <operation display_value="read">read</operation>
+        <script/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>ray.ferguson</sys_created_by>
+        <sys_created_on>2019-08-05 21:53:54</sys_created_on>
+        <sys_id>0b30378c82ba21628f4834f6fa8a3e20</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_dete_emb_edded_content</sys_name>
+        <sys_package display_value="Embedded Content" source="x_dete_emb">b112a96e2eec70243f98dda0960411dc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Embedded Content">b112a96e2eec70243f98dda0960411dc</sys_scope>
+        <sys_update_name>sys_security_acl_0b30378c82ba21628f4834f6fa8a3e20</sys_update_name>
+        <sys_updated_by>ray.ferguson</sys_updated_by>
+        <sys_updated_on>2019-08-05 21:53:54</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+</record_update>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="Embedded Content">b7c2db7f9de7386778c68efa280e227a</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>DIRECT</link_type>
+        <map_page/>
+        <mobile_title>Events</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name/>
+        <order>14</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query>sysevent_list.do?sysparm_fixed_query=sys_created_on&gt;=javascript:gs.minutesAgo(240)^name=	x_dete_emb.edded_content_ui_action&amp;sysparm_query=ORDERBYDESCsys_created_on^EQ&amp;sysparm_view=x_dete_emb</query>
+        <report/>
+        <roles/>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-28 03:13:51</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c1c0b697e63578da1e8fa66b08ee2643</sys_id>
+        <sys_mod_count>27</sys_mod_count>
+        <sys_name>Events</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Embedded Content" source="x_dete_emb">b112a96e2eec70243f98dda0960411dc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Embedded Content">b112a96e2eec70243f98dda0960411dc</sys_scope>
+        <sys_update_name>sys_app_module_c1c0b697e63578da1e8fa66b08ee2643</sys_update_name>
+        <sys_updated_by>rferguson</sys_updated_by>
+        <sys_updated_on>2020-11-29 23:20:47</sys_updated_on>
+        <timeline_page/>
+        <title>Events</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+</record_update>
